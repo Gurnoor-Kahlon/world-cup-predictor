@@ -114,10 +114,17 @@ team's title chance (Monte-Carlo).
 
 ---
 
+## Dixon–Coles correction (optional)
+
+Independent Poisson slightly misprices tight games (0-0, 1-0, 0-1, 1-1). The
+**Dixon–Coles** adjustment multiplies those four cells by a small factor governed
+by a parameter `rho`. It is **on by default** and toggled in
+[`src/config.py`](../src/config.py) via `DIXON_COLES_ENABLED` / `DIXON_COLES_RHO`.
+
 ## Honest limitations
 
 - Default data is **synthetic**; real forecasting needs real data.
-- Goals are assumed independent across teams (a real Dixon–Coles model adds a
-  low-score correction — a good future improvement).
-- Probabilities are **not** formally calibrated or back-tested here. Adding
-  log-loss/Brier back-testing is on the roadmap.
+- Goals are assumed independent except for the Dixon–Coles low-score correction.
+- Probabilities are **measured** by the walk-forward backtest
+  ([`docs/backtesting.md`](backtesting.md)) but not yet re-calibrated
+  (Platt/isotonic) — a good next step.
