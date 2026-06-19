@@ -69,12 +69,19 @@ def main() -> None:
     parser.add_argument("--list-teams", action="store_true", help="print available teams and exit")
     parser.add_argument("--simulate", nargs="+", metavar="TEAM",
                         help="simulate a knockout bracket (power-of-two teams)")
+    parser.add_argument("--save-model", action="store_true",
+                        help="train then save the model artifact to models/")
     args = parser.parse_args()
 
     print("Loading data and training models...")
     predictor = MatchPredictor().fit()
     print(f"Trained on {len(predictor.matches)} matches "
           f"(ML backend: {predictor.classifier.backend}).\n")
+
+    if args.save_model:
+        saved = predictor.save()
+        print(f"Saved model artifact -> {saved}")
+        return
 
     if args.list_teams:
         print("Available teams:")

@@ -77,36 +77,54 @@ class EloRatingSystem:
         """
         self.ratings = {}
         self.history = []
-
         for row in matches.itertuples(index=False):
-            home, away = row.home_team, row.away_team
-            neutral = bool(getattr(row, "neutral", False))
+            self.update_match(
+                row.home_team, row.away_team, row.home_score, row.away_score,
+                neutral=bool(getattr(row, "neutral", False)),
+                tournament=getattr(row, "tournament", ""),
+                record_history=True,
+            )
+        return self
 
-            r_home = self.get_rating(home)
-            r_away = self.get_rating(away)
+    def update_match(
+        self,
+        home: str,
+        away: str,
+        home_score: int,
+        away_score: int,
+        neutral: bool = False,
+        tournament: str = "",
+        record_history: bool = False,
+    ) -> None:
+        """Apply a single match's Elo update (used by both fit and backtests).
+
+        Set ``record_history=True`` to append the pre-match ratings to
+        ``self.history`` (needed for leak-free feature engineering).
+        """
+        r_home = self.get_rating(home)
+        r_away = self.get_rating(away)
+        if record_history:
             self.history.append({"home_elo": r_home, "away_elo": r_away})
 
-            # Home advantage only applies at non-neutral venues.
-            adv = 0.0 if neutral else self.home_advantage
-            exp_home = self._expected_score(r_home + adv, r_away)
-            exp_away = 1.0 - exp_home
+        # Home advantage only applies at non-neutral venues.
+        adv = 0.0 if neutral else self.home_advantage
+        exp_home = self._expected_score(r_home + adv, r_away)
+        exp_away = 1.0 - exp_home
 
-            # Actual result as a score: win=1, draw=0.5, loss=0.
-            if row.home_score > row.away_score:
-                s_home, s_away = 1.0, 0.0
-            elif row.home_score < row.away_score:
-                s_home, s_away = 0.0, 1.0
-            else:
-                s_home = s_away = 0.5
+        # Actual result as a score: win=1, draw=0.5, loss=0.
+        if home_score > away_score:
+            s_home, s_away = 1.0, 0.0
+        elif home_score < away_score:
+            s_home, s_away = 0.0, 1.0
+        else:
+            s_home = s_away = 0.5
 
-            weight = self._tournament_weight(getattr(row, "tournament", ""))
-            margin = self._margin_multiplier(row.home_score - row.away_score)
-            k = self.k_factor * weight * margin
+        weight = self._tournament_weight(tournament)
+        margin = self._margin_multiplier(home_score - away_score)
+        k = self.k_factor * weight * margin
 
-            self.ratings[home] = r_home + k * (s_home - exp_home)
-            self.ratings[away] = r_away + k * (s_away - exp_away)
-
-        return self
+        self.ratings[home] = r_home + k * (s_home - exp_home)
+        self.ratings[away] = r_away + k * (s_away - exp_away)
 
     # -- prediction-time heuristics ----------------------------------------
     def win_expectation(self, home: str, away: str, neutral: bool = False) -> float:
@@ -145,10 +163,14 @@ class PoissonGoalModel:
         max_goals: int = config.MAX_GOALS,
         home_advantage: float = config.POISSON_HOME_ADVANTAGE,
         elo_scale: float = config.ELO_TO_GOALS_SCALE,
+        dixon_coles: bool = config.DIXON_COLES_ENABLED,
+        rho: float = config.DIXON_COLES_RHO,
     ):
         self.max_goals = max_goals
         self.home_advantage = home_advantage
         self.elo_scale = elo_scale
+        self.dixon_coles = dixon_coles
+        self.rho = rho
         self.league_avg: float = config.MIN_EXPECTED_GOALS
         self.attack: dict[str, float] = {}
         self.defence: dict[str, float] = {}
@@ -213,14 +235,40 @@ class PoissonGoalModel:
         lam_away = clamp(lam_away, config.MIN_EXPECTED_GOALS, float(self.max_goals))
         return lam_home, lam_away
 
-    def scoreline_grid(self, lam_home: float, lam_away: float) -> np.ndarray:
-        """Matrix ``P[i, j]`` = probability of home i goals, away j goals."""
+    def scoreline_grid(
+        self, lam_home: float, lam_away: float, dixon_coles: Optional[bool] = None
+    ) -> np.ndarray:
+        """Matrix ``P[i, j]`` = probability of home i goals, away j goals.
+
+        When Dixon-Coles is enabled, the four low-score cells (0-0, 1-0, 0-1,
+        1-1) are nudged to better match real football, where independent Poisson
+        slightly mis-prices tight games.
+        """
         goals = np.arange(self.max_goals + 1)
         home_pmf = poisson.pmf(goals, lam_home)
         away_pmf = poisson.pmf(goals, lam_away)
         grid = np.outer(home_pmf, away_pmf)
+
+        use_dc = self.dixon_coles if dixon_coles is None else dixon_coles
+        if use_dc:
+            grid = self._apply_dixon_coles(grid, lam_home, lam_away)
+
         # Renormalise (the truncated tail beyond max_goals loses a little mass).
         return grid / grid.sum()
+
+    def _apply_dixon_coles(self, grid: np.ndarray, lam: float, mu: float) -> np.ndarray:
+        """Multiply the four low-score cells by the Dixon-Coles tau factor."""
+        rho = self.rho
+        tau = {
+            (0, 0): 1.0 - lam * mu * rho,
+            (0, 1): 1.0 + lam * rho,
+            (1, 0): 1.0 + mu * rho,
+            (1, 1): 1.0 - rho,
+        }
+        grid = grid.copy()
+        for (i, j), factor in tau.items():
+            grid[i, j] *= max(factor, 0.0)   # keep probabilities non-negative
+        return grid
 
     @staticmethod
     def result_probabilities(grid: np.ndarray) -> list[float]:

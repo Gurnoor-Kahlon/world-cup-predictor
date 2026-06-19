@@ -11,8 +11,10 @@ It also offers a Monte-Carlo :meth:`simulate_tournament` for title odds.
 from __future__ import annotations
 
 from functools import lru_cache
+from pathlib import Path
 from typing import Optional
 
+import joblib
 import numpy as np
 import pandas as pd
 
@@ -31,6 +33,7 @@ class MatchPredictor:
         matches: Optional[pd.DataFrame] = None,
         team_metadata: Optional[pd.DataFrame] = None,
         form_window: int = config.FORM_WINDOW,
+        blend_weights: Optional[dict[str, float]] = None,
     ):
         self.matches = matches if matches is not None else load_matches()
         self.team_metadata = (
@@ -38,6 +41,8 @@ class MatchPredictor:
         )
         self.teams = list_teams(self.matches)
         self.fe = FeatureEngineer(form_window=form_window)
+        # Ensemble weights are configurable per-instance (default from config).
+        self.blend_weights = dict(blend_weights or config.BLEND_WEIGHTS)
 
         self.elo = EloRatingSystem()
         self.poisson = PoissonGoalModel()
@@ -63,6 +68,34 @@ class MatchPredictor:
     def _ensure_fitted(self):
         if not self._fitted:
             self.fit()
+
+    # ------------------------------------------------------- persistence
+    def save(self, path: Optional[Path | str] = None) -> Path:
+        """Persist the fitted predictor to disk with joblib.
+
+        Saves the whole object (Elo ratings, Poisson strengths, trained ML
+        model and the match history) so it can be reloaded without retraining.
+        """
+        self._ensure_fitted()
+        path = Path(path) if path is not None else config.MODEL_ARTIFACT_PATH
+        path.parent.mkdir(parents=True, exist_ok=True)
+        self._pair_advance_prob.cache_clear()  # don't pickle a stale cache
+        joblib.dump(self, path)
+        return path
+
+    @classmethod
+    def load(cls, path: Optional[Path | str] = None) -> "MatchPredictor":
+        """Load a predictor previously saved with :meth:`save`."""
+        path = Path(path) if path is not None else config.MODEL_ARTIFACT_PATH
+        if not path.exists():
+            raise FileNotFoundError(
+                f"No saved model at '{path}'. Train and save one first, e.g. "
+                f"`python src/main.py --save-model`."
+            )
+        obj = joblib.load(path)
+        if not isinstance(obj, cls):
+            raise TypeError(f"File '{path}' did not contain a MatchPredictor.")
+        return obj
 
     # ------------------------------------------------------------- predict
     def predict(
@@ -104,7 +137,7 @@ class MatchPredictor:
         components = {"poisson": poisson_probs, "elo": elo_probs}
         if ml_probs is not None:
             components["ml"] = ml_probs
-        final = blend_distributions(components, config.BLEND_WEIGHTS)
+        final = blend_distributions(components, self.blend_weights)
         home_win, draw, away_win = final
 
         # --- Extras -------------------------------------------------------
@@ -133,6 +166,8 @@ class MatchPredictor:
             "confidence": confidence,
             "explanation": explanation["summary"],
             "key_factors": explanation["factors"],
+            "blend_weights": {k: v for k, v in self.blend_weights.items()
+                              if k in components},
         }
 
         # Knockout: who advances if the 90-min result is a draw?
@@ -299,7 +334,7 @@ class MatchPredictor:
         p_h, p_d, p_a = self.poisson.result_probabilities(grid)
         e_h, e_d, e_a = self.elo.match_probabilities(home, away, True)
         # Blend the two heads (renormalised).
-        w = config.BLEND_WEIGHTS
+        w = self.blend_weights
         tot = w["poisson"] + w["elo"]
         win = (w["poisson"] * p_h + w["elo"] * e_h) / tot
         drw = (w["poisson"] * p_d + w["elo"] * e_d) / tot

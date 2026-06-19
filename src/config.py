@@ -18,8 +18,23 @@ RAW_DIR = DATA_DIR / "raw"
 PROCESSED_DIR = DATA_DIR / "processed"
 
 # Default data files. Point MATCHES_PATH at your own CSV to use real data.
-MATCHES_PATH = DATA_DIR / "sample_matches.csv"
+SAMPLE_MATCHES_PATH = DATA_DIR / "sample_matches.csv"
+# A prepared real dataset (written by scripts/prepare_data.py). When this exists
+# the loader prefers it over the bundled sample data automatically.
+PROCESSED_MATCHES_PATH = PROCESSED_DIR / "matches.csv"
+MATCHES_PATH = SAMPLE_MATCHES_PATH  # back-compat default
 TEAMS_PATH = DATA_DIR / "teams.csv"
+
+# Optional real-data side tables (used if present, ignored if absent).
+FIFA_RANKING_PATH = PROCESSED_DIR / "fifa_ranking.csv"
+ELO_RATINGS_PATH = PROCESSED_DIR / "elo_ratings.csv"
+
+# Where trained model artifacts are saved/loaded.
+MODELS_DIR = PROJECT_ROOT / "models"
+MODEL_ARTIFACT_PATH = MODELS_DIR / "predictor.joblib"
+
+# Where backtest output is written.
+BACKTEST_RESULTS_PATH = PROCESSED_DIR / "backtest_results.csv"
 
 # Columns every match dataset must provide.
 REQUIRED_COLUMNS = ["home_team", "away_team", "home_score", "away_score"]
@@ -51,6 +66,13 @@ POISSON_HOME_ADVANTAGE = 1.25   # multiplier on home expected goals (1.0 at neut
 # How strongly the Elo gap nudges expected goals (per 100 Elo points).
 ELO_TO_GOALS_SCALE = 0.10
 MIN_EXPECTED_GOALS = 0.15   # floor so lambdas never hit zero
+
+# --- Dixon-Coles low-score correction ---
+# The independent Poisson model slightly misprices 0-0, 1-0, 0-1 and 1-1.
+# Dixon & Coles (1997) add a correction governed by rho (typically negative).
+# Toggle it here; rho can be tuned or estimated from data.
+DIXON_COLES_ENABLED = True
+DIXON_COLES_RHO = -0.05
 
 # --------------------------------------------------------------------------- #
 # Form / feature engineering
@@ -90,3 +112,19 @@ STAGE_IMPORTANCE = {
 # --------------------------------------------------------------------------- #
 # Bookmaker margin ("overround") applied when showing market-style odds.
 DEFAULT_BOOKMAKER_MARGIN = 0.05
+
+# --------------------------------------------------------------------------- #
+# 2026 World Cup mode (USA / Canada / Mexico co-hosts)
+# --------------------------------------------------------------------------- #
+# Co-hosts play group games at home; we model a partial home boost rather than a
+# full one (some matches are in neutral host cities). Tune freely.
+WORLD_CUP_2026_HOSTS = ["USA", "Canada", "Mexico"]
+HOST_ADVANTAGE_FRACTION = 0.6   # fraction of the normal home advantage hosts get
+
+# --------------------------------------------------------------------------- #
+# Backtesting
+# --------------------------------------------------------------------------- #
+# Default fraction of (chronological) matches held out as the test set.
+BACKTEST_TEST_FRACTION = 0.25
+# Models compared in a backtest.
+BACKTEST_MODELS = ["elo", "poisson", "ml", "ensemble"]

@@ -57,6 +57,18 @@ def test_top_scorelines_sorted_and_bounded(synthetic_matches):
     assert all(0 <= p <= 1 for p in probs)
 
 
+def test_dixon_coles_changes_low_scores_but_keeps_valid_grid(synthetic_matches):
+    pois = PoissonGoalModel().fit(synthetic_matches)
+    plain = pois.scoreline_grid(1.3, 1.1, dixon_coles=False)
+    dc = pois.scoreline_grid(1.3, 1.1, dixon_coles=True)
+    # Both remain valid probability grids.
+    assert plain.sum() == pytest.approx(1.0, abs=1e-9)
+    assert dc.sum() == pytest.approx(1.0, abs=1e-9)
+    assert (dc >= 0).all()
+    # The correction actually moves the 1-1 cell (rho != 0).
+    assert dc[1, 1] != pytest.approx(plain[1, 1], abs=1e-6)
+
+
 # --------------------------------------------------------------------------- #
 # End-to-end MatchPredictor
 # --------------------------------------------------------------------------- #
@@ -118,3 +130,25 @@ def test_simulate_tournament_sums_to_one(fitted_predictor):
 def test_simulate_tournament_rejects_non_power_of_two(synthetic_predictor):
     with pytest.raises(ValueError):
         synthetic_predictor.simulate_tournament(["Strong", "Weak", "Mid"], n_sims=10)
+
+
+def test_configurable_blend_weights_affect_output(fitted_predictor, sample_matches):
+    from predictor import MatchPredictor
+    elo_heavy = MatchPredictor(matches=sample_matches,
+                               blend_weights={"poisson": 0.0, "elo": 1.0, "ml": 0.0}).fit()
+    base = fitted_predictor.predict("Brazil", "Germany")["probabilities"]
+    tilted = elo_heavy.predict("Brazil", "Germany")["probabilities"]
+    # Different weights should generally produce different probabilities.
+    assert base != tilted
+
+
+def test_save_and_load_round_trip(fitted_predictor, tmp_path):
+    from predictor import MatchPredictor
+    path = tmp_path / "model.joblib"
+    fitted_predictor.save(path)
+    assert path.exists()
+    loaded = MatchPredictor.load(path)
+    before = fitted_predictor.predict("Brazil", "Germany")["probabilities"]
+    after = loaded.predict("Brazil", "Germany")["probabilities"]
+    # A reloaded model reproduces the same prediction.
+    assert before == after
