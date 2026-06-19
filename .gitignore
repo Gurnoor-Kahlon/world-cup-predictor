@@ -39,8 +39,10 @@ htmlcov/
 Thumbs.db
 
 # --- Project data ---
-# Keep sample data tracked, but ignore large/real downloaded datasets
+# Keep the bundled sample data tracked, but ignore large/real downloaded
+# datasets that a user connects later.
 data/processed/*.csv
 !data/processed/.gitkeep
 data/raw/*.csv
-!data/raw/sample_matches.csv
+!data/raw/.gitkeep
+# (data/sample_matches.csv and data/teams.csv live at the data/ root and ARE tracked)

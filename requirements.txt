@@ -6,9 +6,16 @@ scipy>=1.10
 # Machine learning
 scikit-learn>=1.3
 
-# Web app
+# Web app + charts
 streamlit>=1.30
-altair>=5.0
+plotly>=5.18
+matplotlib>=3.7
 
 # Testing
 pytest>=7.4
+
+# --- Optional gradient-boosting backends ---
+# The model uses scikit-learn's GradientBoosting by default and works without
+# these. Install one to enable a stronger classifier (see src/model.py):
+# xgboost>=2.0
+# lightgbm>=4.0
