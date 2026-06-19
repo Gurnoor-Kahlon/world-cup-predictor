@@ -11,8 +11,15 @@ streamlit>=1.30
 plotly>=5.18
 matplotlib>=3.7
 
-# Testing
+# Testing + linting
 pytest>=7.4
+ruff>=0.5
+
+# --- Optional FastAPI backend (api/main.py) ---
+# Only needed if you run the REST API; the Streamlit app and CLI don't require it.
+# fastapi>=0.110
+# uvicorn>=0.27
+# httpx>=0.26
 
 # --- Optional gradient-boosting backends ---
 # The model uses scikit-learn's GradientBoosting by default and works without
