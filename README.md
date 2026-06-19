@@ -4,10 +4,8 @@
 [![Streamlit](https://img.shields.io/badge/Streamlit-App-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
 [![scikit-learn](https://img.shields.io/badge/ML-scikit--learn-F7931E?logo=scikitlearn&logoColor=white)](https://scikit-learn.org/)
 [![Tests](https://img.shields.io/badge/tests-pytest-0A9EDC?logo=pytest&logoColor=white)](https://docs.pytest.org/)
-[![CI](https://github.com/your-username/world-cup-predictor/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/world-cup-predictor/actions/workflows/ci.yml)
+[![CI](https://github.com/Gurnoor-Kahlon/world-cup-predictor/actions/workflows/ci.yml/badge.svg)](https://github.com/Gurnoor-Kahlon/world-cup-predictor/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
-
-<!-- After pushing, replace `your-username` above (and in the clone URL below) with your GitHub username so the CI badge resolves. -->
 
 > Estimate the most realistic possible **odds, expected goals and likely scorelines**
 > for international football matches — using Elo ratings, team form, a Poisson goal
@@ -106,7 +104,7 @@ world-cup-predictor/
 
 ```bash
 # 1. clone
-git clone https://github.com/<your-username>/world-cup-predictor.git
+git clone https://github.com/Gurnoor-Kahlon/world-cup-predictor.git
 cd world-cup-predictor
 
 # 2. (recommended) create a virtual environment
