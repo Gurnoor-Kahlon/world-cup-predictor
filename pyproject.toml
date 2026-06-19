@@ -34,6 +34,34 @@ boosting = ["xgboost>=2.0", "lightgbm>=4.0"]
 testpaths = ["tests"]
 pythonpath = ["src"]
 
+[tool.ruff]
+line-length = 100
+target-version = "py39"
+src = ["src", "app", "api", "scripts", "tests"]
+extend-exclude = ["notebooks", ".venv"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "B", "UP"]
+# Underscore-prefixed helpers are intentionally "private but shared"; the app
+# and predictor import a couple on purpose.
+ignore = ["B905"]
+
+[tool.ruff.lint.per-file-ignores]
+# Tests reach into internals and use star-ish patterns; keep them relaxed.
+"tests/*" = ["E402", "B011"]
+"app/*" = ["E402"]
+"api/*" = ["E402"]
+"scripts/*" = ["E402"]
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_ignores = false
+# Pragmatic, not strict: this is a portfolio project, not a type-theory exercise.
+disallow_untyped_defs = false
+check_untyped_defs = false
+files = ["src"]
+
 [tool.setuptools]
 # Flat module layout: source files live directly under src/.
 package-dir = { "" = "src" }

@@ -8,7 +8,6 @@ pointing ``config.MATCHES_PATH`` at your own file with the same columns.
 from __future__ import annotations
 
 from pathlib import Path
-from typing import Optional
 
 import pandas as pd
 
@@ -23,10 +22,14 @@ class DataValidationError(Exception):
 def resolve_matches_path() -> Path:
     """Pick the best available match dataset.
 
-    Prefers a prepared real dataset at ``config.PROCESSED_MATCHES_PATH`` (written
-    by ``scripts/prepare_data.py``); otherwise falls back to the bundled sample
-    data so the project always runs.
+    Priority order:
+      1. ``WCP_MATCHES_PATH`` environment override (see .env.example), if it exists
+      2. a prepared real dataset at ``config.PROCESSED_MATCHES_PATH``
+         (written by ``scripts/prepare_data.py``)
+      3. the bundled sample data, so the project always runs.
     """
+    if config.ENV_MATCHES_PATH is not None and config.ENV_MATCHES_PATH.exists():
+        return config.ENV_MATCHES_PATH
     if config.PROCESSED_MATCHES_PATH.exists():
         return config.PROCESSED_MATCHES_PATH
     return config.SAMPLE_MATCHES_PATH
@@ -48,7 +51,7 @@ def validate_matches(df: pd.DataFrame, source: str = "dataset") -> None:
         raise DataValidationError(f"'{source}' contains no rows.")
 
 
-def load_matches(path: Optional[Path | str] = None) -> pd.DataFrame:
+def load_matches(path: Path | str | None = None) -> pd.DataFrame:
     """Load a match-history CSV into a validated, sorted DataFrame.
 
     With no ``path`` it auto-selects a prepared real dataset if present, else the
@@ -128,7 +131,7 @@ def list_teams(matches: pd.DataFrame) -> list[str]:
     return sorted(str(t) for t in teams)
 
 
-def load_team_metadata(path: Optional[Path | str] = None) -> Optional[pd.DataFrame]:
+def load_team_metadata(path: Path | str | None = None) -> pd.DataFrame | None:
     """Load optional per-team metadata (rank, market value...).
 
     Returns ``None`` if the file does not exist — it is purely optional and the
@@ -143,7 +146,7 @@ def load_team_metadata(path: Optional[Path | str] = None) -> Optional[pd.DataFra
     return meta
 
 
-def load_fifa_ranking(path: Optional[Path | str] = None) -> Optional[pd.DataFrame]:
+def load_fifa_ranking(path: Path | str | None = None) -> pd.DataFrame | None:
     """Load an optional FIFA-ranking table (``team``, ``rank`` [, ``points``]).
 
     Returns ``None`` if the file is absent. Populate it with
@@ -158,7 +161,7 @@ def load_fifa_ranking(path: Optional[Path | str] = None) -> Optional[pd.DataFram
     return df
 
 
-def load_elo_ratings(path: Optional[Path | str] = None) -> Optional[pd.DataFrame]:
+def load_elo_ratings(path: Path | str | None = None) -> pd.DataFrame | None:
     """Load an optional external Elo table (``team``, ``elo``).
 
     Returns ``None`` if the file is absent. The project computes its own Elo, but

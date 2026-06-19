@@ -13,8 +13,8 @@ more than 100% — :func:`add_margin` lets you simulate that.
 
 from __future__ import annotations
 
+from collections.abc import Sequence
 from fractions import Fraction
-from typing import Sequence
 
 import config
 
@@ -53,7 +53,8 @@ def probability_to_fractional(prob: float, max_denominator: int = 20) -> str:
     return f"{frac.numerator}/{frac.denominator}"
 
 
-def add_margin(probs: Sequence[float], margin: float = config.DEFAULT_BOOKMAKER_MARGIN) -> list[float]:
+def add_margin(probs: Sequence[float],
+               margin: float = config.DEFAULT_BOOKMAKER_MARGIN) -> list[float]:
     """Inflate fair probabilities by a bookmaker margin (overround).
 
     The returned values sum to ``1 + margin`` and, when turned into decimal

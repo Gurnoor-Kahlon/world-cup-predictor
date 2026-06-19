@@ -13,7 +13,6 @@ host-aware Monte-Carlo bracket simulation.
 from __future__ import annotations
 
 from functools import lru_cache
-from typing import Optional
 
 import numpy as np
 

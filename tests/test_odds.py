@@ -1,6 +1,5 @@
 """Tests for the odds conversion utilities."""
 
-import math
 
 import pytest
 

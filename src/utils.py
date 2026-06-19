@@ -6,9 +6,13 @@ utilities kept in one place so the other modules stay focused.
 
 from __future__ import annotations
 
-from typing import Iterable, Sequence
+from collections.abc import Iterable, Mapping, Sequence
+from typing import Union
 
 import numpy as np
+
+# A distribution can be passed as a list/tuple of floats or a numpy array.
+Distribution = Union[Sequence[float], np.ndarray]
 
 
 # --------------------------------------------------------------------------- #
@@ -21,7 +25,7 @@ def safe_divide(numerator: float, denominator: float, default: float = 0.0) -> f
     return numerator / denominator
 
 
-def normalize_probabilities(probs: Sequence[float]) -> list[float]:
+def normalize_probabilities(probs: Distribution) -> list[float]:
     """Scale a list of non-negative numbers so they sum to 1.
 
     Falls back to a uniform distribution if the total is zero.
@@ -35,8 +39,8 @@ def normalize_probabilities(probs: Sequence[float]) -> list[float]:
 
 
 def blend_distributions(
-    distributions: dict[str, Sequence[float]],
-    weights: dict[str, float],
+    distributions: Mapping[str, Distribution],
+    weights: Mapping[str, float],
 ) -> list[float]:
     """Weighted average of several probability distributions of equal length.
 

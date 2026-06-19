@@ -13,7 +13,8 @@ from model import EloRatingSystem
 # --------------------------------------------------------------------------- #
 def test_sample_data_loads(sample_matches):
     assert len(sample_matches) > 0
-    assert {"home_team", "away_team", "home_score", "away_score", "result"} <= set(sample_matches.columns)
+    required = {"home_team", "away_team", "home_score", "away_score", "result"}
+    assert required <= set(sample_matches.columns)
     assert set(sample_matches["result"].unique()) <= {"H", "D", "A"}
 
 

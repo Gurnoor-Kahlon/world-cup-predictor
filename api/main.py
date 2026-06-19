@@ -96,6 +96,6 @@ def simulate_tournament(
     try:
         odds = p.simulate_tournament(bracket, n_sims=n_sims)
     except ValueError as exc:
-        raise HTTPException(400, str(exc))
+        raise HTTPException(400, str(exc)) from exc
     ranked = dict(sorted(odds.items(), key=lambda kv: kv[1], reverse=True))
     return {"bracket": bracket, "n_sims": n_sims, "title_odds": ranked}

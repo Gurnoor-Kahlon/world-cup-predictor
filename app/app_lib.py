@@ -9,7 +9,6 @@ from __future__ import annotations
 import sys
 from pathlib import Path
 
-import numpy as np
 import pandas as pd
 import plotly.express as px
 import plotly.graph_objects as go
@@ -172,8 +171,10 @@ def comparison_table_df(predictor, home, away):
         {"Metric": "Elo rating", home: round(predictor.elo.get_rating(home)),
          away: round(predictor.elo.get_rating(away))},
         {"Metric": "Form (pts/game)", home: round(hs["ppg"], 2), away: round(as_["ppg"], 2)},
-        {"Metric": "Goals scored/game", home: round(hs["attack"], 2), away: round(as_["attack"], 2)},
-        {"Metric": "Goals conceded/game", home: round(hs["defence"], 2), away: round(as_["defence"], 2)},
+        {"Metric": "Goals scored/game", home: round(hs["attack"], 2),
+         away: round(as_["attack"], 2)},
+        {"Metric": "Goals conceded/game", home: round(hs["defence"], 2),
+         away: round(as_["defence"], 2)},
         {"Metric": "Matches in data", home: predictor.team_match_counts.get(home, 0),
          away: predictor.team_match_counts.get(away, 0)},
     ])

@@ -1,6 +1,5 @@
 """Tests for the Elo/Poisson engines and the end-to-end MatchPredictor."""
 
-import numpy as np
 import pytest
 
 from model import EloRatingSystem, PoissonGoalModel

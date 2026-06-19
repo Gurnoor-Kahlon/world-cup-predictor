@@ -12,14 +12,13 @@ from __future__ import annotations
 
 from functools import lru_cache
 from pathlib import Path
-from typing import Optional
 
 import joblib
 import numpy as np
 import pandas as pd
 
 import config
-from data_loader import load_matches, load_team_metadata, list_teams
+from data_loader import list_teams, load_matches, load_team_metadata
 from feature_engineering import FeatureEngineer, _recent_stats
 from model import EloRatingSystem, PoissonGoalModel, ResultClassifier
 from utils import blend_distributions, clamp, normalize_probabilities
@@ -30,10 +29,10 @@ class MatchPredictor:
 
     def __init__(
         self,
-        matches: Optional[pd.DataFrame] = None,
-        team_metadata: Optional[pd.DataFrame] = None,
+        matches: pd.DataFrame | None = None,
+        team_metadata: pd.DataFrame | None = None,
         form_window: int = config.FORM_WINDOW,
-        blend_weights: Optional[dict[str, float]] = None,
+        blend_weights: dict[str, float] | None = None,
     ):
         self.matches = matches if matches is not None else load_matches()
         self.team_metadata = (
@@ -54,7 +53,7 @@ class MatchPredictor:
         self.team_match_counts = counts.value_counts().to_dict()
 
     # ----------------------------------------------------------------- fit
-    def fit(self) -> "MatchPredictor":
+    def fit(self) -> MatchPredictor:
         """Train every component on the loaded history."""
         self.elo.fit(self.matches)
         self.poisson.fit(self.matches)
@@ -70,7 +69,7 @@ class MatchPredictor:
             self.fit()
 
     # ------------------------------------------------------- persistence
-    def save(self, path: Optional[Path | str] = None) -> Path:
+    def save(self, path: Path | str | None = None) -> Path:
         """Persist the fitted predictor to disk with joblib.
 
         Saves the whole object (Elo ratings, Poisson strengths, trained ML
@@ -84,7 +83,7 @@ class MatchPredictor:
         return path
 
     @classmethod
-    def load(cls, path: Optional[Path | str] = None) -> "MatchPredictor":
+    def load(cls, path: Path | str | None = None) -> MatchPredictor:
         """Load a predictor previously saved with :meth:`save`."""
         path = Path(path) if path is not None else config.MODEL_ARTIFACT_PATH
         if not path.exists():
@@ -104,7 +103,7 @@ class MatchPredictor:
         away: str,
         stage: str = config.GROUP_STAGE,
         neutral: bool = False,
-        context: Optional[dict] = None,
+        context: dict | None = None,
     ) -> dict:
         """Predict a single fixture. See module docstring for the output shape.
 
@@ -276,16 +275,18 @@ class MatchPredictor:
                 home_better = not home_better
             return home if home_better else away
 
+        ppg_fav = favours(home_stats["ppg"], away_stats["ppg"])
+        atk_fav_v = favours(home_stats["attack"], away_stats["attack"])
+        def_fav_v = favours(home_stats["defence"], away_stats["defence"], higher_is_better=False)
         factors = [
             {"factor": "Elo rating", "home": round(elo_home, 0), "away": round(elo_away, 0),
              "favours": favours(elo_home, elo_away)},
             {"factor": "Recent form (pts/game)", "home": round(home_stats["ppg"], 2),
-             "away": round(away_stats["ppg"], 2), "favours": favours(home_stats["ppg"], away_stats["ppg"])},
+             "away": round(away_stats["ppg"], 2), "favours": ppg_fav},
             {"factor": "Attack (goals/game)", "home": round(home_stats["attack"], 2),
-             "away": round(away_stats["attack"], 2), "favours": favours(home_stats["attack"], away_stats["attack"])},
+             "away": round(away_stats["attack"], 2), "favours": atk_fav_v},
             {"factor": "Defence (conceded/game)", "home": round(home_stats["defence"], 2),
-             "away": round(away_stats["defence"], 2),
-             "favours": favours(home_stats["defence"], away_stats["defence"], higher_is_better=False)},
+             "away": round(away_stats["defence"], 2), "favours": def_fav_v},
             {"factor": "Expected goals", "home": round(lam_home, 2), "away": round(lam_away, 2),
              "favours": favours(lam_home, lam_away)},
         ]
@@ -321,7 +322,7 @@ class MatchPredictor:
         return {"summary": summary, "factors": factors}
 
     # -------------------------------------------------- tournament sim
-    @lru_cache(maxsize=4096)
+    @lru_cache(maxsize=4096)  # noqa: B019  (cache is cleared in save()/simulate)
     def _pair_advance_prob(self, home: str, away: str) -> float:
         """Fast cached P(home advances) for a neutral knockout tie.
 

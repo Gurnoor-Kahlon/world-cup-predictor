@@ -6,6 +6,7 @@ Change a value in this file and the whole pipeline (model, predictor, app) follo
 
 from __future__ import annotations
 
+import os
 from pathlib import Path
 
 # --------------------------------------------------------------------------- #
@@ -35,6 +36,11 @@ MODEL_ARTIFACT_PATH = MODELS_DIR / "predictor.joblib"
 
 # Where backtest output is written.
 BACKTEST_RESULTS_PATH = PROCESSED_DIR / "backtest_results.csv"
+
+# Optional environment override: point WCP_MATCHES_PATH at any matches CSV to use
+# it without editing code (see .env.example). Empty/unset => auto-detect.
+_env_matches = os.environ.get("WCP_MATCHES_PATH", "").strip()
+ENV_MATCHES_PATH: Path | None = Path(_env_matches) if _env_matches else None
 
 # Columns every match dataset must provide.
 REQUIRED_COLUMNS = ["home_team", "away_team", "home_score", "away_score"]

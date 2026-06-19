@@ -18,7 +18,6 @@ import pandas as pd
 import streamlit as st
 
 import app_lib as lib  # adds src/ to sys.path as a side effect
-
 import config  # noqa: E402
 import tournament_2026 as wc  # noqa: E402
 from odds_converter import odds_table  # noqa: E402

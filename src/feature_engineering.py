@@ -21,7 +21,6 @@ Features (all from the home team's perspective unless noted):
 from __future__ import annotations
 
 from collections import defaultdict, deque
-from typing import Optional
 
 import pandas as pd
 
@@ -116,7 +115,7 @@ class FeatureEngineer:
                              "fit the EloRatingSystem on these matches first.")
 
         recent: dict[str, deque] = defaultdict(lambda: deque(maxlen=self.form_window))
-        last_date: dict[str, Optional[pd.Timestamp]] = {}
+        last_date: dict[str, pd.Timestamp | None] = {}
         h2h: dict[frozenset, list] = defaultdict(list)
         has_dates = "date" in matches.columns
 

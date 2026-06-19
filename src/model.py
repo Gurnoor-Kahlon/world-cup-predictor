@@ -13,7 +13,6 @@ This module deliberately keeps each technique in its own small, testable class:
 from __future__ import annotations
 
 import math
-from typing import Optional
 
 import numpy as np
 import pandas as pd
@@ -69,7 +68,7 @@ class EloRatingSystem:
         return math.log(abs(goal_diff) + 1) + 1.0
 
     # -- fitting ------------------------------------------------------------
-    def fit(self, matches: pd.DataFrame) -> "EloRatingSystem":
+    def fit(self, matches: pd.DataFrame) -> EloRatingSystem:
         """Process matches in chronological order, learning ratings.
 
         Records the pre-match ratings of every game so feature engineering can
@@ -175,7 +174,7 @@ class PoissonGoalModel:
         self.attack: dict[str, float] = {}
         self.defence: dict[str, float] = {}
 
-    def fit(self, matches: pd.DataFrame) -> "PoissonGoalModel":
+    def fit(self, matches: pd.DataFrame) -> PoissonGoalModel:
         """Estimate per-team attack/defence relative to the league average."""
         total_goals = matches["home_score"].sum() + matches["away_score"].sum()
         n_team_matches = 2 * len(matches)
@@ -236,7 +235,7 @@ class PoissonGoalModel:
         return lam_home, lam_away
 
     def scoreline_grid(
-        self, lam_home: float, lam_away: float, dixon_coles: Optional[bool] = None
+        self, lam_home: float, lam_away: float, dixon_coles: bool | None = None
     ) -> np.ndarray:
         """Matrix ``P[i, j]`` = probability of home i goals, away j goals.
 
@@ -335,7 +334,7 @@ class ResultClassifier:
         self.feature_names: list[str] = []
         self._fitted = False
 
-    def fit(self, X: pd.DataFrame, y: pd.Series) -> "ResultClassifier":
+    def fit(self, X: pd.DataFrame, y: pd.Series) -> ResultClassifier:
         self.feature_names = list(X.columns)
         self.estimator.fit(X.values, y.values)
         self._fitted = True

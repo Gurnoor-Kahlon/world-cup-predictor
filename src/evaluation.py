@@ -16,8 +16,6 @@ Ensemble. Nothing here claims the model is good — it simply *measures* it.
 
 from __future__ import annotations
 
-from typing import Optional
-
 import numpy as np
 import pandas as pd
 
@@ -105,7 +103,7 @@ class Backtester:
     def __init__(
         self,
         matches: pd.DataFrame,
-        blend_weights: Optional[dict[str, float]] = None,
+        blend_weights: dict[str, float] | None = None,
         form_window: int = config.FORM_WINDOW,
     ):
         # Chronological order is essential for a fair walk-forward.
@@ -118,10 +116,10 @@ class Backtester:
     def run(
         self,
         test_fraction: float = config.BACKTEST_TEST_FRACTION,
-        tournament: Optional[str] = None,
-        start_date: Optional[str] = None,
-        end_date: Optional[str] = None,
-        models: Optional[list[str]] = None,
+        tournament: str | None = None,
+        start_date: str | None = None,
+        end_date: str | None = None,
+        models: list[str] | None = None,
     ) -> dict:
         """Run the backtest and return metrics, per-match predictions and calibration.
 

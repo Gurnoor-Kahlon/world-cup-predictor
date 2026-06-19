@@ -33,7 +33,7 @@ def synthetic_matches() -> pd.DataFrame:
     """
     rows = []
     day = pd.Timestamp("2020-01-01")
-    for i in range(40):
+    for _i in range(40):
         # Strong beats Weak comfortably, and beats Mid narrowly.
         rows.append(("Strong", "Weak", 3, 0))
         rows.append(("Strong", "Mid", 2, 1))
