@@ -1,0 +1,1841 @@
+date,home_team,away_team,home_score,away_score,tournament,neutral
+2011-03-01,USA,Uruguay,2,3,FIFA World Cup qualification,False
+2011-03-03,USA,Nigeria,1,0,FIFA World Cup qualification,False
+2011-03-05,USA,Spain,0,4,FIFA World Cup qualification,False
+2011-03-07,USA,Netherlands,1,0,FIFA World Cup qualification,False
+2011-03-09,USA,Mexico,2,3,FIFA World Cup qualification,False
+2011-03-11,USA,Germany,0,0,FIFA World Cup qualification,False
+2011-03-13,USA,Japan,1,2,FIFA World Cup qualification,False
+2011-03-15,USA,Belgium,0,1,FIFA World Cup qualification,False
+2011-03-17,USA,Portugal,3,2,FIFA World Cup qualification,False
+2011-03-19,USA,Brazil,0,0,FIFA World Cup qualification,False
+2011-03-21,USA,England,2,1,FIFA World Cup qualification,False
+2011-03-23,USA,France,1,1,FIFA World Cup qualification,False
+2011-03-25,USA,South Korea,2,0,FIFA World Cup qualification,False
+2011-03-27,USA,Croatia,3,4,FIFA World Cup qualification,False
+2011-03-29,USA,Argentina,0,2,FIFA World Cup qualification,False
+2011-03-31,Uruguay,Nigeria,2,3,FIFA World Cup qualification,False
+2011-04-02,Uruguay,Spain,2,0,FIFA World Cup qualification,False
+2011-04-04,Uruguay,Netherlands,1,1,FIFA World Cup qualification,False
+2011-04-06,Uruguay,Mexico,0,0,FIFA World Cup qualification,False
+2011-04-08,Uruguay,Germany,1,2,FIFA World Cup qualification,False
+2011-04-10,Uruguay,Japan,1,3,FIFA World Cup qualification,False
+2011-04-12,Uruguay,Belgium,1,2,FIFA World Cup qualification,False
+2011-04-14,Uruguay,Portugal,1,1,FIFA World Cup qualification,False
+2011-04-16,Uruguay,Brazil,0,2,FIFA World Cup qualification,False
+2011-04-18,Uruguay,England,1,1,FIFA World Cup qualification,False
+2011-04-20,Uruguay,France,3,1,FIFA World Cup qualification,False
+2011-04-22,Uruguay,South Korea,0,1,FIFA World Cup qualification,False
+2011-04-24,Uruguay,Croatia,3,1,FIFA World Cup qualification,False
+2011-04-26,Uruguay,Argentina,0,1,FIFA World Cup qualification,False
+2011-04-28,Nigeria,Spain,0,6,FIFA World Cup qualification,False
+2011-04-30,Nigeria,Netherlands,0,3,FIFA World Cup qualification,False
+2011-05-02,Nigeria,Mexico,1,2,FIFA World Cup qualification,False
+2011-05-04,Nigeria,Germany,1,1,FIFA World Cup qualification,False
+2011-05-06,Nigeria,Japan,1,2,FIFA World Cup qualification,False
+2011-05-08,Nigeria,Belgium,1,0,FIFA World Cup qualification,False
+2011-05-10,Nigeria,Portugal,0,0,FIFA World Cup qualification,False
+2011-05-12,Nigeria,Brazil,1,3,FIFA World Cup qualification,False
+2011-05-14,Nigeria,England,3,0,FIFA World Cup qualification,False
+2011-05-16,Nigeria,France,2,3,FIFA World Cup qualification,False
+2011-05-18,Nigeria,South Korea,1,2,FIFA World Cup qualification,False
+2011-05-20,Nigeria,Croatia,0,5,FIFA World Cup qualification,False
+2011-05-22,Nigeria,Argentina,1,0,FIFA World Cup qualification,False
+2011-05-24,Spain,Netherlands,2,2,FIFA World Cup qualification,False
+2011-05-26,Spain,Mexico,2,1,FIFA World Cup qualification,False
+2011-05-28,Spain,Germany,2,0,FIFA World Cup qualification,False
+2011-05-30,Spain,Japan,2,0,FIFA World Cup qualification,False
+2011-06-01,Spain,Belgium,1,1,FIFA World Cup qualification,False
+2011-06-03,Spain,Portugal,0,1,FIFA World Cup qualification,False
+2011-06-05,Spain,Brazil,0,0,FIFA World Cup qualification,False
+2011-06-07,Spain,England,0,0,FIFA World Cup qualification,False
+2011-06-09,Spain,France,0,0,FIFA World Cup qualification,False
+2011-06-11,Spain,South Korea,0,1,FIFA World Cup qualification,False
+2011-06-13,Spain,Croatia,1,3,FIFA World Cup qualification,False
+2011-06-15,Spain,Argentina,0,0,FIFA World Cup qualification,False
+2011-06-17,Netherlands,Mexico,2,0,FIFA World Cup qualification,False
+2011-06-19,Netherlands,Germany,1,0,FIFA World Cup qualification,False
+2011-06-21,Netherlands,Japan,1,1,FIFA World Cup qualification,False
+2011-06-23,Netherlands,Belgium,7,1,FIFA World Cup qualification,False
+2011-06-25,Netherlands,Portugal,2,1,FIFA World Cup qualification,False
+2011-06-27,Netherlands,Brazil,0,1,FIFA World Cup qualification,False
+2011-06-29,Netherlands,England,1,1,FIFA World Cup qualification,False
+2011-07-01,Netherlands,France,2,3,FIFA World Cup qualification,False
+2011-07-03,Netherlands,South Korea,5,0,FIFA World Cup qualification,False
+2011-07-05,Netherlands,Croatia,1,2,FIFA World Cup qualification,False
+2011-07-07,Netherlands,Argentina,1,1,FIFA World Cup qualification,False
+2011-07-09,Mexico,Germany,1,6,FIFA World Cup qualification,False
+2011-07-11,Mexico,Japan,1,1,FIFA World Cup qualification,False
+2011-07-13,Mexico,Belgium,2,3,FIFA World Cup qualification,False
+2011-07-15,Mexico,Portugal,2,0,FIFA World Cup qualification,False
+2011-07-17,Mexico,Brazil,0,3,FIFA World Cup qualification,False
+2011-07-19,Mexico,England,2,1,FIFA World Cup qualification,False
+2011-07-21,Mexico,France,1,0,FIFA World Cup qualification,False
+2011-07-23,Mexico,South Korea,3,3,FIFA World Cup qualification,False
+2011-07-25,Mexico,Croatia,4,2,FIFA World Cup qualification,False
+2011-07-27,Mexico,Argentina,2,2,FIFA World Cup qualification,False
+2011-07-29,Germany,Japan,2,2,FIFA World Cup qualification,False
+2011-07-31,Germany,Belgium,4,3,FIFA World Cup qualification,False
+2011-08-02,Germany,Portugal,1,0,FIFA World Cup qualification,False
+2011-08-04,Germany,Brazil,0,1,FIFA World Cup qualification,False
+2011-08-06,Germany,England,2,0,FIFA World Cup qualification,False
+2011-08-08,Germany,France,0,2,FIFA World Cup qualification,False
+2011-08-10,Germany,South Korea,1,3,FIFA World Cup qualification,False
+2011-08-12,Germany,Croatia,1,0,FIFA World Cup qualification,False
+2011-08-14,Germany,Argentina,0,2,FIFA World Cup qualification,False
+2011-08-16,Japan,Belgium,1,1,FIFA World Cup qualification,False
+2011-08-18,Japan,Portugal,0,3,FIFA World Cup qualification,False
+2011-08-20,Japan,Brazil,1,2,FIFA World Cup qualification,False
+2011-08-22,Japan,England,0,2,FIFA World Cup qualification,False
+2011-08-24,Japan,France,2,0,FIFA World Cup qualification,False
+2011-08-26,Japan,South Korea,2,3,FIFA World Cup qualification,False
+2011-08-28,Japan,Croatia,1,1,FIFA World Cup qualification,False
+2011-08-30,Japan,Argentina,0,1,FIFA World Cup qualification,False
+2011-09-01,Belgium,Portugal,2,1,FIFA World Cup qualification,False
+2011-09-03,Belgium,Brazil,0,1,FIFA World Cup qualification,False
+2011-09-05,Belgium,England,0,1,FIFA World Cup qualification,False
+2011-09-05,Germany,Portugal,3,2,Friendly,False
+2011-09-07,Belgium,France,0,2,FIFA World Cup qualification,False
+2011-09-08,USA,France,0,4,Friendly,False
+2011-09-09,Belgium,South Korea,3,1,FIFA World Cup qualification,False
+2011-09-11,Belgium,Croatia,2,3,FIFA World Cup qualification,False
+2011-09-11,Croatia,Spain,1,0,Friendly,False
+2011-09-13,Belgium,Argentina,2,2,FIFA World Cup qualification,False
+2011-09-14,England,Nigeria,6,0,Friendly,False
+2011-09-15,Portugal,Brazil,0,1,FIFA World Cup qualification,False
+2011-09-17,Portugal,England,1,0,FIFA World Cup qualification,False
+2011-09-17,Japan,South Korea,2,2,Friendly,False
+2011-09-19,Portugal,France,1,0,FIFA World Cup qualification,False
+2011-09-20,Netherlands,Uruguay,3,1,Friendly,False
+2011-09-21,Portugal,South Korea,3,1,FIFA World Cup qualification,False
+2011-09-23,Portugal,Croatia,4,2,FIFA World Cup qualification,False
+2011-09-23,Argentina,Belgium,2,1,Friendly,False
+2011-09-25,Portugal,Argentina,1,0,FIFA World Cup qualification,False
+2011-09-26,Mexico,Brazil,1,0,Friendly,False
+2011-09-27,Brazil,England,1,0,FIFA World Cup qualification,False
+2011-09-29,Brazil,France,5,1,FIFA World Cup qualification,False
+2011-10-01,Brazil,South Korea,0,1,FIFA World Cup qualification,False
+2011-10-03,Brazil,Croatia,1,0,FIFA World Cup qualification,False
+2011-10-05,Brazil,Argentina,1,0,FIFA World Cup qualification,False
+2011-10-07,England,France,1,2,FIFA World Cup qualification,False
+2011-10-09,England,South Korea,3,2,FIFA World Cup qualification,False
+2011-10-11,England,Croatia,2,3,FIFA World Cup qualification,False
+2011-10-13,England,Argentina,2,1,FIFA World Cup qualification,False
+2011-10-15,France,South Korea,2,0,FIFA World Cup qualification,False
+2011-10-17,France,Croatia,2,0,FIFA World Cup qualification,False
+2011-10-19,France,Argentina,0,0,FIFA World Cup qualification,False
+2011-10-21,South Korea,Croatia,2,1,FIFA World Cup qualification,False
+2011-10-23,South Korea,Argentina,0,4,FIFA World Cup qualification,False
+2011-10-25,Croatia,Argentina,6,2,FIFA World Cup qualification,False
+2012-03-01,Croatia,Belgium,2,1,FIFA World Cup qualification,False
+2012-03-03,Nigeria,Belgium,0,0,FIFA World Cup qualification,False
+2012-03-05,Mexico,Belgium,2,3,FIFA World Cup qualification,False
+2012-03-07,Brazil,Belgium,2,0,FIFA World Cup qualification,False
+2012-03-09,Spain,Belgium,4,0,FIFA World Cup qualification,False
+2012-03-11,Germany,Belgium,1,0,FIFA World Cup qualification,False
+2012-03-13,France,Belgium,2,2,FIFA World Cup qualification,False
+2012-03-15,USA,Belgium,3,2,FIFA World Cup qualification,False
+2012-03-17,Argentina,Belgium,1,2,FIFA World Cup qualification,False
+2012-03-19,Netherlands,Belgium,1,1,FIFA World Cup qualification,False
+2012-03-21,Japan,Belgium,0,1,FIFA World Cup qualification,False
+2012-03-23,England,Belgium,2,0,FIFA World Cup qualification,False
+2012-03-25,Uruguay,Belgium,0,1,FIFA World Cup qualification,False
+2012-03-27,Portugal,Belgium,1,1,FIFA World Cup qualification,False
+2012-03-29,South Korea,Belgium,1,0,FIFA World Cup qualification,False
+2012-03-31,Nigeria,Croatia,1,2,FIFA World Cup qualification,False
+2012-04-02,Mexico,Croatia,3,1,FIFA World Cup qualification,False
+2012-04-04,Brazil,Croatia,2,0,FIFA World Cup qualification,False
+2012-04-06,Spain,Croatia,1,1,FIFA World Cup qualification,False
+2012-04-08,Germany,Croatia,0,0,FIFA World Cup qualification,False
+2012-04-10,France,Croatia,0,1,FIFA World Cup qualification,False
+2012-04-12,USA,Croatia,0,0,FIFA World Cup qualification,False
+2012-04-14,Argentina,Croatia,0,1,FIFA World Cup qualification,False
+2012-04-16,Netherlands,Croatia,3,2,FIFA World Cup qualification,False
+2012-04-18,Japan,Croatia,2,4,FIFA World Cup qualification,False
+2012-04-20,England,Croatia,3,0,FIFA World Cup qualification,False
+2012-04-22,Uruguay,Croatia,1,0,FIFA World Cup qualification,False
+2012-04-24,Portugal,Croatia,0,1,FIFA World Cup qualification,False
+2012-04-26,South Korea,Croatia,0,3,FIFA World Cup qualification,False
+2012-04-28,Mexico,Nigeria,2,0,FIFA World Cup qualification,False
+2012-04-30,Brazil,Nigeria,2,1,FIFA World Cup qualification,False
+2012-05-02,Spain,Nigeria,0,2,FIFA World Cup qualification,False
+2012-05-04,Germany,Nigeria,4,0,FIFA World Cup qualification,False
+2012-05-06,France,Nigeria,4,1,FIFA World Cup qualification,False
+2012-05-08,USA,Nigeria,2,1,FIFA World Cup qualification,False
+2012-05-10,Argentina,Nigeria,5,1,FIFA World Cup qualification,False
+2012-05-12,Netherlands,Nigeria,3,1,FIFA World Cup qualification,False
+2012-05-14,Japan,Nigeria,1,1,FIFA World Cup qualification,False
+2012-05-16,England,Nigeria,3,1,FIFA World Cup qualification,False
+2012-05-18,Uruguay,Nigeria,4,2,FIFA World Cup qualification,False
+2012-05-20,Portugal,Nigeria,3,0,FIFA World Cup qualification,False
+2012-05-22,South Korea,Nigeria,1,3,FIFA World Cup qualification,False
+2012-05-24,Brazil,Mexico,2,1,FIFA World Cup qualification,False
+2012-05-26,Spain,Mexico,3,1,FIFA World Cup qualification,False
+2012-05-28,Germany,Mexico,1,1,FIFA World Cup qualification,False
+2012-05-30,France,Mexico,2,2,FIFA World Cup qualification,False
+2012-06-01,USA,Mexico,1,2,FIFA World Cup qualification,False
+2012-06-03,Argentina,Mexico,0,2,FIFA World Cup qualification,False
+2012-06-05,Netherlands,Mexico,1,0,FIFA World Cup qualification,False
+2012-06-07,Japan,Mexico,2,4,FIFA World Cup qualification,False
+2012-06-09,England,Mexico,1,1,FIFA World Cup qualification,False
+2012-06-11,Uruguay,Mexico,3,0,FIFA World Cup qualification,False
+2012-06-13,Portugal,Mexico,2,1,FIFA World Cup qualification,False
+2012-06-15,South Korea,Mexico,1,2,FIFA World Cup qualification,False
+2012-06-17,Spain,Brazil,1,1,FIFA World Cup qualification,False
+2012-06-19,Germany,Brazil,0,1,FIFA World Cup qualification,False
+2012-06-21,France,Brazil,1,0,FIFA World Cup qualification,False
+2012-06-23,USA,Brazil,3,1,FIFA World Cup qualification,False
+2012-06-25,Argentina,Brazil,0,0,FIFA World Cup qualification,False
+2012-06-27,Netherlands,Brazil,4,2,FIFA World Cup qualification,False
+2012-06-29,Japan,Brazil,0,0,FIFA World Cup qualification,False
+2012-07-01,England,Brazil,3,1,FIFA World Cup qualification,False
+2012-07-03,Uruguay,Brazil,0,0,FIFA World Cup qualification,False
+2012-07-05,Portugal,Brazil,0,2,FIFA World Cup qualification,False
+2012-07-07,South Korea,Brazil,1,1,FIFA World Cup qualification,False
+2012-07-09,Germany,Spain,4,1,FIFA World Cup qualification,False
+2012-07-11,France,Spain,0,1,FIFA World Cup qualification,False
+2012-07-13,USA,Spain,3,3,FIFA World Cup qualification,False
+2012-07-15,Argentina,Spain,2,1,FIFA World Cup qualification,False
+2012-07-17,Netherlands,Spain,0,1,FIFA World Cup qualification,False
+2012-07-19,Japan,Spain,1,3,FIFA World Cup qualification,False
+2012-07-21,England,Spain,2,0,FIFA World Cup qualification,False
+2012-07-23,Uruguay,Spain,2,4,FIFA World Cup qualification,False
+2012-07-25,Portugal,Spain,1,2,FIFA World Cup qualification,False
+2012-07-27,South Korea,Spain,1,3,FIFA World Cup qualification,False
+2012-07-29,France,Germany,2,1,FIFA World Cup qualification,False
+2012-07-31,USA,Germany,0,3,FIFA World Cup qualification,False
+2012-08-02,Argentina,Germany,1,2,FIFA World Cup qualification,False
+2012-08-04,Netherlands,Germany,1,0,FIFA World Cup qualification,False
+2012-08-06,Japan,Germany,0,2,FIFA World Cup qualification,False
+2012-08-08,England,Germany,0,3,FIFA World Cup qualification,False
+2012-08-10,Uruguay,Germany,0,1,FIFA World Cup qualification,False
+2012-08-12,Portugal,Germany,3,2,FIFA World Cup qualification,False
+2012-08-14,South Korea,Germany,3,3,FIFA World Cup qualification,False
+2012-08-16,USA,France,0,8,FIFA World Cup qualification,False
+2012-08-18,Argentina,France,0,1,FIFA World Cup qualification,False
+2012-08-20,Netherlands,France,1,1,FIFA World Cup qualification,False
+2012-08-22,Japan,France,2,0,FIFA World Cup qualification,False
+2012-08-24,England,France,2,0,FIFA World Cup qualification,False
+2012-08-26,Uruguay,France,1,2,FIFA World Cup qualification,False
+2012-08-28,Portugal,France,0,3,FIFA World Cup qualification,False
+2012-08-30,South Korea,France,0,1,FIFA World Cup qualification,False
+2012-09-01,Argentina,USA,3,1,FIFA World Cup qualification,False
+2012-09-03,Netherlands,USA,3,3,FIFA World Cup qualification,False
+2012-09-05,Japan,USA,0,2,FIFA World Cup qualification,False
+2012-09-05,South Korea,Japan,4,1,Friendly,False
+2012-09-07,England,USA,2,1,FIFA World Cup qualification,False
+2012-09-08,England,Portugal,3,2,Friendly,False
+2012-09-09,Uruguay,USA,4,2,FIFA World Cup qualification,False
+2012-09-11,Portugal,USA,3,0,FIFA World Cup qualification,False
+2012-09-11,Nigeria,Argentina,1,2,Friendly,False
+2012-09-13,South Korea,USA,1,0,FIFA World Cup qualification,False
+2012-09-14,Belgium,Croatia,1,0,Friendly,False
+2012-09-15,Netherlands,Argentina,0,2,FIFA World Cup qualification,False
+2012-09-17,Japan,Argentina,2,0,FIFA World Cup qualification,False
+2012-09-17,USA,Uruguay,2,1,Friendly,False
+2012-09-19,England,Argentina,4,1,FIFA World Cup qualification,False
+2012-09-20,Spain,France,3,1,Friendly,False
+2012-09-21,Uruguay,Argentina,0,3,FIFA World Cup qualification,False
+2012-09-23,Portugal,Argentina,1,0,FIFA World Cup qualification,False
+2012-09-23,Mexico,Netherlands,1,2,Friendly,False
+2012-09-25,South Korea,Argentina,1,0,FIFA World Cup qualification,False
+2012-09-26,Germany,Brazil,1,0,Friendly,False
+2012-09-27,Japan,Netherlands,0,0,FIFA World Cup qualification,False
+2012-09-29,England,Netherlands,3,2,FIFA World Cup qualification,False
+2012-10-01,Uruguay,Netherlands,3,0,FIFA World Cup qualification,False
+2012-10-03,Portugal,Netherlands,1,2,FIFA World Cup qualification,False
+2012-10-05,South Korea,Netherlands,2,0,FIFA World Cup qualification,False
+2012-10-07,England,Japan,2,1,FIFA World Cup qualification,False
+2012-10-09,Uruguay,Japan,3,1,FIFA World Cup qualification,False
+2012-10-11,Portugal,Japan,2,0,FIFA World Cup qualification,False
+2012-10-13,South Korea,Japan,2,0,FIFA World Cup qualification,False
+2012-10-15,Uruguay,England,2,1,FIFA World Cup qualification,False
+2012-10-17,Portugal,England,1,0,FIFA World Cup qualification,False
+2012-10-19,South Korea,England,1,0,FIFA World Cup qualification,False
+2012-10-21,Portugal,Uruguay,1,0,FIFA World Cup qualification,False
+2012-10-23,South Korea,Uruguay,0,2,FIFA World Cup qualification,False
+2012-10-25,South Korea,Portugal,0,1,FIFA World Cup qualification,False
+2013-03-01,England,Brazil,2,3,FIFA World Cup qualification,False
+2013-03-03,England,Mexico,0,0,FIFA World Cup qualification,False
+2013-03-05,England,USA,2,2,FIFA World Cup qualification,False
+2013-03-07,England,South Korea,1,1,FIFA World Cup qualification,False
+2013-03-09,England,Belgium,2,0,FIFA World Cup qualification,False
+2013-03-11,England,Japan,2,4,FIFA World Cup qualification,False
+2013-03-13,England,France,2,0,FIFA World Cup qualification,False
+2013-03-15,England,Nigeria,5,0,FIFA World Cup qualification,False
+2013-03-17,England,Uruguay,1,2,FIFA World Cup qualification,False
+2013-03-19,England,Argentina,1,0,FIFA World Cup qualification,False
+2013-03-21,England,Germany,2,0,FIFA World Cup qualification,False
+2013-03-23,England,Spain,2,0,FIFA World Cup qualification,False
+2013-03-25,England,Croatia,2,0,FIFA World Cup qualification,False
+2013-03-27,England,Netherlands,0,1,FIFA World Cup qualification,False
+2013-03-29,England,Portugal,4,3,FIFA World Cup qualification,False
+2013-03-31,Brazil,Mexico,1,3,FIFA World Cup qualification,False
+2013-04-02,Brazil,USA,3,2,FIFA World Cup qualification,False
+2013-04-04,Brazil,South Korea,0,1,FIFA World Cup qualification,False
+2013-04-06,Brazil,Belgium,3,1,FIFA World Cup qualification,False
+2013-04-08,Brazil,Japan,2,0,FIFA World Cup qualification,False
+2013-04-10,Brazil,France,1,6,FIFA World Cup qualification,False
+2013-04-12,Brazil,Nigeria,6,0,FIFA World Cup qualification,False
+2013-04-14,Brazil,Uruguay,1,0,FIFA World Cup qualification,False
+2013-04-16,Brazil,Argentina,0,0,FIFA World Cup qualification,False
+2013-04-18,Brazil,Germany,3,0,FIFA World Cup qualification,False
+2013-04-20,Brazil,Spain,0,0,FIFA World Cup qualification,False
+2013-04-22,Brazil,Croatia,2,2,FIFA World Cup qualification,False
+2013-04-24,Brazil,Netherlands,0,0,FIFA World Cup qualification,False
+2013-04-26,Brazil,Portugal,0,0,FIFA World Cup qualification,False
+2013-04-28,Mexico,USA,4,4,FIFA World Cup qualification,False
+2013-04-30,Mexico,South Korea,0,0,FIFA World Cup qualification,False
+2013-05-02,Mexico,Belgium,2,2,FIFA World Cup qualification,False
+2013-05-04,Mexico,Japan,2,1,FIFA World Cup qualification,False
+2013-05-06,Mexico,France,1,2,FIFA World Cup qualification,False
+2013-05-08,Mexico,Nigeria,3,2,FIFA World Cup qualification,False
+2013-05-10,Mexico,Uruguay,1,1,FIFA World Cup qualification,False
+2013-05-12,Mexico,Argentina,1,3,FIFA World Cup qualification,False
+2013-05-14,Mexico,Germany,0,3,FIFA World Cup qualification,False
+2013-05-16,Mexico,Spain,3,3,FIFA World Cup qualification,False
+2013-05-18,Mexico,Croatia,2,2,FIFA World Cup qualification,False
+2013-05-20,Mexico,Netherlands,1,1,FIFA World Cup qualification,False
+2013-05-22,Mexico,Portugal,2,0,FIFA World Cup qualification,False
+2013-05-24,USA,South Korea,1,0,FIFA World Cup qualification,False
+2013-05-26,USA,Belgium,0,4,FIFA World Cup qualification,False
+2013-05-28,USA,Japan,1,0,FIFA World Cup qualification,False
+2013-05-30,USA,France,0,1,FIFA World Cup qualification,False
+2013-06-01,USA,Nigeria,2,3,FIFA World Cup qualification,False
+2013-06-03,USA,Uruguay,2,1,FIFA World Cup qualification,False
+2013-06-05,USA,Argentina,1,1,FIFA World Cup qualification,False
+2013-06-07,USA,Germany,0,1,FIFA World Cup qualification,False
+2013-06-09,USA,Spain,1,1,FIFA World Cup qualification,False
+2013-06-11,USA,Croatia,3,6,FIFA World Cup qualification,False
+2013-06-13,USA,Netherlands,0,0,FIFA World Cup qualification,False
+2013-06-15,USA,Portugal,1,2,FIFA World Cup qualification,False
+2013-06-17,South Korea,Belgium,1,2,FIFA World Cup qualification,False
+2013-06-19,South Korea,Japan,4,1,FIFA World Cup qualification,False
+2013-06-21,South Korea,France,1,2,FIFA World Cup qualification,False
+2013-06-23,South Korea,Nigeria,1,3,FIFA World Cup qualification,False
+2013-06-25,South Korea,Uruguay,0,0,FIFA World Cup qualification,False
+2013-06-27,South Korea,Argentina,1,1,FIFA World Cup qualification,False
+2013-06-29,South Korea,Germany,2,2,FIFA World Cup qualification,False
+2013-07-01,South Korea,Spain,1,3,FIFA World Cup qualification,False
+2013-07-03,South Korea,Croatia,1,0,FIFA World Cup qualification,False
+2013-07-05,South Korea,Netherlands,2,1,FIFA World Cup qualification,False
+2013-07-07,South Korea,Portugal,1,2,FIFA World Cup qualification,False
+2013-07-09,Belgium,Japan,1,1,FIFA World Cup qualification,False
+2013-07-11,Belgium,France,4,2,FIFA World Cup qualification,False
+2013-07-13,Belgium,Nigeria,2,1,FIFA World Cup qualification,False
+2013-07-15,Belgium,Uruguay,1,0,FIFA World Cup qualification,False
+2013-07-17,Belgium,Argentina,3,0,FIFA World Cup qualification,False
+2013-07-19,Belgium,Germany,0,0,FIFA World Cup qualification,False
+2013-07-21,Belgium,Spain,2,2,FIFA World Cup qualification,False
+2013-07-23,Belgium,Croatia,0,2,FIFA World Cup qualification,False
+2013-07-25,Belgium,Netherlands,3,0,FIFA World Cup qualification,False
+2013-07-27,Belgium,Portugal,2,1,FIFA World Cup qualification,False
+2013-07-29,Japan,France,3,5,FIFA World Cup qualification,False
+2013-07-31,Japan,Nigeria,0,0,FIFA World Cup qualification,False
+2013-08-02,Japan,Uruguay,1,2,FIFA World Cup qualification,False
+2013-08-04,Japan,Argentina,1,3,FIFA World Cup qualification,False
+2013-08-06,Japan,Germany,5,3,FIFA World Cup qualification,False
+2013-08-08,Japan,Spain,2,4,FIFA World Cup qualification,False
+2013-08-10,Japan,Croatia,2,2,FIFA World Cup qualification,False
+2013-08-12,Japan,Netherlands,0,3,FIFA World Cup qualification,False
+2013-08-14,Japan,Portugal,2,2,FIFA World Cup qualification,False
+2013-08-16,France,Nigeria,5,1,FIFA World Cup qualification,False
+2013-08-18,France,Uruguay,1,0,FIFA World Cup qualification,False
+2013-08-20,France,Argentina,4,1,FIFA World Cup qualification,False
+2013-08-22,France,Germany,1,2,FIFA World Cup qualification,False
+2013-08-24,France,Spain,1,3,FIFA World Cup qualification,False
+2013-08-26,France,Croatia,1,0,FIFA World Cup qualification,False
+2013-08-28,France,Netherlands,0,0,FIFA World Cup qualification,False
+2013-08-30,France,Portugal,1,0,FIFA World Cup qualification,False
+2013-09-01,Nigeria,Uruguay,3,4,FIFA World Cup qualification,False
+2013-09-03,Nigeria,Argentina,0,1,FIFA World Cup qualification,False
+2013-09-05,Nigeria,Germany,1,1,FIFA World Cup qualification,False
+2013-09-05,Nigeria,Brazil,2,2,Friendly,False
+2013-09-07,Nigeria,Spain,1,2,FIFA World Cup qualification,False
+2013-09-08,Argentina,Japan,3,1,Friendly,False
+2013-09-09,Nigeria,Croatia,1,1,FIFA World Cup qualification,False
+2013-09-11,Nigeria,Netherlands,1,2,FIFA World Cup qualification,False
+2013-09-11,USA,Belgium,0,0,Friendly,False
+2013-09-13,Nigeria,Portugal,2,0,FIFA World Cup qualification,False
+2013-09-14,France,Mexico,2,1,Friendly,False
+2013-09-15,Uruguay,Argentina,2,0,FIFA World Cup qualification,False
+2013-09-17,Uruguay,Germany,1,0,FIFA World Cup qualification,False
+2013-09-17,South Korea,Portugal,3,0,Friendly,False
+2013-09-19,Uruguay,Spain,0,2,FIFA World Cup qualification,False
+2013-09-20,Croatia,Germany,2,0,Friendly,False
+2013-09-21,Uruguay,Croatia,3,3,FIFA World Cup qualification,False
+2013-09-23,Uruguay,Netherlands,2,0,FIFA World Cup qualification,False
+2013-09-23,Netherlands,Uruguay,1,1,Friendly,False
+2013-09-25,Uruguay,Portugal,2,1,FIFA World Cup qualification,False
+2013-09-26,Spain,England,2,1,Friendly,False
+2013-09-27,Argentina,Germany,2,0,FIFA World Cup qualification,False
+2013-09-29,Argentina,Spain,0,0,FIFA World Cup qualification,False
+2013-10-01,Argentina,Croatia,3,1,FIFA World Cup qualification,False
+2013-10-03,Argentina,Netherlands,1,1,FIFA World Cup qualification,False
+2013-10-05,Argentina,Portugal,2,0,FIFA World Cup qualification,False
+2013-10-07,Germany,Spain,5,0,FIFA World Cup qualification,False
+2013-10-09,Germany,Croatia,1,3,FIFA World Cup qualification,False
+2013-10-11,Germany,Netherlands,3,2,FIFA World Cup qualification,False
+2013-10-13,Germany,Portugal,5,0,FIFA World Cup qualification,False
+2013-10-15,Spain,Croatia,2,1,FIFA World Cup qualification,False
+2013-10-17,Spain,Netherlands,2,0,FIFA World Cup qualification,False
+2013-10-19,Spain,Portugal,0,2,FIFA World Cup qualification,False
+2013-10-21,Croatia,Netherlands,2,1,FIFA World Cup qualification,False
+2013-10-23,Croatia,Portugal,1,0,FIFA World Cup qualification,False
+2013-10-25,Netherlands,Portugal,0,1,FIFA World Cup qualification,False
+2014-03-01,France,Netherlands,2,1,FIFA World Cup qualification,False
+2014-03-03,Mexico,Netherlands,1,3,FIFA World Cup qualification,False
+2014-03-05,Nigeria,Netherlands,0,3,FIFA World Cup qualification,False
+2014-03-07,Uruguay,Netherlands,0,3,FIFA World Cup qualification,False
+2014-03-09,Croatia,Netherlands,3,2,FIFA World Cup qualification,False
+2014-03-11,Germany,Netherlands,2,0,FIFA World Cup qualification,False
+2014-03-13,Portugal,Netherlands,2,2,FIFA World Cup qualification,False
+2014-03-15,Japan,Netherlands,1,4,FIFA World Cup qualification,False
+2014-03-17,USA,Netherlands,0,2,FIFA World Cup qualification,False
+2014-03-19,Belgium,Netherlands,0,1,FIFA World Cup qualification,False
+2014-03-21,England,Netherlands,1,1,FIFA World Cup qualification,False
+2014-03-23,Spain,Netherlands,1,0,FIFA World Cup qualification,False
+2014-03-25,Brazil,Netherlands,2,0,FIFA World Cup qualification,False
+2014-03-27,South Korea,Netherlands,0,1,FIFA World Cup qualification,False
+2014-03-29,Argentina,Netherlands,2,1,FIFA World Cup qualification,False
+2014-03-31,Mexico,France,0,2,FIFA World Cup qualification,False
+2014-04-02,Nigeria,France,0,2,FIFA World Cup qualification,False
+2014-04-04,Uruguay,France,2,4,FIFA World Cup qualification,False
+2014-04-06,Croatia,France,1,0,FIFA World Cup qualification,False
+2014-04-08,Germany,France,2,2,FIFA World Cup qualification,False
+2014-04-10,Portugal,France,2,0,FIFA World Cup qualification,False
+2014-04-12,Japan,France,0,2,FIFA World Cup qualification,False
+2014-04-14,USA,France,0,4,FIFA World Cup qualification,False
+2014-04-16,Belgium,France,2,1,FIFA World Cup qualification,False
+2014-04-18,England,France,1,1,FIFA World Cup qualification,False
+2014-04-20,Spain,France,1,1,FIFA World Cup qualification,False
+2014-04-22,Brazil,France,1,1,FIFA World Cup qualification,False
+2014-04-24,South Korea,France,1,2,FIFA World Cup qualification,False
+2014-04-26,Argentina,France,2,1,FIFA World Cup qualification,False
+2014-04-28,Nigeria,Mexico,0,1,FIFA World Cup qualification,False
+2014-04-30,Uruguay,Mexico,2,4,FIFA World Cup qualification,False
+2014-05-02,Croatia,Mexico,2,1,FIFA World Cup qualification,False
+2014-05-04,Germany,Mexico,1,0,FIFA World Cup qualification,False
+2014-05-06,Portugal,Mexico,2,0,FIFA World Cup qualification,False
+2014-05-08,Japan,Mexico,1,0,FIFA World Cup qualification,False
+2014-05-10,USA,Mexico,1,1,FIFA World Cup qualification,False
+2014-05-12,Belgium,Mexico,1,0,FIFA World Cup qualification,False
+2014-05-14,England,Mexico,0,0,FIFA World Cup qualification,False
+2014-05-16,Spain,Mexico,5,4,FIFA World Cup qualification,False
+2014-05-18,Brazil,Mexico,4,2,FIFA World Cup qualification,False
+2014-05-20,South Korea,Mexico,1,4,FIFA World Cup qualification,False
+2014-05-22,Argentina,Mexico,1,0,FIFA World Cup qualification,False
+2014-05-24,Uruguay,Nigeria,1,1,FIFA World Cup qualification,False
+2014-05-26,Croatia,Nigeria,3,0,FIFA World Cup qualification,False
+2014-05-28,Germany,Nigeria,2,1,FIFA World Cup qualification,False
+2014-05-30,Portugal,Nigeria,2,1,FIFA World Cup qualification,False
+2014-06-01,Japan,Nigeria,4,1,FIFA World Cup qualification,False
+2014-06-03,USA,Nigeria,2,1,FIFA World Cup qualification,False
+2014-06-05,Belgium,Nigeria,2,2,FIFA World Cup qualification,False
+2014-06-07,England,Nigeria,3,2,FIFA World Cup qualification,False
+2014-06-09,Spain,Nigeria,3,0,FIFA World Cup qualification,False
+2014-06-11,Brazil,Nigeria,2,1,FIFA World Cup qualification,False
+2014-06-13,South Korea,Nigeria,1,0,FIFA World Cup qualification,False
+2014-06-14,France,England,2,1,FIFA World Cup,True
+2014-06-15,Argentina,Nigeria,3,0,FIFA World Cup qualification,False
+2014-06-15,France,Netherlands,1,3,FIFA World Cup,True
+2014-06-16,France,Belgium,1,0,FIFA World Cup,True
+2014-06-17,Croatia,Uruguay,1,1,FIFA World Cup qualification,False
+2014-06-17,England,Netherlands,0,0,FIFA World Cup,True
+2014-06-18,England,Belgium,3,3,FIFA World Cup,True
+2014-06-19,Germany,Uruguay,1,0,FIFA World Cup qualification,False
+2014-06-19,Netherlands,Belgium,1,1,FIFA World Cup,True
+2014-06-20,Brazil,Spain,2,0,FIFA World Cup,True
+2014-06-21,Portugal,Uruguay,2,0,FIFA World Cup qualification,False
+2014-06-21,Brazil,Argentina,1,2,FIFA World Cup,True
+2014-06-22,Brazil,Portugal,3,1,FIFA World Cup,True
+2014-06-23,Japan,Uruguay,3,1,FIFA World Cup qualification,False
+2014-06-23,Spain,Argentina,0,1,FIFA World Cup,True
+2014-06-24,Spain,Portugal,2,1,FIFA World Cup,True
+2014-06-25,USA,Uruguay,1,0,FIFA World Cup qualification,False
+2014-06-25,Argentina,Portugal,1,3,FIFA World Cup,True
+2014-06-26,France,Spain,2,3,FIFA World Cup,True
+2014-06-27,Belgium,Uruguay,1,1,FIFA World Cup qualification,False
+2014-06-28,England,Brazil,2,0,FIFA World Cup,True
+2014-06-29,England,Uruguay,2,1,FIFA World Cup qualification,False
+2014-06-30,Netherlands,Portugal,0,2,FIFA World Cup,True
+2014-07-01,Spain,Uruguay,4,2,FIFA World Cup qualification,False
+2014-07-02,Belgium,Argentina,2,2,FIFA World Cup,True
+2014-07-03,Brazil,Uruguay,3,0,FIFA World Cup qualification,False
+2014-07-05,South Korea,Uruguay,1,4,FIFA World Cup qualification,False
+2014-07-07,Argentina,Uruguay,4,1,FIFA World Cup qualification,False
+2014-07-09,Germany,Croatia,3,0,FIFA World Cup qualification,False
+2014-07-11,Portugal,Croatia,1,0,FIFA World Cup qualification,False
+2014-07-13,Japan,Croatia,2,2,FIFA World Cup qualification,False
+2014-07-15,USA,Croatia,1,1,FIFA World Cup qualification,False
+2014-07-17,Belgium,Croatia,1,0,FIFA World Cup qualification,False
+2014-07-19,England,Croatia,4,1,FIFA World Cup qualification,False
+2014-07-21,Spain,Croatia,2,2,FIFA World Cup qualification,False
+2014-07-23,Brazil,Croatia,1,0,FIFA World Cup qualification,False
+2014-07-25,South Korea,Croatia,1,3,FIFA World Cup qualification,False
+2014-07-27,Argentina,Croatia,0,1,FIFA World Cup qualification,False
+2014-07-29,Portugal,Germany,2,0,FIFA World Cup qualification,False
+2014-07-31,Japan,Germany,1,2,FIFA World Cup qualification,False
+2014-08-02,USA,Germany,0,3,FIFA World Cup qualification,False
+2014-08-04,Belgium,Germany,1,0,FIFA World Cup qualification,False
+2014-08-06,England,Germany,0,1,FIFA World Cup qualification,False
+2014-08-08,Spain,Germany,1,2,FIFA World Cup qualification,False
+2014-08-10,Brazil,Germany,0,0,FIFA World Cup qualification,False
+2014-08-12,South Korea,Germany,1,3,FIFA World Cup qualification,False
+2014-08-14,Argentina,Germany,2,1,FIFA World Cup qualification,False
+2014-08-16,Japan,Portugal,2,1,FIFA World Cup qualification,False
+2014-08-18,USA,Portugal,1,2,FIFA World Cup qualification,False
+2014-08-20,Belgium,Portugal,1,1,FIFA World Cup qualification,False
+2014-08-22,England,Portugal,2,2,FIFA World Cup qualification,False
+2014-08-24,Spain,Portugal,0,0,FIFA World Cup qualification,False
+2014-08-26,Brazil,Portugal,0,2,FIFA World Cup qualification,False
+2014-08-28,South Korea,Portugal,1,3,FIFA World Cup qualification,False
+2014-08-30,Argentina,Portugal,2,0,FIFA World Cup qualification,False
+2014-09-01,USA,Japan,0,3,FIFA World Cup qualification,False
+2014-09-03,Belgium,Japan,3,0,FIFA World Cup qualification,False
+2014-09-05,England,Japan,4,1,FIFA World Cup qualification,False
+2014-09-05,Argentina,Portugal,1,0,Friendly,False
+2014-09-07,Spain,Japan,0,0,FIFA World Cup qualification,False
+2014-09-08,Mexico,Germany,0,1,Friendly,False
+2014-09-09,Brazil,Japan,1,1,FIFA World Cup qualification,False
+2014-09-11,South Korea,Japan,1,0,FIFA World Cup qualification,False
+2014-09-11,England,Netherlands,3,1,Friendly,False
+2014-09-13,Argentina,Japan,2,1,FIFA World Cup qualification,False
+2014-09-14,Nigeria,France,0,0,Friendly,False
+2014-09-15,Belgium,USA,4,3,FIFA World Cup qualification,False
+2014-09-17,England,USA,3,0,FIFA World Cup qualification,False
+2014-09-17,Belgium,Japan,2,2,Friendly,False
+2014-09-19,Spain,USA,3,0,FIFA World Cup qualification,False
+2014-09-20,Spain,South Korea,4,1,Friendly,False
+2014-09-21,Brazil,USA,5,1,FIFA World Cup qualification,False
+2014-09-23,South Korea,USA,1,1,FIFA World Cup qualification,False
+2014-09-23,Croatia,Uruguay,1,0,Friendly,False
+2014-09-25,Argentina,USA,2,1,FIFA World Cup qualification,False
+2014-09-26,USA,Brazil,0,2,Friendly,False
+2014-09-27,England,Belgium,4,2,FIFA World Cup qualification,False
+2014-09-29,Spain,Belgium,1,0,FIFA World Cup qualification,False
+2014-10-01,Brazil,Belgium,0,0,FIFA World Cup qualification,False
+2014-10-03,South Korea,Belgium,2,1,FIFA World Cup qualification,False
+2014-10-05,Argentina,Belgium,2,2,FIFA World Cup qualification,False
+2014-10-07,Spain,England,3,3,FIFA World Cup qualification,False
+2014-10-09,Brazil,England,1,1,FIFA World Cup qualification,False
+2014-10-11,South Korea,England,3,0,FIFA World Cup qualification,False
+2014-10-13,Argentina,England,4,1,FIFA World Cup qualification,False
+2014-10-15,Brazil,Spain,0,0,FIFA World Cup qualification,False
+2014-10-17,South Korea,Spain,1,1,FIFA World Cup qualification,False
+2014-10-19,Argentina,Spain,0,0,FIFA World Cup qualification,False
+2014-10-21,South Korea,Brazil,1,2,FIFA World Cup qualification,False
+2014-10-23,Argentina,Brazil,4,2,FIFA World Cup qualification,False
+2014-10-25,Argentina,South Korea,4,1,FIFA World Cup qualification,False
+2015-03-01,Mexico,Uruguay,4,1,FIFA World Cup qualification,False
+2015-03-03,Mexico,Spain,0,1,FIFA World Cup qualification,False
+2015-03-05,Mexico,France,1,4,FIFA World Cup qualification,False
+2015-03-07,Mexico,South Korea,1,5,FIFA World Cup qualification,False
+2015-03-09,Mexico,Croatia,3,1,FIFA World Cup qualification,False
+2015-03-11,Mexico,Argentina,0,0,FIFA World Cup qualification,False
+2015-03-13,Mexico,USA,4,1,FIFA World Cup qualification,False
+2015-03-15,Mexico,Portugal,1,4,FIFA World Cup qualification,False
+2015-03-17,Mexico,Germany,4,4,FIFA World Cup qualification,False
+2015-03-19,Mexico,Japan,3,0,FIFA World Cup qualification,False
+2015-03-21,Mexico,Belgium,2,1,FIFA World Cup qualification,False
+2015-03-23,Mexico,England,2,2,FIFA World Cup qualification,False
+2015-03-25,Mexico,Nigeria,2,1,FIFA World Cup qualification,False
+2015-03-27,Mexico,Brazil,2,3,FIFA World Cup qualification,False
+2015-03-29,Mexico,Netherlands,1,1,FIFA World Cup qualification,False
+2015-03-31,Uruguay,Spain,1,2,FIFA World Cup qualification,False
+2015-04-02,Uruguay,France,3,1,FIFA World Cup qualification,False
+2015-04-04,Uruguay,South Korea,3,1,FIFA World Cup qualification,False
+2015-04-06,Uruguay,Croatia,3,0,FIFA World Cup qualification,False
+2015-04-08,Uruguay,Argentina,2,0,FIFA World Cup qualification,False
+2015-04-10,Uruguay,USA,1,0,FIFA World Cup qualification,False
+2015-04-12,Uruguay,Portugal,2,2,FIFA World Cup qualification,False
+2015-04-14,Uruguay,Germany,1,0,FIFA World Cup qualification,False
+2015-04-16,Uruguay,Japan,2,2,FIFA World Cup qualification,False
+2015-04-18,Uruguay,Belgium,1,1,FIFA World Cup qualification,False
+2015-04-20,Uruguay,England,1,2,FIFA World Cup qualification,False
+2015-04-22,Uruguay,Nigeria,0,1,FIFA World Cup qualification,False
+2015-04-24,Uruguay,Brazil,1,1,FIFA World Cup qualification,False
+2015-04-26,Uruguay,Netherlands,0,1,FIFA World Cup qualification,False
+2015-04-28,Spain,France,0,2,FIFA World Cup qualification,False
+2015-04-30,Spain,South Korea,7,0,FIFA World Cup qualification,False
+2015-05-02,Spain,Croatia,1,2,FIFA World Cup qualification,False
+2015-05-04,Spain,Argentina,2,2,FIFA World Cup qualification,False
+2015-05-06,Spain,USA,3,0,FIFA World Cup qualification,False
+2015-05-08,Spain,Portugal,0,0,FIFA World Cup qualification,False
+2015-05-10,Spain,Germany,0,1,FIFA World Cup qualification,False
+2015-05-12,Spain,Japan,2,2,FIFA World Cup qualification,False
+2015-05-14,Spain,Belgium,1,4,FIFA World Cup qualification,False
+2015-05-16,Spain,England,2,2,FIFA World Cup qualification,False
+2015-05-18,Spain,Nigeria,1,0,FIFA World Cup qualification,False
+2015-05-20,Spain,Brazil,1,0,FIFA World Cup qualification,False
+2015-05-22,Spain,Netherlands,0,0,FIFA World Cup qualification,False
+2015-05-24,France,South Korea,2,0,FIFA World Cup qualification,False
+2015-05-26,France,Croatia,2,2,FIFA World Cup qualification,False
+2015-05-28,France,Argentina,1,3,FIFA World Cup qualification,False
+2015-05-30,France,USA,3,1,FIFA World Cup qualification,False
+2015-06-01,France,Portugal,4,1,FIFA World Cup qualification,False
+2015-06-03,France,Germany,2,0,FIFA World Cup qualification,False
+2015-06-05,France,Japan,2,0,FIFA World Cup qualification,False
+2015-06-07,France,Belgium,2,2,FIFA World Cup qualification,False
+2015-06-09,France,England,4,1,FIFA World Cup qualification,False
+2015-06-11,France,Nigeria,2,0,FIFA World Cup qualification,False
+2015-06-13,France,Brazil,0,1,FIFA World Cup qualification,False
+2015-06-15,France,Netherlands,1,1,FIFA World Cup qualification,False
+2015-06-17,South Korea,Croatia,0,1,FIFA World Cup qualification,False
+2015-06-19,South Korea,Argentina,0,1,FIFA World Cup qualification,False
+2015-06-21,South Korea,USA,1,0,FIFA World Cup qualification,False
+2015-06-23,South Korea,Portugal,0,2,FIFA World Cup qualification,False
+2015-06-25,South Korea,Germany,0,0,FIFA World Cup qualification,False
+2015-06-27,South Korea,Japan,1,0,FIFA World Cup qualification,False
+2015-06-29,South Korea,Belgium,0,4,FIFA World Cup qualification,False
+2015-07-01,South Korea,England,1,2,FIFA World Cup qualification,False
+2015-07-03,South Korea,Nigeria,1,2,FIFA World Cup qualification,False
+2015-07-05,South Korea,Brazil,1,3,FIFA World Cup qualification,False
+2015-07-07,South Korea,Netherlands,2,0,FIFA World Cup qualification,False
+2015-07-09,Croatia,Argentina,0,1,FIFA World Cup qualification,False
+2015-07-11,Croatia,USA,2,0,FIFA World Cup qualification,False
+2015-07-13,Croatia,Portugal,1,2,FIFA World Cup qualification,False
+2015-07-15,Croatia,Germany,1,1,FIFA World Cup qualification,False
+2015-07-17,Croatia,Japan,4,0,FIFA World Cup qualification,False
+2015-07-19,Croatia,Belgium,1,1,FIFA World Cup qualification,False
+2015-07-21,Croatia,England,1,1,FIFA World Cup qualification,False
+2015-07-23,Croatia,Nigeria,4,1,FIFA World Cup qualification,False
+2015-07-25,Croatia,Brazil,2,0,FIFA World Cup qualification,False
+2015-07-27,Croatia,Netherlands,0,1,FIFA World Cup qualification,False
+2015-07-29,Argentina,USA,2,1,FIFA World Cup qualification,False
+2015-07-31,Argentina,Portugal,1,0,FIFA World Cup qualification,False
+2015-08-02,Argentina,Germany,1,1,FIFA World Cup qualification,False
+2015-08-04,Argentina,Japan,0,2,FIFA World Cup qualification,False
+2015-08-06,Argentina,Belgium,4,0,FIFA World Cup qualification,False
+2015-08-08,Argentina,England,0,1,FIFA World Cup qualification,False
+2015-08-10,Argentina,Nigeria,1,1,FIFA World Cup qualification,False
+2015-08-12,Argentina,Brazil,3,1,FIFA World Cup qualification,False
+2015-08-14,Argentina,Netherlands,2,1,FIFA World Cup qualification,False
+2015-08-16,USA,Portugal,2,1,FIFA World Cup qualification,False
+2015-08-18,USA,Germany,2,0,FIFA World Cup qualification,False
+2015-08-20,USA,Japan,3,1,FIFA World Cup qualification,False
+2015-08-22,USA,Belgium,2,1,FIFA World Cup qualification,False
+2015-08-24,USA,England,1,2,FIFA World Cup qualification,False
+2015-08-26,USA,Nigeria,0,1,FIFA World Cup qualification,False
+2015-08-28,USA,Brazil,1,1,FIFA World Cup qualification,False
+2015-08-30,USA,Netherlands,0,2,FIFA World Cup qualification,False
+2015-09-01,Portugal,Germany,1,0,FIFA World Cup qualification,False
+2015-09-03,Portugal,Japan,4,2,FIFA World Cup qualification,False
+2015-09-05,Portugal,Belgium,2,1,FIFA World Cup qualification,False
+2015-09-05,Belgium,Portugal,2,1,Friendly,False
+2015-09-07,Portugal,England,3,1,FIFA World Cup qualification,False
+2015-09-08,Spain,Netherlands,0,0,Friendly,False
+2015-09-09,Portugal,Nigeria,1,1,FIFA World Cup qualification,False
+2015-09-11,Portugal,Brazil,0,2,FIFA World Cup qualification,False
+2015-09-11,Uruguay,South Korea,2,0,Friendly,False
+2015-09-13,Portugal,Netherlands,1,2,FIFA World Cup qualification,False
+2015-09-14,England,Japan,1,2,Friendly,False
+2015-09-15,Germany,Japan,6,1,FIFA World Cup qualification,False
+2015-09-17,Germany,Belgium,1,3,FIFA World Cup qualification,False
+2015-09-17,Mexico,Brazil,1,0,Friendly,False
+2015-09-19,Germany,England,0,1,FIFA World Cup qualification,False
+2015-09-20,France,USA,5,1,Friendly,False
+2015-09-21,Germany,Nigeria,6,0,FIFA World Cup qualification,False
+2015-09-23,Germany,Brazil,1,0,FIFA World Cup qualification,False
+2015-09-23,Croatia,Germany,0,0,Friendly,False
+2015-09-25,Germany,Netherlands,1,3,FIFA World Cup qualification,False
+2015-09-26,Nigeria,Argentina,0,0,Friendly,False
+2015-09-27,Japan,Belgium,1,0,FIFA World Cup qualification,False
+2015-09-29,Japan,England,1,2,FIFA World Cup qualification,False
+2015-10-01,Japan,Nigeria,2,1,FIFA World Cup qualification,False
+2015-10-03,Japan,Brazil,0,1,FIFA World Cup qualification,False
+2015-10-05,Japan,Netherlands,1,1,FIFA World Cup qualification,False
+2015-10-07,Belgium,England,1,3,FIFA World Cup qualification,False
+2015-10-09,Belgium,Nigeria,0,0,FIFA World Cup qualification,False
+2015-10-11,Belgium,Brazil,3,2,FIFA World Cup qualification,False
+2015-10-13,Belgium,Netherlands,0,1,FIFA World Cup qualification,False
+2015-10-15,England,Nigeria,5,0,FIFA World Cup qualification,False
+2015-10-17,England,Brazil,1,0,FIFA World Cup qualification,False
+2015-10-19,England,Netherlands,0,1,FIFA World Cup qualification,False
+2015-10-21,Nigeria,Brazil,0,4,FIFA World Cup qualification,False
+2015-10-23,Nigeria,Netherlands,2,0,FIFA World Cup qualification,False
+2015-10-25,Brazil,Netherlands,0,0,FIFA World Cup qualification,False
+2016-03-01,Belgium,Netherlands,1,3,FIFA World Cup qualification,False
+2016-03-03,USA,Netherlands,2,2,FIFA World Cup qualification,False
+2016-03-05,Nigeria,Netherlands,0,1,FIFA World Cup qualification,False
+2016-03-07,Brazil,Netherlands,0,0,FIFA World Cup qualification,False
+2016-03-09,England,Netherlands,2,2,FIFA World Cup qualification,False
+2016-03-11,Croatia,Netherlands,2,1,FIFA World Cup qualification,False
+2016-03-13,Argentina,Netherlands,4,0,FIFA World Cup qualification,False
+2016-03-15,Germany,Netherlands,1,1,FIFA World Cup qualification,False
+2016-03-17,South Korea,Netherlands,1,0,FIFA World Cup qualification,False
+2016-03-19,Portugal,Netherlands,0,1,FIFA World Cup qualification,False
+2016-03-21,Japan,Netherlands,1,1,FIFA World Cup qualification,False
+2016-03-23,France,Netherlands,2,3,FIFA World Cup qualification,False
+2016-03-25,Uruguay,Netherlands,3,1,FIFA World Cup qualification,False
+2016-03-27,Spain,Netherlands,1,0,FIFA World Cup qualification,False
+2016-03-29,Mexico,Netherlands,0,0,FIFA World Cup qualification,False
+2016-03-31,USA,Belgium,2,0,FIFA World Cup qualification,False
+2016-04-02,Nigeria,Belgium,1,3,FIFA World Cup qualification,False
+2016-04-04,Brazil,Belgium,3,0,FIFA World Cup qualification,False
+2016-04-06,England,Belgium,2,2,FIFA World Cup qualification,False
+2016-04-08,Croatia,Belgium,0,0,FIFA World Cup qualification,False
+2016-04-10,Argentina,Belgium,1,3,FIFA World Cup qualification,False
+2016-04-12,Germany,Belgium,1,1,FIFA World Cup qualification,False
+2016-04-14,South Korea,Belgium,0,1,FIFA World Cup qualification,False
+2016-04-16,Portugal,Belgium,3,3,FIFA World Cup qualification,False
+2016-04-18,Japan,Belgium,0,2,FIFA World Cup qualification,False
+2016-04-20,France,Belgium,1,1,FIFA World Cup qualification,False
+2016-04-22,Uruguay,Belgium,2,2,FIFA World Cup qualification,False
+2016-04-24,Spain,Belgium,0,2,FIFA World Cup qualification,False
+2016-04-26,Mexico,Belgium,2,0,FIFA World Cup qualification,False
+2016-04-28,Nigeria,USA,0,0,FIFA World Cup qualification,False
+2016-04-30,Brazil,USA,2,1,FIFA World Cup qualification,False
+2016-05-02,England,USA,3,1,FIFA World Cup qualification,False
+2016-05-04,Croatia,USA,1,2,FIFA World Cup qualification,False
+2016-05-06,Argentina,USA,2,1,FIFA World Cup qualification,False
+2016-05-08,Germany,USA,2,2,FIFA World Cup qualification,False
+2016-05-10,South Korea,USA,3,0,FIFA World Cup qualification,False
+2016-05-12,Portugal,USA,4,0,FIFA World Cup qualification,False
+2016-05-14,Japan,USA,2,2,FIFA World Cup qualification,False
+2016-05-16,France,USA,1,1,FIFA World Cup qualification,False
+2016-05-18,Uruguay,USA,6,1,FIFA World Cup qualification,False
+2016-05-20,Spain,USA,1,1,FIFA World Cup qualification,False
+2016-05-22,Mexico,USA,1,2,FIFA World Cup qualification,False
+2016-05-24,Brazil,Nigeria,4,0,FIFA World Cup qualification,False
+2016-05-26,England,Nigeria,1,3,FIFA World Cup qualification,False
+2016-05-28,Croatia,Nigeria,3,1,FIFA World Cup qualification,False
+2016-05-30,Argentina,Nigeria,1,1,FIFA World Cup qualification,False
+2016-06-01,Germany,Nigeria,1,0,FIFA World Cup qualification,False
+2016-06-03,South Korea,Nigeria,3,2,FIFA World Cup qualification,False
+2016-06-05,Portugal,Nigeria,1,0,FIFA World Cup qualification,False
+2016-06-07,Japan,Nigeria,4,2,FIFA World Cup qualification,False
+2016-06-09,France,Nigeria,0,0,FIFA World Cup qualification,False
+2016-06-11,Uruguay,Nigeria,3,0,FIFA World Cup qualification,False
+2016-06-13,Spain,Nigeria,4,1,FIFA World Cup qualification,False
+2016-06-15,Mexico,Nigeria,5,3,FIFA World Cup qualification,False
+2016-06-17,England,Brazil,2,2,FIFA World Cup qualification,False
+2016-06-19,Croatia,Brazil,2,3,FIFA World Cup qualification,False
+2016-06-21,Argentina,Brazil,2,0,FIFA World Cup qualification,False
+2016-06-23,Germany,Brazil,2,2,FIFA World Cup qualification,False
+2016-06-25,South Korea,Brazil,0,7,FIFA World Cup qualification,False
+2016-06-27,Portugal,Brazil,2,1,FIFA World Cup qualification,False
+2016-06-29,Japan,Brazil,0,2,FIFA World Cup qualification,False
+2016-07-01,France,Brazil,0,2,FIFA World Cup qualification,False
+2016-07-03,Uruguay,Brazil,0,1,FIFA World Cup qualification,False
+2016-07-05,Spain,Brazil,2,1,FIFA World Cup qualification,False
+2016-07-07,Mexico,Brazil,0,3,FIFA World Cup qualification,False
+2016-07-09,Croatia,England,1,2,FIFA World Cup qualification,False
+2016-07-11,Argentina,England,3,1,FIFA World Cup qualification,False
+2016-07-13,Germany,England,4,3,FIFA World Cup qualification,False
+2016-07-15,South Korea,England,4,2,FIFA World Cup qualification,False
+2016-07-17,Portugal,England,1,1,FIFA World Cup qualification,False
+2016-07-19,Japan,England,1,1,FIFA World Cup qualification,False
+2016-07-21,France,England,3,2,FIFA World Cup qualification,False
+2016-07-23,Uruguay,England,2,2,FIFA World Cup qualification,False
+2016-07-25,Spain,England,0,0,FIFA World Cup qualification,False
+2016-07-27,Mexico,England,5,0,FIFA World Cup qualification,False
+2016-07-29,Argentina,Croatia,1,1,FIFA World Cup qualification,False
+2016-07-31,Germany,Croatia,0,0,FIFA World Cup qualification,False
+2016-08-02,South Korea,Croatia,0,1,FIFA World Cup qualification,False
+2016-08-04,Portugal,Croatia,3,1,FIFA World Cup qualification,False
+2016-08-06,Japan,Croatia,0,2,FIFA World Cup qualification,False
+2016-08-08,France,Croatia,1,2,FIFA World Cup qualification,False
+2016-08-10,Uruguay,Croatia,3,0,FIFA World Cup qualification,False
+2016-08-12,Spain,Croatia,3,0,FIFA World Cup qualification,False
+2016-08-14,Mexico,Croatia,1,2,FIFA World Cup qualification,False
+2016-08-16,Germany,Argentina,0,1,FIFA World Cup qualification,False
+2016-08-18,South Korea,Argentina,0,2,FIFA World Cup qualification,False
+2016-08-20,Portugal,Argentina,0,1,FIFA World Cup qualification,False
+2016-08-22,Japan,Argentina,0,1,FIFA World Cup qualification,False
+2016-08-24,France,Argentina,1,0,FIFA World Cup qualification,False
+2016-08-26,Uruguay,Argentina,2,0,FIFA World Cup qualification,False
+2016-08-28,Spain,Argentina,3,1,FIFA World Cup qualification,False
+2016-08-30,Mexico,Argentina,0,2,FIFA World Cup qualification,False
+2016-09-01,South Korea,Germany,1,3,FIFA World Cup qualification,False
+2016-09-03,Portugal,Germany,1,0,FIFA World Cup qualification,False
+2016-09-05,Japan,Germany,1,2,FIFA World Cup qualification,False
+2016-09-05,South Korea,France,1,3,Friendly,False
+2016-09-07,France,Germany,0,2,FIFA World Cup qualification,False
+2016-09-08,Japan,Croatia,2,1,Friendly,False
+2016-09-09,Uruguay,Germany,1,1,FIFA World Cup qualification,False
+2016-09-11,Spain,Germany,2,0,FIFA World Cup qualification,False
+2016-09-11,Nigeria,Argentina,1,2,Friendly,False
+2016-09-13,Mexico,Germany,0,0,FIFA World Cup qualification,False
+2016-09-14,Belgium,Brazil,2,3,Friendly,False
+2016-09-15,Portugal,South Korea,2,2,FIFA World Cup qualification,False
+2016-09-17,Japan,South Korea,0,1,FIFA World Cup qualification,False
+2016-09-17,England,Spain,1,1,Friendly,False
+2016-09-19,France,South Korea,9,2,FIFA World Cup qualification,False
+2016-09-20,Germany,Mexico,2,0,Friendly,False
+2016-09-21,Uruguay,South Korea,4,1,FIFA World Cup qualification,False
+2016-09-23,Spain,South Korea,6,1,FIFA World Cup qualification,False
+2016-09-23,USA,Netherlands,2,0,Friendly,False
+2016-09-25,Mexico,South Korea,3,0,FIFA World Cup qualification,False
+2016-09-26,Portugal,Uruguay,1,1,Friendly,False
+2016-09-27,Japan,Portugal,2,1,FIFA World Cup qualification,False
+2016-09-29,France,Portugal,2,0,FIFA World Cup qualification,False
+2016-10-01,Uruguay,Portugal,1,2,FIFA World Cup qualification,False
+2016-10-03,Spain,Portugal,1,1,FIFA World Cup qualification,False
+2016-10-05,Mexico,Portugal,2,1,FIFA World Cup qualification,False
+2016-10-07,France,Japan,3,3,FIFA World Cup qualification,False
+2016-10-09,Uruguay,Japan,4,2,FIFA World Cup qualification,False
+2016-10-11,Spain,Japan,3,2,FIFA World Cup qualification,False
+2016-10-13,Mexico,Japan,2,1,FIFA World Cup qualification,False
+2016-10-15,Uruguay,France,0,3,FIFA World Cup qualification,False
+2016-10-17,Spain,France,1,0,FIFA World Cup qualification,False
+2016-10-19,Mexico,France,0,1,FIFA World Cup qualification,False
+2016-10-21,Spain,Uruguay,0,0,FIFA World Cup qualification,False
+2016-10-23,Mexico,Uruguay,4,0,FIFA World Cup qualification,False
+2016-10-25,Mexico,Spain,1,1,FIFA World Cup qualification,False
+2017-03-01,Mexico,Argentina,0,2,FIFA World Cup qualification,False
+2017-03-03,Mexico,Netherlands,1,3,FIFA World Cup qualification,False
+2017-03-05,Mexico,USA,2,3,FIFA World Cup qualification,False
+2017-03-07,Mexico,Nigeria,1,1,FIFA World Cup qualification,False
+2017-03-09,Mexico,South Korea,3,0,FIFA World Cup qualification,False
+2017-03-11,Mexico,Spain,0,0,FIFA World Cup qualification,False
+2017-03-13,Mexico,France,3,5,FIFA World Cup qualification,False
+2017-03-15,Mexico,Uruguay,2,1,FIFA World Cup qualification,False
+2017-03-17,Mexico,Germany,1,2,FIFA World Cup qualification,False
+2017-03-19,Mexico,Japan,3,2,FIFA World Cup qualification,False
+2017-03-21,Mexico,Belgium,0,3,FIFA World Cup qualification,False
+2017-03-23,Mexico,England,0,1,FIFA World Cup qualification,False
+2017-03-25,Mexico,Brazil,0,2,FIFA World Cup qualification,False
+2017-03-27,Mexico,Portugal,0,0,FIFA World Cup qualification,False
+2017-03-29,Mexico,Croatia,0,1,FIFA World Cup qualification,False
+2017-03-31,Argentina,Netherlands,1,0,FIFA World Cup qualification,False
+2017-04-02,Argentina,USA,2,3,FIFA World Cup qualification,False
+2017-04-04,Argentina,Nigeria,3,0,FIFA World Cup qualification,False
+2017-04-06,Argentina,South Korea,1,1,FIFA World Cup qualification,False
+2017-04-08,Argentina,Spain,1,1,FIFA World Cup qualification,False
+2017-04-10,Argentina,France,1,1,FIFA World Cup qualification,False
+2017-04-12,Argentina,Uruguay,1,0,FIFA World Cup qualification,False
+2017-04-14,Argentina,Germany,0,0,FIFA World Cup qualification,False
+2017-04-16,Argentina,Japan,1,1,FIFA World Cup qualification,False
+2017-04-18,Argentina,Belgium,2,0,FIFA World Cup qualification,False
+2017-04-20,Argentina,England,0,0,FIFA World Cup qualification,False
+2017-04-22,Argentina,Brazil,4,0,FIFA World Cup qualification,False
+2017-04-24,Argentina,Portugal,1,0,FIFA World Cup qualification,False
+2017-04-26,Argentina,Croatia,0,1,FIFA World Cup qualification,False
+2017-04-28,Netherlands,USA,2,1,FIFA World Cup qualification,False
+2017-04-30,Netherlands,Nigeria,2,0,FIFA World Cup qualification,False
+2017-05-02,Netherlands,South Korea,1,0,FIFA World Cup qualification,False
+2017-05-04,Netherlands,Spain,0,1,FIFA World Cup qualification,False
+2017-05-06,Netherlands,France,2,1,FIFA World Cup qualification,False
+2017-05-08,Netherlands,Uruguay,1,0,FIFA World Cup qualification,False
+2017-05-10,Netherlands,Germany,2,3,FIFA World Cup qualification,False
+2017-05-12,Netherlands,Japan,3,1,FIFA World Cup qualification,False
+2017-05-14,Netherlands,Belgium,1,2,FIFA World Cup qualification,False
+2017-05-16,Netherlands,England,2,2,FIFA World Cup qualification,False
+2017-05-18,Netherlands,Brazil,0,0,FIFA World Cup qualification,False
+2017-05-20,Netherlands,Portugal,3,1,FIFA World Cup qualification,False
+2017-05-22,Netherlands,Croatia,4,3,FIFA World Cup qualification,False
+2017-05-24,USA,Nigeria,1,1,FIFA World Cup qualification,False
+2017-05-26,USA,South Korea,2,2,FIFA World Cup qualification,False
+2017-05-28,USA,Spain,0,0,FIFA World Cup qualification,False
+2017-05-30,USA,France,1,1,FIFA World Cup qualification,False
+2017-06-01,USA,Uruguay,1,1,FIFA World Cup qualification,False
+2017-06-03,USA,Germany,0,4,FIFA World Cup qualification,False
+2017-06-05,USA,Japan,0,0,FIFA World Cup qualification,False
+2017-06-07,USA,Belgium,2,1,FIFA World Cup qualification,False
+2017-06-09,USA,England,2,3,FIFA World Cup qualification,False
+2017-06-11,USA,Brazil,0,1,FIFA World Cup qualification,False
+2017-06-13,USA,Portugal,3,3,FIFA World Cup qualification,False
+2017-06-15,USA,Croatia,1,2,FIFA World Cup qualification,False
+2017-06-17,Nigeria,South Korea,4,1,FIFA World Cup qualification,False
+2017-06-19,Nigeria,Spain,1,4,FIFA World Cup qualification,False
+2017-06-21,Nigeria,France,1,0,FIFA World Cup qualification,False
+2017-06-23,Nigeria,Uruguay,3,2,FIFA World Cup qualification,False
+2017-06-25,Nigeria,Germany,1,1,FIFA World Cup qualification,False
+2017-06-27,Nigeria,Japan,2,1,FIFA World Cup qualification,False
+2017-06-29,Nigeria,Belgium,1,1,FIFA World Cup qualification,False
+2017-07-01,Nigeria,England,1,1,FIFA World Cup qualification,False
+2017-07-03,Nigeria,Brazil,1,3,FIFA World Cup qualification,False
+2017-07-05,Nigeria,Portugal,0,2,FIFA World Cup qualification,False
+2017-07-07,Nigeria,Croatia,3,5,FIFA World Cup qualification,False
+2017-07-09,South Korea,Spain,1,4,FIFA World Cup qualification,False
+2017-07-11,South Korea,France,0,0,FIFA World Cup qualification,False
+2017-07-13,South Korea,Uruguay,1,3,FIFA World Cup qualification,False
+2017-07-15,South Korea,Germany,1,2,FIFA World Cup qualification,False
+2017-07-17,South Korea,Japan,1,0,FIFA World Cup qualification,False
+2017-07-19,South Korea,Belgium,3,0,FIFA World Cup qualification,False
+2017-07-21,South Korea,England,1,2,FIFA World Cup qualification,False
+2017-07-23,South Korea,Brazil,0,1,FIFA World Cup qualification,False
+2017-07-25,South Korea,Portugal,1,2,FIFA World Cup qualification,False
+2017-07-27,South Korea,Croatia,0,1,FIFA World Cup qualification,False
+2017-07-29,Spain,France,0,2,FIFA World Cup qualification,False
+2017-07-31,Spain,Uruguay,1,1,FIFA World Cup qualification,False
+2017-08-02,Spain,Germany,2,0,FIFA World Cup qualification,False
+2017-08-04,Spain,Japan,4,1,FIFA World Cup qualification,False
+2017-08-06,Spain,Belgium,2,1,FIFA World Cup qualification,False
+2017-08-08,Spain,England,0,1,FIFA World Cup qualification,False
+2017-08-10,Spain,Brazil,0,0,FIFA World Cup qualification,False
+2017-08-12,Spain,Portugal,2,0,FIFA World Cup qualification,False
+2017-08-14,Spain,Croatia,2,2,FIFA World Cup qualification,False
+2017-08-16,France,Uruguay,3,4,FIFA World Cup qualification,False
+2017-08-18,France,Germany,2,0,FIFA World Cup qualification,False
+2017-08-20,France,Japan,3,0,FIFA World Cup qualification,False
+2017-08-22,France,Belgium,2,1,FIFA World Cup qualification,False
+2017-08-24,France,England,3,0,FIFA World Cup qualification,False
+2017-08-26,France,Brazil,0,0,FIFA World Cup qualification,False
+2017-08-28,France,Portugal,3,1,FIFA World Cup qualification,False
+2017-08-30,France,Croatia,4,0,FIFA World Cup qualification,False
+2017-09-01,Uruguay,Germany,0,1,FIFA World Cup qualification,False
+2017-09-03,Uruguay,Japan,4,1,FIFA World Cup qualification,False
+2017-09-05,Uruguay,Belgium,4,3,FIFA World Cup qualification,False
+2017-09-05,Brazil,England,2,0,Friendly,False
+2017-09-07,Uruguay,England,0,1,FIFA World Cup qualification,False
+2017-09-08,Spain,Portugal,4,1,Friendly,False
+2017-09-09,Uruguay,Brazil,3,1,FIFA World Cup qualification,False
+2017-09-11,Uruguay,Portugal,2,0,FIFA World Cup qualification,False
+2017-09-11,Croatia,Mexico,1,2,Friendly,False
+2017-09-13,Uruguay,Croatia,0,2,FIFA World Cup qualification,False
+2017-09-14,Netherlands,Japan,2,0,Friendly,False
+2017-09-15,Germany,Japan,1,0,FIFA World Cup qualification,False
+2017-09-17,Germany,Belgium,5,0,FIFA World Cup qualification,False
+2017-09-17,Argentina,Germany,0,2,Friendly,False
+2017-09-19,Germany,England,0,1,FIFA World Cup qualification,False
+2017-09-20,South Korea,France,1,1,Friendly,False
+2017-09-21,Germany,Brazil,3,2,FIFA World Cup qualification,False
+2017-09-23,Germany,Portugal,4,1,FIFA World Cup qualification,False
+2017-09-23,Uruguay,Nigeria,3,3,Friendly,False
+2017-09-25,Germany,Croatia,0,1,FIFA World Cup qualification,False
+2017-09-26,Belgium,USA,3,1,Friendly,False
+2017-09-27,Japan,Belgium,0,1,FIFA World Cup qualification,False
+2017-09-29,Japan,England,1,1,FIFA World Cup qualification,False
+2017-10-01,Japan,Brazil,1,2,FIFA World Cup qualification,False
+2017-10-03,Japan,Portugal,3,0,FIFA World Cup qualification,False
+2017-10-05,Japan,Croatia,2,3,FIFA World Cup qualification,False
+2017-10-07,Belgium,England,1,1,FIFA World Cup qualification,False
+2017-10-09,Belgium,Brazil,3,1,FIFA World Cup qualification,False
+2017-10-11,Belgium,Portugal,2,1,FIFA World Cup qualification,False
+2017-10-13,Belgium,Croatia,1,1,FIFA World Cup qualification,False
+2017-10-15,England,Brazil,0,2,FIFA World Cup qualification,False
+2017-10-17,England,Portugal,0,1,FIFA World Cup qualification,False
+2017-10-19,England,Croatia,1,0,FIFA World Cup qualification,False
+2017-10-21,Brazil,Portugal,2,0,FIFA World Cup qualification,False
+2017-10-23,Brazil,Croatia,1,0,FIFA World Cup qualification,False
+2017-10-25,Portugal,Croatia,3,2,FIFA World Cup qualification,False
+2018-03-01,Netherlands,Belgium,1,1,FIFA World Cup qualification,False
+2018-03-03,Mexico,Belgium,1,1,FIFA World Cup qualification,False
+2018-03-05,Brazil,Belgium,1,0,FIFA World Cup qualification,False
+2018-03-07,Portugal,Belgium,3,0,FIFA World Cup qualification,False
+2018-03-09,Croatia,Belgium,1,1,FIFA World Cup qualification,False
+2018-03-11,Argentina,Belgium,1,1,FIFA World Cup qualification,False
+2018-03-13,Japan,Belgium,3,1,FIFA World Cup qualification,False
+2018-03-15,Nigeria,Belgium,2,2,FIFA World Cup qualification,False
+2018-03-17,South Korea,Belgium,0,2,FIFA World Cup qualification,False
+2018-03-19,England,Belgium,1,0,FIFA World Cup qualification,False
+2018-03-21,Uruguay,Belgium,2,2,FIFA World Cup qualification,False
+2018-03-23,France,Belgium,2,1,FIFA World Cup qualification,False
+2018-03-25,Germany,Belgium,1,3,FIFA World Cup qualification,False
+2018-03-27,Spain,Belgium,2,0,FIFA World Cup qualification,False
+2018-03-29,USA,Belgium,1,2,FIFA World Cup qualification,False
+2018-03-31,Mexico,Netherlands,2,1,FIFA World Cup qualification,False
+2018-04-02,Brazil,Netherlands,2,1,FIFA World Cup qualification,False
+2018-04-04,Portugal,Netherlands,1,5,FIFA World Cup qualification,False
+2018-04-06,Croatia,Netherlands,4,2,FIFA World Cup qualification,False
+2018-04-08,Argentina,Netherlands,0,2,FIFA World Cup qualification,False
+2018-04-10,Japan,Netherlands,1,5,FIFA World Cup qualification,False
+2018-04-12,Nigeria,Netherlands,1,0,FIFA World Cup qualification,False
+2018-04-14,South Korea,Netherlands,2,2,FIFA World Cup qualification,False
+2018-04-16,England,Netherlands,1,1,FIFA World Cup qualification,False
+2018-04-18,Uruguay,Netherlands,1,3,FIFA World Cup qualification,False
+2018-04-20,France,Netherlands,2,0,FIFA World Cup qualification,False
+2018-04-22,Germany,Netherlands,1,1,FIFA World Cup qualification,False
+2018-04-24,Spain,Netherlands,1,0,FIFA World Cup qualification,False
+2018-04-26,USA,Netherlands,1,1,FIFA World Cup qualification,False
+2018-04-28,Brazil,Mexico,1,1,FIFA World Cup qualification,False
+2018-04-30,Portugal,Mexico,3,0,FIFA World Cup qualification,False
+2018-05-02,Croatia,Mexico,3,0,FIFA World Cup qualification,False
+2018-05-04,Argentina,Mexico,3,1,FIFA World Cup qualification,False
+2018-05-06,Japan,Mexico,3,2,FIFA World Cup qualification,False
+2018-05-08,Nigeria,Mexico,2,0,FIFA World Cup qualification,False
+2018-05-10,South Korea,Mexico,1,1,FIFA World Cup qualification,False
+2018-05-12,England,Mexico,1,0,FIFA World Cup qualification,False
+2018-05-14,Uruguay,Mexico,0,2,FIFA World Cup qualification,False
+2018-05-16,France,Mexico,4,2,FIFA World Cup qualification,False
+2018-05-18,Germany,Mexico,1,2,FIFA World Cup qualification,False
+2018-05-20,Spain,Mexico,3,2,FIFA World Cup qualification,False
+2018-05-22,USA,Mexico,1,0,FIFA World Cup qualification,False
+2018-05-24,Portugal,Brazil,1,1,FIFA World Cup qualification,False
+2018-05-26,Croatia,Brazil,1,1,FIFA World Cup qualification,False
+2018-05-28,Argentina,Brazil,2,1,FIFA World Cup qualification,False
+2018-05-30,Japan,Brazil,1,2,FIFA World Cup qualification,False
+2018-06-01,Nigeria,Brazil,1,2,FIFA World Cup qualification,False
+2018-06-03,South Korea,Brazil,1,2,FIFA World Cup qualification,False
+2018-06-05,England,Brazil,0,3,FIFA World Cup qualification,False
+2018-06-07,Uruguay,Brazil,0,1,FIFA World Cup qualification,False
+2018-06-09,France,Brazil,0,1,FIFA World Cup qualification,False
+2018-06-11,Germany,Brazil,0,0,FIFA World Cup qualification,False
+2018-06-13,Spain,Brazil,1,1,FIFA World Cup qualification,False
+2018-06-14,Netherlands,France,0,0,FIFA World Cup,True
+2018-06-15,USA,Brazil,0,2,FIFA World Cup qualification,False
+2018-06-15,Netherlands,Brazil,2,0,FIFA World Cup,True
+2018-06-16,Netherlands,Belgium,5,1,FIFA World Cup,True
+2018-06-17,Croatia,Portugal,2,1,FIFA World Cup qualification,False
+2018-06-17,France,Brazil,3,1,FIFA World Cup,True
+2018-06-18,France,Belgium,1,2,FIFA World Cup,True
+2018-06-19,Argentina,Portugal,4,1,FIFA World Cup qualification,False
+2018-06-19,Brazil,Belgium,0,0,FIFA World Cup,True
+2018-06-20,Spain,Argentina,2,0,FIFA World Cup,True
+2018-06-21,Japan,Portugal,2,2,FIFA World Cup qualification,False
+2018-06-21,Spain,England,2,1,FIFA World Cup,True
+2018-06-22,Spain,Portugal,1,0,FIFA World Cup,True
+2018-06-23,Nigeria,Portugal,0,1,FIFA World Cup qualification,False
+2018-06-23,Argentina,England,0,0,FIFA World Cup,True
+2018-06-24,Argentina,Portugal,0,2,FIFA World Cup,True
+2018-06-25,South Korea,Portugal,0,1,FIFA World Cup qualification,False
+2018-06-25,England,Portugal,2,0,FIFA World Cup,True
+2018-06-26,Netherlands,Argentina,0,1,FIFA World Cup,True
+2018-06-27,England,Portugal,1,2,FIFA World Cup qualification,False
+2018-06-28,France,Spain,1,1,FIFA World Cup,True
+2018-06-29,Uruguay,Portugal,3,1,FIFA World Cup qualification,False
+2018-06-30,Brazil,Portugal,2,2,FIFA World Cup,True
+2018-07-01,France,Portugal,2,0,FIFA World Cup qualification,False
+2018-07-02,Belgium,England,2,2,FIFA World Cup,True
+2018-07-03,Germany,Portugal,2,0,FIFA World Cup qualification,False
+2018-07-05,Spain,Portugal,3,0,FIFA World Cup qualification,False
+2018-07-07,USA,Portugal,0,3,FIFA World Cup qualification,False
+2018-07-09,Argentina,Croatia,2,1,FIFA World Cup qualification,False
+2018-07-11,Japan,Croatia,2,0,FIFA World Cup qualification,False
+2018-07-13,Nigeria,Croatia,0,2,FIFA World Cup qualification,False
+2018-07-15,South Korea,Croatia,1,3,FIFA World Cup qualification,False
+2018-07-17,England,Croatia,1,3,FIFA World Cup qualification,False
+2018-07-19,Uruguay,Croatia,2,1,FIFA World Cup qualification,False
+2018-07-21,France,Croatia,0,0,FIFA World Cup qualification,False
+2018-07-23,Germany,Croatia,0,2,FIFA World Cup qualification,False
+2018-07-25,Spain,Croatia,2,0,FIFA World Cup qualification,False
+2018-07-27,USA,Croatia,1,1,FIFA World Cup qualification,False
+2018-07-29,Japan,Argentina,2,0,FIFA World Cup qualification,False
+2018-07-31,Nigeria,Argentina,2,0,FIFA World Cup qualification,False
+2018-08-02,South Korea,Argentina,0,2,FIFA World Cup qualification,False
+2018-08-04,England,Argentina,2,0,FIFA World Cup qualification,False
+2018-08-06,Uruguay,Argentina,0,2,FIFA World Cup qualification,False
+2018-08-08,France,Argentina,0,2,FIFA World Cup qualification,False
+2018-08-10,Germany,Argentina,1,1,FIFA World Cup qualification,False
+2018-08-12,Spain,Argentina,1,2,FIFA World Cup qualification,False
+2018-08-14,USA,Argentina,2,3,FIFA World Cup qualification,False
+2018-08-16,Nigeria,Japan,1,1,FIFA World Cup qualification,False
+2018-08-18,South Korea,Japan,1,3,FIFA World Cup qualification,False
+2018-08-20,England,Japan,1,2,FIFA World Cup qualification,False
+2018-08-22,Uruguay,Japan,1,1,FIFA World Cup qualification,False
+2018-08-24,France,Japan,1,0,FIFA World Cup qualification,False
+2018-08-26,Germany,Japan,5,0,FIFA World Cup qualification,False
+2018-08-28,Spain,Japan,1,0,FIFA World Cup qualification,False
+2018-08-30,USA,Japan,2,0,FIFA World Cup qualification,False
+2018-09-01,South Korea,Nigeria,2,3,FIFA World Cup qualification,False
+2018-09-03,England,Nigeria,2,2,FIFA World Cup qualification,False
+2018-09-05,Uruguay,Nigeria,1,2,FIFA World Cup qualification,False
+2018-09-05,Japan,Belgium,1,1,Friendly,False
+2018-09-07,France,Nigeria,5,1,FIFA World Cup qualification,False
+2018-09-08,France,Spain,2,1,Friendly,False
+2018-09-09,Germany,Nigeria,2,1,FIFA World Cup qualification,False
+2018-09-11,Spain,Nigeria,2,0,FIFA World Cup qualification,False
+2018-09-11,Croatia,Uruguay,2,1,Friendly,False
+2018-09-13,USA,Nigeria,1,0,FIFA World Cup qualification,False
+2018-09-14,South Korea,Portugal,0,3,Friendly,False
+2018-09-15,England,South Korea,0,0,FIFA World Cup qualification,False
+2018-09-17,Uruguay,South Korea,1,2,FIFA World Cup qualification,False
+2018-09-17,Mexico,Nigeria,2,1,Friendly,False
+2018-09-19,France,South Korea,3,1,FIFA World Cup qualification,False
+2018-09-20,Argentina,Germany,2,3,Friendly,False
+2018-09-21,Germany,South Korea,4,0,FIFA World Cup qualification,False
+2018-09-23,Spain,South Korea,2,0,FIFA World Cup qualification,False
+2018-09-23,England,USA,2,2,Friendly,False
+2018-09-25,USA,South Korea,1,0,FIFA World Cup qualification,False
+2018-09-26,Netherlands,Brazil,0,1,Friendly,False
+2018-09-27,Uruguay,England,2,1,FIFA World Cup qualification,False
+2018-09-29,France,England,0,1,FIFA World Cup qualification,False
+2018-10-01,Germany,England,1,2,FIFA World Cup qualification,False
+2018-10-03,Spain,England,0,2,FIFA World Cup qualification,False
+2018-10-05,USA,England,1,1,FIFA World Cup qualification,False
+2018-10-07,France,Uruguay,2,0,FIFA World Cup qualification,False
+2018-10-09,Germany,Uruguay,2,2,FIFA World Cup qualification,False
+2018-10-11,Spain,Uruguay,4,0,FIFA World Cup qualification,False
+2018-10-13,USA,Uruguay,1,0,FIFA World Cup qualification,False
+2018-10-15,Germany,France,1,2,FIFA World Cup qualification,False
+2018-10-17,Spain,France,1,2,FIFA World Cup qualification,False
+2018-10-19,USA,France,0,1,FIFA World Cup qualification,False
+2018-10-21,Spain,Germany,2,1,FIFA World Cup qualification,False
+2018-10-23,USA,Germany,1,2,FIFA World Cup qualification,False
+2018-10-25,USA,Spain,1,3,FIFA World Cup qualification,False
+2019-03-01,Japan,Netherlands,0,2,FIFA World Cup qualification,False
+2019-03-03,Japan,South Korea,2,0,FIFA World Cup qualification,False
+2019-03-05,Japan,England,1,3,FIFA World Cup qualification,False
+2019-03-07,Japan,Germany,0,3,FIFA World Cup qualification,False
+2019-03-09,Japan,Mexico,0,0,FIFA World Cup qualification,False
+2019-03-11,Japan,Croatia,3,4,FIFA World Cup qualification,False
+2019-03-13,Japan,Uruguay,1,1,FIFA World Cup qualification,False
+2019-03-15,Japan,Nigeria,1,0,FIFA World Cup qualification,False
+2019-03-17,Japan,Spain,0,2,FIFA World Cup qualification,False
+2019-03-19,Japan,Brazil,0,2,FIFA World Cup qualification,False
+2019-03-21,Japan,France,1,3,FIFA World Cup qualification,False
+2019-03-23,Japan,Argentina,0,3,FIFA World Cup qualification,False
+2019-03-25,Japan,Belgium,0,0,FIFA World Cup qualification,False
+2019-03-27,Japan,Portugal,0,0,FIFA World Cup qualification,False
+2019-03-29,Japan,USA,2,1,FIFA World Cup qualification,False
+2019-03-31,Netherlands,South Korea,1,1,FIFA World Cup qualification,False
+2019-04-02,Netherlands,England,3,1,FIFA World Cup qualification,False
+2019-04-04,Netherlands,Germany,4,2,FIFA World Cup qualification,False
+2019-04-06,Netherlands,Mexico,1,1,FIFA World Cup qualification,False
+2019-04-08,Netherlands,Croatia,0,0,FIFA World Cup qualification,False
+2019-04-10,Netherlands,Uruguay,1,0,FIFA World Cup qualification,False
+2019-04-12,Netherlands,Nigeria,4,1,FIFA World Cup qualification,False
+2019-04-14,Netherlands,Spain,0,0,FIFA World Cup qualification,False
+2019-04-16,Netherlands,Brazil,0,0,FIFA World Cup qualification,False
+2019-04-18,Netherlands,France,1,0,FIFA World Cup qualification,False
+2019-04-20,Netherlands,Argentina,1,0,FIFA World Cup qualification,False
+2019-04-22,Netherlands,Belgium,0,0,FIFA World Cup qualification,False
+2019-04-24,Netherlands,Portugal,1,2,FIFA World Cup qualification,False
+2019-04-26,Netherlands,USA,2,0,FIFA World Cup qualification,False
+2019-04-28,South Korea,England,1,0,FIFA World Cup qualification,False
+2019-04-30,South Korea,Germany,0,1,FIFA World Cup qualification,False
+2019-05-02,South Korea,Mexico,2,0,FIFA World Cup qualification,False
+2019-05-04,South Korea,Croatia,0,2,FIFA World Cup qualification,False
+2019-05-06,South Korea,Uruguay,1,3,FIFA World Cup qualification,False
+2019-05-08,South Korea,Nigeria,1,2,FIFA World Cup qualification,False
+2019-05-10,South Korea,Spain,2,3,FIFA World Cup qualification,False
+2019-05-12,South Korea,Brazil,4,3,FIFA World Cup qualification,False
+2019-05-14,South Korea,France,2,2,FIFA World Cup qualification,False
+2019-05-16,South Korea,Argentina,0,2,FIFA World Cup qualification,False
+2019-05-18,South Korea,Belgium,1,4,FIFA World Cup qualification,False
+2019-05-20,South Korea,Portugal,1,1,FIFA World Cup qualification,False
+2019-05-22,South Korea,USA,3,0,FIFA World Cup qualification,False
+2019-05-24,England,Germany,2,0,FIFA World Cup qualification,False
+2019-05-26,England,Mexico,2,1,FIFA World Cup qualification,False
+2019-05-28,England,Croatia,1,0,FIFA World Cup qualification,False
+2019-05-30,England,Uruguay,2,0,FIFA World Cup qualification,False
+2019-06-01,England,Nigeria,2,0,FIFA World Cup qualification,False
+2019-06-03,England,Spain,0,2,FIFA World Cup qualification,False
+2019-06-05,England,Brazil,1,1,FIFA World Cup qualification,False
+2019-06-07,England,France,0,2,FIFA World Cup qualification,False
+2019-06-09,England,Argentina,2,1,FIFA World Cup qualification,False
+2019-06-11,England,Belgium,2,0,FIFA World Cup qualification,False
+2019-06-13,England,Portugal,3,4,FIFA World Cup qualification,False
+2019-06-15,England,USA,3,2,FIFA World Cup qualification,False
+2019-06-17,Germany,Mexico,2,2,FIFA World Cup qualification,False
+2019-06-19,Germany,Croatia,2,1,FIFA World Cup qualification,False
+2019-06-21,Germany,Uruguay,3,1,FIFA World Cup qualification,False
+2019-06-23,Germany,Nigeria,4,0,FIFA World Cup qualification,False
+2019-06-25,Germany,Spain,1,0,FIFA World Cup qualification,False
+2019-06-27,Germany,Brazil,2,2,FIFA World Cup qualification,False
+2019-06-29,Germany,France,1,1,FIFA World Cup qualification,False
+2019-07-01,Germany,Argentina,1,1,FIFA World Cup qualification,False
+2019-07-03,Germany,Belgium,1,2,FIFA World Cup qualification,False
+2019-07-05,Germany,Portugal,0,0,FIFA World Cup qualification,False
+2019-07-07,Germany,USA,3,0,FIFA World Cup qualification,False
+2019-07-09,Mexico,Croatia,2,1,FIFA World Cup qualification,False
+2019-07-11,Mexico,Uruguay,1,2,FIFA World Cup qualification,False
+2019-07-13,Mexico,Nigeria,6,1,FIFA World Cup qualification,False
+2019-07-15,Mexico,Spain,2,1,FIFA World Cup qualification,False
+2019-07-17,Mexico,Brazil,1,0,FIFA World Cup qualification,False
+2019-07-19,Mexico,France,4,2,FIFA World Cup qualification,False
+2019-07-21,Mexico,Argentina,1,2,FIFA World Cup qualification,False
+2019-07-23,Mexico,Belgium,2,1,FIFA World Cup qualification,False
+2019-07-25,Mexico,Portugal,0,1,FIFA World Cup qualification,False
+2019-07-27,Mexico,USA,0,1,FIFA World Cup qualification,False
+2019-07-29,Croatia,Uruguay,2,1,FIFA World Cup qualification,False
+2019-07-31,Croatia,Nigeria,1,1,FIFA World Cup qualification,False
+2019-08-02,Croatia,Spain,1,0,FIFA World Cup qualification,False
+2019-08-04,Croatia,Brazil,1,1,FIFA World Cup qualification,False
+2019-08-06,Croatia,France,0,1,FIFA World Cup qualification,False
+2019-08-08,Croatia,Argentina,3,2,FIFA World Cup qualification,False
+2019-08-10,Croatia,Belgium,1,2,FIFA World Cup qualification,False
+2019-08-12,Croatia,Portugal,2,1,FIFA World Cup qualification,False
+2019-08-14,Croatia,USA,1,2,FIFA World Cup qualification,False
+2019-08-16,Uruguay,Nigeria,1,2,FIFA World Cup qualification,False
+2019-08-18,Uruguay,Spain,1,1,FIFA World Cup qualification,False
+2019-08-20,Uruguay,Brazil,1,0,FIFA World Cup qualification,False
+2019-08-22,Uruguay,France,0,2,FIFA World Cup qualification,False
+2019-08-24,Uruguay,Argentina,1,1,FIFA World Cup qualification,False
+2019-08-26,Uruguay,Belgium,1,3,FIFA World Cup qualification,False
+2019-08-28,Uruguay,Portugal,1,2,FIFA World Cup qualification,False
+2019-08-30,Uruguay,USA,2,2,FIFA World Cup qualification,False
+2019-09-01,Nigeria,Spain,1,3,FIFA World Cup qualification,False
+2019-09-03,Nigeria,Brazil,1,0,FIFA World Cup qualification,False
+2019-09-05,Nigeria,France,0,1,FIFA World Cup qualification,False
+2019-09-05,France,Japan,0,0,Friendly,False
+2019-09-07,Nigeria,Argentina,1,2,FIFA World Cup qualification,False
+2019-09-08,Uruguay,Croatia,0,3,Friendly,False
+2019-09-09,Nigeria,Belgium,2,2,FIFA World Cup qualification,False
+2019-09-11,Nigeria,Portugal,1,2,FIFA World Cup qualification,False
+2019-09-11,Spain,Portugal,3,0,Friendly,False
+2019-09-13,Nigeria,USA,0,2,FIFA World Cup qualification,False
+2019-09-14,Netherlands,Germany,2,1,Friendly,False
+2019-09-15,Spain,Brazil,0,5,FIFA World Cup qualification,False
+2019-09-17,Spain,France,1,3,FIFA World Cup qualification,False
+2019-09-17,South Korea,Belgium,0,3,Friendly,False
+2019-09-19,Spain,Argentina,2,2,FIFA World Cup qualification,False
+2019-09-20,USA,Argentina,1,4,Friendly,False
+2019-09-21,Spain,Belgium,3,1,FIFA World Cup qualification,False
+2019-09-23,Spain,Portugal,1,3,FIFA World Cup qualification,False
+2019-09-23,Brazil,Nigeria,1,2,Friendly,False
+2019-09-25,Spain,USA,0,1,FIFA World Cup qualification,False
+2019-09-26,Mexico,England,0,1,Friendly,False
+2019-09-27,Brazil,France,1,1,FIFA World Cup qualification,False
+2019-09-29,Brazil,Argentina,2,1,FIFA World Cup qualification,False
+2019-10-01,Brazil,Belgium,1,1,FIFA World Cup qualification,False
+2019-10-03,Brazil,Portugal,2,2,FIFA World Cup qualification,False
+2019-10-05,Brazil,USA,0,0,FIFA World Cup qualification,False
+2019-10-07,France,Argentina,1,1,FIFA World Cup qualification,False
+2019-10-09,France,Belgium,0,1,FIFA World Cup qualification,False
+2019-10-11,France,Portugal,1,1,FIFA World Cup qualification,False
+2019-10-13,France,USA,4,1,FIFA World Cup qualification,False
+2019-10-15,Argentina,Belgium,1,2,FIFA World Cup qualification,False
+2019-10-17,Argentina,Portugal,1,0,FIFA World Cup qualification,False
+2019-10-19,Argentina,USA,2,1,FIFA World Cup qualification,False
+2019-10-21,Belgium,Portugal,0,1,FIFA World Cup qualification,False
+2019-10-23,Belgium,USA,2,3,FIFA World Cup qualification,False
+2019-10-25,Portugal,USA,3,1,FIFA World Cup qualification,False
+2020-03-01,Croatia,Uruguay,3,4,FIFA World Cup qualification,False
+2020-03-03,Argentina,Uruguay,5,0,FIFA World Cup qualification,False
+2020-03-05,Japan,Uruguay,3,2,FIFA World Cup qualification,False
+2020-03-07,Nigeria,Uruguay,0,1,FIFA World Cup qualification,False
+2020-03-09,Mexico,Uruguay,1,0,FIFA World Cup qualification,False
+2020-03-11,USA,Uruguay,0,4,FIFA World Cup qualification,False
+2020-03-13,Spain,Uruguay,2,3,FIFA World Cup qualification,False
+2020-03-15,France,Uruguay,1,0,FIFA World Cup qualification,False
+2020-03-17,Belgium,Uruguay,3,4,FIFA World Cup qualification,False
+2020-03-19,Portugal,Uruguay,5,1,FIFA World Cup qualification,False
+2020-03-21,England,Uruguay,0,2,FIFA World Cup qualification,False
+2020-03-23,Germany,Uruguay,3,2,FIFA World Cup qualification,False
+2020-03-25,Netherlands,Uruguay,4,2,FIFA World Cup qualification,False
+2020-03-27,South Korea,Uruguay,3,1,FIFA World Cup qualification,False
+2020-03-29,Brazil,Uruguay,1,3,FIFA World Cup qualification,False
+2020-03-31,Argentina,Croatia,1,1,FIFA World Cup qualification,False
+2020-04-02,Japan,Croatia,3,2,FIFA World Cup qualification,False
+2020-04-04,Nigeria,Croatia,0,3,FIFA World Cup qualification,False
+2020-04-06,Mexico,Croatia,1,1,FIFA World Cup qualification,False
+2020-04-08,USA,Croatia,3,0,FIFA World Cup qualification,False
+2020-04-10,Spain,Croatia,3,0,FIFA World Cup qualification,False
+2020-04-12,France,Croatia,0,2,FIFA World Cup qualification,False
+2020-04-14,Belgium,Croatia,1,1,FIFA World Cup qualification,False
+2020-04-16,Portugal,Croatia,3,2,FIFA World Cup qualification,False
+2020-04-18,England,Croatia,1,0,FIFA World Cup qualification,False
+2020-04-20,Germany,Croatia,0,0,FIFA World Cup qualification,False
+2020-04-22,Netherlands,Croatia,0,1,FIFA World Cup qualification,False
+2020-04-24,South Korea,Croatia,0,2,FIFA World Cup qualification,False
+2020-04-26,Brazil,Croatia,3,0,FIFA World Cup qualification,False
+2020-04-28,Japan,Argentina,0,0,FIFA World Cup qualification,False
+2020-04-30,Nigeria,Argentina,1,4,FIFA World Cup qualification,False
+2020-05-02,Mexico,Argentina,1,2,FIFA World Cup qualification,False
+2020-05-04,USA,Argentina,1,0,FIFA World Cup qualification,False
+2020-05-06,Spain,Argentina,3,1,FIFA World Cup qualification,False
+2020-05-08,France,Argentina,0,1,FIFA World Cup qualification,False
+2020-05-10,Belgium,Argentina,1,0,FIFA World Cup qualification,False
+2020-05-12,Portugal,Argentina,4,1,FIFA World Cup qualification,False
+2020-05-14,England,Argentina,1,1,FIFA World Cup qualification,False
+2020-05-16,Germany,Argentina,3,1,FIFA World Cup qualification,False
+2020-05-18,Netherlands,Argentina,1,0,FIFA World Cup qualification,False
+2020-05-20,South Korea,Argentina,1,3,FIFA World Cup qualification,False
+2020-05-22,Brazil,Argentina,1,1,FIFA World Cup qualification,False
+2020-05-24,Nigeria,Japan,1,2,FIFA World Cup qualification,False
+2020-05-26,Mexico,Japan,1,1,FIFA World Cup qualification,False
+2020-05-28,USA,Japan,2,0,FIFA World Cup qualification,False
+2020-05-30,Spain,Japan,2,0,FIFA World Cup qualification,False
+2020-06-01,France,Japan,3,1,FIFA World Cup qualification,False
+2020-06-03,Belgium,Japan,3,3,FIFA World Cup qualification,False
+2020-06-05,Portugal,Japan,2,1,FIFA World Cup qualification,False
+2020-06-07,England,Japan,3,0,FIFA World Cup qualification,False
+2020-06-09,Germany,Japan,0,0,FIFA World Cup qualification,False
+2020-06-11,Netherlands,Japan,2,3,FIFA World Cup qualification,False
+2020-06-13,South Korea,Japan,2,3,FIFA World Cup qualification,False
+2020-06-15,Brazil,Japan,1,0,FIFA World Cup qualification,False
+2020-06-17,Mexico,Nigeria,6,0,FIFA World Cup qualification,False
+2020-06-19,USA,Nigeria,1,0,FIFA World Cup qualification,False
+2020-06-21,Spain,Nigeria,4,1,FIFA World Cup qualification,False
+2020-06-23,France,Nigeria,4,1,FIFA World Cup qualification,False
+2020-06-25,Belgium,Nigeria,2,0,FIFA World Cup qualification,False
+2020-06-27,Portugal,Nigeria,4,1,FIFA World Cup qualification,False
+2020-06-29,England,Nigeria,0,3,FIFA World Cup qualification,False
+2020-07-01,Germany,Nigeria,1,0,FIFA World Cup qualification,False
+2020-07-03,Netherlands,Nigeria,4,0,FIFA World Cup qualification,False
+2020-07-05,South Korea,Nigeria,0,0,FIFA World Cup qualification,False
+2020-07-07,Brazil,Nigeria,5,0,FIFA World Cup qualification,False
+2020-07-09,USA,Mexico,2,1,FIFA World Cup qualification,False
+2020-07-11,Spain,Mexico,2,0,FIFA World Cup qualification,False
+2020-07-13,France,Mexico,2,1,FIFA World Cup qualification,False
+2020-07-15,Belgium,Mexico,0,1,FIFA World Cup qualification,False
+2020-07-17,Portugal,Mexico,0,1,FIFA World Cup qualification,False
+2020-07-19,England,Mexico,0,2,FIFA World Cup qualification,False
+2020-07-21,Germany,Mexico,2,0,FIFA World Cup qualification,False
+2020-07-23,Netherlands,Mexico,4,1,FIFA World Cup qualification,False
+2020-07-25,South Korea,Mexico,0,1,FIFA World Cup qualification,False
+2020-07-27,Brazil,Mexico,5,0,FIFA World Cup qualification,False
+2020-07-29,Spain,USA,1,0,FIFA World Cup qualification,False
+2020-07-31,France,USA,3,0,FIFA World Cup qualification,False
+2020-08-02,Belgium,USA,1,0,FIFA World Cup qualification,False
+2020-08-04,Portugal,USA,0,1,FIFA World Cup qualification,False
+2020-08-06,England,USA,1,0,FIFA World Cup qualification,False
+2020-08-08,Germany,USA,1,1,FIFA World Cup qualification,False
+2020-08-10,Netherlands,USA,3,0,FIFA World Cup qualification,False
+2020-08-12,South Korea,USA,2,0,FIFA World Cup qualification,False
+2020-08-14,Brazil,USA,1,0,FIFA World Cup qualification,False
+2020-08-16,France,Spain,0,2,FIFA World Cup qualification,False
+2020-08-18,Belgium,Spain,1,4,FIFA World Cup qualification,False
+2020-08-20,Portugal,Spain,1,0,FIFA World Cup qualification,False
+2020-08-22,England,Spain,1,0,FIFA World Cup qualification,False
+2020-08-24,Germany,Spain,3,3,FIFA World Cup qualification,False
+2020-08-26,Netherlands,Spain,1,2,FIFA World Cup qualification,False
+2020-08-28,South Korea,Spain,1,3,FIFA World Cup qualification,False
+2020-08-30,Brazil,Spain,1,0,FIFA World Cup qualification,False
+2020-09-01,Belgium,France,3,2,FIFA World Cup qualification,False
+2020-09-03,Portugal,France,3,0,FIFA World Cup qualification,False
+2020-09-05,England,France,1,2,FIFA World Cup qualification,False
+2020-09-05,Germany,Belgium,1,1,Friendly,False
+2020-09-07,Germany,France,2,1,FIFA World Cup qualification,False
+2020-09-08,Argentina,Uruguay,3,2,Friendly,False
+2020-09-09,Netherlands,France,0,0,FIFA World Cup qualification,False
+2020-09-11,South Korea,France,1,1,FIFA World Cup qualification,False
+2020-09-11,Portugal,Spain,2,1,Friendly,False
+2020-09-13,Brazil,France,1,1,FIFA World Cup qualification,False
+2020-09-14,South Korea,Nigeria,0,4,Friendly,False
+2020-09-15,Portugal,Belgium,1,0,FIFA World Cup qualification,False
+2020-09-17,England,Belgium,2,1,FIFA World Cup qualification,False
+2020-09-17,Mexico,France,0,4,Friendly,False
+2020-09-19,Germany,Belgium,1,0,FIFA World Cup qualification,False
+2020-09-20,England,Croatia,4,1,Friendly,False
+2020-09-21,Netherlands,Belgium,1,1,FIFA World Cup qualification,False
+2020-09-23,South Korea,Belgium,1,3,FIFA World Cup qualification,False
+2020-09-23,Japan,USA,3,2,Friendly,False
+2020-09-25,Brazil,Belgium,1,1,FIFA World Cup qualification,False
+2020-09-26,Brazil,Netherlands,2,0,Friendly,False
+2020-09-27,England,Portugal,3,0,FIFA World Cup qualification,False
+2020-09-29,Germany,Portugal,1,0,FIFA World Cup qualification,False
+2020-10-01,Netherlands,Portugal,4,0,FIFA World Cup qualification,False
+2020-10-03,South Korea,Portugal,1,3,FIFA World Cup qualification,False
+2020-10-05,Brazil,Portugal,1,1,FIFA World Cup qualification,False
+2020-10-07,Germany,England,0,2,FIFA World Cup qualification,False
+2020-10-09,Netherlands,England,0,1,FIFA World Cup qualification,False
+2020-10-11,South Korea,England,0,1,FIFA World Cup qualification,False
+2020-10-13,Brazil,England,1,0,FIFA World Cup qualification,False
+2020-10-15,Netherlands,Germany,1,2,FIFA World Cup qualification,False
+2020-10-17,South Korea,Germany,1,1,FIFA World Cup qualification,False
+2020-10-19,Brazil,Germany,4,5,FIFA World Cup qualification,False
+2020-10-21,South Korea,Netherlands,3,2,FIFA World Cup qualification,False
+2020-10-23,Brazil,Netherlands,1,1,FIFA World Cup qualification,False
+2020-10-25,Brazil,South Korea,4,2,FIFA World Cup qualification,False
+2021-03-01,Mexico,Belgium,2,3,FIFA World Cup qualification,False
+2021-03-03,Mexico,Nigeria,2,0,FIFA World Cup qualification,False
+2021-03-05,Mexico,South Korea,0,1,FIFA World Cup qualification,False
+2021-03-07,Mexico,Argentina,0,1,FIFA World Cup qualification,False
+2021-03-09,Mexico,Netherlands,0,3,FIFA World Cup qualification,False
+2021-03-11,Mexico,Portugal,2,1,FIFA World Cup qualification,False
+2021-03-13,Mexico,Brazil,1,2,FIFA World Cup qualification,False
+2021-03-15,Mexico,Croatia,1,0,FIFA World Cup qualification,False
+2021-03-17,Mexico,Japan,4,1,FIFA World Cup qualification,False
+2021-03-19,Mexico,Uruguay,2,3,FIFA World Cup qualification,False
+2021-03-21,Mexico,England,0,0,FIFA World Cup qualification,False
+2021-03-23,Mexico,France,1,0,FIFA World Cup qualification,False
+2021-03-25,Mexico,Spain,1,0,FIFA World Cup qualification,False
+2021-03-27,Mexico,Germany,2,1,FIFA World Cup qualification,False
+2021-03-29,Mexico,USA,6,0,FIFA World Cup qualification,False
+2021-03-31,Belgium,Nigeria,4,0,FIFA World Cup qualification,False
+2021-04-02,Belgium,South Korea,2,1,FIFA World Cup qualification,False
+2021-04-04,Belgium,Argentina,2,0,FIFA World Cup qualification,False
+2021-04-06,Belgium,Netherlands,2,2,FIFA World Cup qualification,False
+2021-04-08,Belgium,Portugal,4,2,FIFA World Cup qualification,False
+2021-04-10,Belgium,Brazil,0,2,FIFA World Cup qualification,False
+2021-04-12,Belgium,Croatia,2,4,FIFA World Cup qualification,False
+2021-04-14,Belgium,Japan,1,1,FIFA World Cup qualification,False
+2021-04-16,Belgium,Uruguay,2,1,FIFA World Cup qualification,False
+2021-04-18,Belgium,England,1,1,FIFA World Cup qualification,False
+2021-04-20,Belgium,France,2,2,FIFA World Cup qualification,False
+2021-04-22,Belgium,Spain,1,2,FIFA World Cup qualification,False
+2021-04-24,Belgium,Germany,0,0,FIFA World Cup qualification,False
+2021-04-26,Belgium,USA,1,1,FIFA World Cup qualification,False
+2021-04-28,Nigeria,South Korea,1,2,FIFA World Cup qualification,False
+2021-04-30,Nigeria,Argentina,0,1,FIFA World Cup qualification,False
+2021-05-02,Nigeria,Netherlands,1,0,FIFA World Cup qualification,False
+2021-05-04,Nigeria,Portugal,1,3,FIFA World Cup qualification,False
+2021-05-06,Nigeria,Brazil,1,0,FIFA World Cup qualification,False
+2021-05-08,Nigeria,Croatia,2,3,FIFA World Cup qualification,False
+2021-05-10,Nigeria,Japan,2,2,FIFA World Cup qualification,False
+2021-05-12,Nigeria,Uruguay,1,1,FIFA World Cup qualification,False
+2021-05-14,Nigeria,England,0,2,FIFA World Cup qualification,False
+2021-05-16,Nigeria,France,1,2,FIFA World Cup qualification,False
+2021-05-18,Nigeria,Spain,2,4,FIFA World Cup qualification,False
+2021-05-20,Nigeria,Germany,1,3,FIFA World Cup qualification,False
+2021-05-22,Nigeria,USA,6,1,FIFA World Cup qualification,False
+2021-05-24,South Korea,Argentina,0,3,FIFA World Cup qualification,False
+2021-05-26,South Korea,Netherlands,1,3,FIFA World Cup qualification,False
+2021-05-28,South Korea,Portugal,0,0,FIFA World Cup qualification,False
+2021-05-30,South Korea,Brazil,1,0,FIFA World Cup qualification,False
+2021-06-01,South Korea,Croatia,1,1,FIFA World Cup qualification,False
+2021-06-03,South Korea,Japan,2,0,FIFA World Cup qualification,False
+2021-06-05,South Korea,Uruguay,1,1,FIFA World Cup qualification,False
+2021-06-07,South Korea,England,1,2,FIFA World Cup qualification,False
+2021-06-09,South Korea,France,0,2,FIFA World Cup qualification,False
+2021-06-11,South Korea,Spain,1,3,FIFA World Cup qualification,False
+2021-06-13,South Korea,Germany,2,3,FIFA World Cup qualification,False
+2021-06-15,South Korea,USA,0,2,FIFA World Cup qualification,False
+2021-06-17,Argentina,Netherlands,0,1,FIFA World Cup qualification,False
+2021-06-19,Argentina,Portugal,1,0,FIFA World Cup qualification,False
+2021-06-21,Argentina,Brazil,0,0,FIFA World Cup qualification,False
+2021-06-23,Argentina,Croatia,4,1,FIFA World Cup qualification,False
+2021-06-25,Argentina,Japan,4,0,FIFA World Cup qualification,False
+2021-06-27,Argentina,Uruguay,1,1,FIFA World Cup qualification,False
+2021-06-29,Argentina,England,3,1,FIFA World Cup qualification,False
+2021-07-01,Argentina,France,1,1,FIFA World Cup qualification,False
+2021-07-03,Argentina,Spain,0,2,FIFA World Cup qualification,False
+2021-07-05,Argentina,Germany,3,1,FIFA World Cup qualification,False
+2021-07-07,Argentina,USA,4,0,FIFA World Cup qualification,False
+2021-07-09,Netherlands,Portugal,0,3,FIFA World Cup qualification,False
+2021-07-11,Netherlands,Brazil,1,2,FIFA World Cup qualification,False
+2021-07-13,Netherlands,Croatia,2,1,FIFA World Cup qualification,False
+2021-07-15,Netherlands,Japan,1,1,FIFA World Cup qualification,False
+2021-07-17,Netherlands,Uruguay,0,1,FIFA World Cup qualification,False
+2021-07-19,Netherlands,England,4,1,FIFA World Cup qualification,False
+2021-07-21,Netherlands,France,1,1,FIFA World Cup qualification,False
+2021-07-23,Netherlands,Spain,1,0,FIFA World Cup qualification,False
+2021-07-25,Netherlands,Germany,1,2,FIFA World Cup qualification,False
+2021-07-27,Netherlands,USA,2,1,FIFA World Cup qualification,False
+2021-07-29,Portugal,Brazil,2,1,FIFA World Cup qualification,False
+2021-07-31,Portugal,Croatia,0,0,FIFA World Cup qualification,False
+2021-08-02,Portugal,Japan,0,0,FIFA World Cup qualification,False
+2021-08-04,Portugal,Uruguay,2,1,FIFA World Cup qualification,False
+2021-08-06,Portugal,England,1,2,FIFA World Cup qualification,False
+2021-08-08,Portugal,France,3,0,FIFA World Cup qualification,False
+2021-08-10,Portugal,Spain,3,2,FIFA World Cup qualification,False
+2021-08-12,Portugal,Germany,2,1,FIFA World Cup qualification,False
+2021-08-14,Portugal,USA,3,1,FIFA World Cup qualification,False
+2021-08-16,Brazil,Croatia,2,1,FIFA World Cup qualification,False
+2021-08-18,Brazil,Japan,4,1,FIFA World Cup qualification,False
+2021-08-20,Brazil,Uruguay,2,1,FIFA World Cup qualification,False
+2021-08-22,Brazil,England,1,1,FIFA World Cup qualification,False
+2021-08-24,Brazil,France,2,1,FIFA World Cup qualification,False
+2021-08-26,Brazil,Spain,3,1,FIFA World Cup qualification,False
+2021-08-28,Brazil,Germany,1,0,FIFA World Cup qualification,False
+2021-08-30,Brazil,USA,2,0,FIFA World Cup qualification,False
+2021-09-01,Croatia,Japan,0,3,FIFA World Cup qualification,False
+2021-09-03,Croatia,Uruguay,0,2,FIFA World Cup qualification,False
+2021-09-05,Croatia,England,3,1,FIFA World Cup qualification,False
+2021-09-05,Croatia,Japan,2,2,Friendly,False
+2021-09-07,Croatia,France,2,0,FIFA World Cup qualification,False
+2021-09-08,France,Portugal,1,4,Friendly,False
+2021-09-09,Croatia,Spain,6,1,FIFA World Cup qualification,False
+2021-09-11,Croatia,Germany,0,1,FIFA World Cup qualification,False
+2021-09-11,Germany,Netherlands,2,1,Friendly,False
+2021-09-13,Croatia,USA,4,0,FIFA World Cup qualification,False
+2021-09-14,Nigeria,Spain,0,0,Friendly,False
+2021-09-15,Japan,Uruguay,1,1,FIFA World Cup qualification,False
+2021-09-17,Japan,England,0,2,FIFA World Cup qualification,False
+2021-09-17,USA,South Korea,0,1,Friendly,False
+2021-09-19,Japan,France,0,2,FIFA World Cup qualification,False
+2021-09-20,Brazil,Argentina,3,0,Friendly,False
+2021-09-21,Japan,Spain,0,3,FIFA World Cup qualification,False
+2021-09-23,Japan,Germany,1,1,FIFA World Cup qualification,False
+2021-09-23,Uruguay,Belgium,5,3,Friendly,False
+2021-09-25,Japan,USA,0,1,FIFA World Cup qualification,False
+2021-09-26,England,Mexico,0,1,Friendly,False
+2021-09-27,Uruguay,England,0,0,FIFA World Cup qualification,False
+2021-09-29,Uruguay,France,1,4,FIFA World Cup qualification,False
+2021-10-01,Uruguay,Spain,2,1,FIFA World Cup qualification,False
+2021-10-03,Uruguay,Germany,0,0,FIFA World Cup qualification,False
+2021-10-05,Uruguay,USA,0,1,FIFA World Cup qualification,False
+2021-10-07,England,France,2,2,FIFA World Cup qualification,False
+2021-10-09,England,Spain,5,3,FIFA World Cup qualification,False
+2021-10-11,England,Germany,3,0,FIFA World Cup qualification,False
+2021-10-13,England,USA,4,0,FIFA World Cup qualification,False
+2021-10-15,France,Spain,0,0,FIFA World Cup qualification,False
+2021-10-17,France,Germany,3,2,FIFA World Cup qualification,False
+2021-10-19,France,USA,4,0,FIFA World Cup qualification,False
+2021-10-21,Spain,Germany,2,1,FIFA World Cup qualification,False
+2021-10-23,Spain,USA,7,2,FIFA World Cup qualification,False
+2021-10-25,Germany,USA,2,1,FIFA World Cup qualification,False
+2022-03-01,South Korea,Uruguay,1,2,FIFA World Cup qualification,False
+2022-03-03,Mexico,Uruguay,2,0,FIFA World Cup qualification,False
+2022-03-05,Croatia,Uruguay,1,0,FIFA World Cup qualification,False
+2022-03-07,Brazil,Uruguay,1,3,FIFA World Cup qualification,False
+2022-03-09,England,Uruguay,1,0,FIFA World Cup qualification,False
+2022-03-11,Spain,Uruguay,3,1,FIFA World Cup qualification,False
+2022-03-13,Netherlands,Uruguay,2,1,FIFA World Cup qualification,False
+2022-03-15,Portugal,Uruguay,2,1,FIFA World Cup qualification,False
+2022-03-17,Germany,Uruguay,1,0,FIFA World Cup qualification,False
+2022-03-19,Nigeria,Uruguay,0,4,FIFA World Cup qualification,False
+2022-03-21,Japan,Uruguay,2,1,FIFA World Cup qualification,False
+2022-03-23,Argentina,Uruguay,2,1,FIFA World Cup qualification,False
+2022-03-25,USA,Uruguay,4,3,FIFA World Cup qualification,False
+2022-03-27,France,Uruguay,1,1,FIFA World Cup qualification,False
+2022-03-29,Belgium,Uruguay,3,1,FIFA World Cup qualification,False
+2022-03-31,Mexico,South Korea,1,1,FIFA World Cup qualification,False
+2022-04-02,Croatia,South Korea,1,0,FIFA World Cup qualification,False
+2022-04-04,Brazil,South Korea,0,1,FIFA World Cup qualification,False
+2022-04-06,England,South Korea,1,3,FIFA World Cup qualification,False
+2022-04-08,Spain,South Korea,4,1,FIFA World Cup qualification,False
+2022-04-10,Netherlands,South Korea,0,2,FIFA World Cup qualification,False
+2022-04-12,Portugal,South Korea,4,1,FIFA World Cup qualification,False
+2022-04-14,Germany,South Korea,1,0,FIFA World Cup qualification,False
+2022-04-16,Nigeria,South Korea,1,1,FIFA World Cup qualification,False
+2022-04-18,Japan,South Korea,0,2,FIFA World Cup qualification,False
+2022-04-20,Argentina,South Korea,0,2,FIFA World Cup qualification,False
+2022-04-22,USA,South Korea,4,6,FIFA World Cup qualification,False
+2022-04-24,France,South Korea,2,3,FIFA World Cup qualification,False
+2022-04-26,Belgium,South Korea,2,0,FIFA World Cup qualification,False
+2022-04-28,Croatia,Mexico,3,1,FIFA World Cup qualification,False
+2022-04-30,Brazil,Mexico,2,0,FIFA World Cup qualification,False
+2022-05-02,England,Mexico,1,1,FIFA World Cup qualification,False
+2022-05-04,Spain,Mexico,0,1,FIFA World Cup qualification,False
+2022-05-06,Netherlands,Mexico,1,1,FIFA World Cup qualification,False
+2022-05-08,Portugal,Mexico,2,2,FIFA World Cup qualification,False
+2022-05-10,Germany,Mexico,4,0,FIFA World Cup qualification,False
+2022-05-12,Nigeria,Mexico,3,0,FIFA World Cup qualification,False
+2022-05-14,Japan,Mexico,0,3,FIFA World Cup qualification,False
+2022-05-16,Argentina,Mexico,2,2,FIFA World Cup qualification,False
+2022-05-18,USA,Mexico,0,1,FIFA World Cup qualification,False
+2022-05-20,France,Mexico,1,1,FIFA World Cup qualification,False
+2022-05-22,Belgium,Mexico,0,0,FIFA World Cup qualification,False
+2022-05-24,Brazil,Croatia,2,0,FIFA World Cup qualification,False
+2022-05-26,England,Croatia,1,2,FIFA World Cup qualification,False
+2022-05-28,Spain,Croatia,3,0,FIFA World Cup qualification,False
+2022-05-30,Netherlands,Croatia,5,2,FIFA World Cup qualification,False
+2022-06-01,Portugal,Croatia,3,0,FIFA World Cup qualification,False
+2022-06-03,Germany,Croatia,3,3,FIFA World Cup qualification,False
+2022-06-05,Nigeria,Croatia,1,3,FIFA World Cup qualification,False
+2022-06-07,Japan,Croatia,2,1,FIFA World Cup qualification,False
+2022-06-09,Argentina,Croatia,3,2,FIFA World Cup qualification,False
+2022-06-11,USA,Croatia,0,0,FIFA World Cup qualification,False
+2022-06-13,France,Croatia,3,1,FIFA World Cup qualification,False
+2022-06-14,Netherlands,Portugal,3,2,FIFA World Cup,True
+2022-06-15,Belgium,Croatia,1,1,FIFA World Cup qualification,False
+2022-06-15,Netherlands,Argentina,2,1,FIFA World Cup,True
+2022-06-16,Netherlands,Belgium,1,1,FIFA World Cup,True
+2022-06-17,England,Brazil,3,3,FIFA World Cup qualification,False
+2022-06-17,Portugal,Argentina,1,2,FIFA World Cup,True
+2022-06-18,Portugal,Belgium,1,2,FIFA World Cup,True
+2022-06-19,Spain,Brazil,2,1,FIFA World Cup qualification,False
+2022-06-19,Argentina,Belgium,1,1,FIFA World Cup,True
+2022-06-20,Spain,France,1,0,FIFA World Cup,True
+2022-06-21,Netherlands,Brazil,1,1,FIFA World Cup qualification,False
+2022-06-21,Spain,England,1,2,FIFA World Cup,True
+2022-06-22,Spain,Brazil,2,0,FIFA World Cup,True
+2022-06-23,Portugal,Brazil,0,2,FIFA World Cup qualification,False
+2022-06-23,France,England,1,3,FIFA World Cup,True
+2022-06-24,France,Brazil,1,0,FIFA World Cup,True
+2022-06-25,Germany,Brazil,0,3,FIFA World Cup qualification,False
+2022-06-25,England,Brazil,0,1,FIFA World Cup,True
+2022-06-26,Netherlands,France,1,0,FIFA World Cup,True
+2022-06-27,Nigeria,Brazil,0,0,FIFA World Cup qualification,False
+2022-06-28,Portugal,Spain,3,1,FIFA World Cup,True
+2022-06-29,Japan,Brazil,1,3,FIFA World Cup qualification,False
+2022-06-30,Argentina,Brazil,1,2,FIFA World Cup,True
+2022-07-01,Argentina,Brazil,0,1,FIFA World Cup qualification,False
+2022-07-02,Belgium,England,4,1,FIFA World Cup,True
+2022-07-03,USA,Brazil,1,4,FIFA World Cup qualification,False
+2022-07-05,France,Brazil,0,2,FIFA World Cup qualification,False
+2022-07-07,Belgium,Brazil,1,1,FIFA World Cup qualification,False
+2022-07-09,Spain,England,1,0,FIFA World Cup qualification,False
+2022-07-11,Netherlands,England,0,0,FIFA World Cup qualification,False
+2022-07-13,Portugal,England,0,3,FIFA World Cup qualification,False
+2022-07-15,Germany,England,1,0,FIFA World Cup qualification,False
+2022-07-17,Nigeria,England,2,2,FIFA World Cup qualification,False
+2022-07-19,Japan,England,0,0,FIFA World Cup qualification,False
+2022-07-21,Argentina,England,3,3,FIFA World Cup qualification,False
+2022-07-23,USA,England,0,0,FIFA World Cup qualification,False
+2022-07-25,France,England,2,1,FIFA World Cup qualification,False
+2022-07-27,Belgium,England,1,0,FIFA World Cup qualification,False
+2022-07-29,Netherlands,Spain,2,0,FIFA World Cup qualification,False
+2022-07-31,Portugal,Spain,0,0,FIFA World Cup qualification,False
+2022-08-02,Germany,Spain,0,0,FIFA World Cup qualification,False
+2022-08-04,Nigeria,Spain,3,3,FIFA World Cup qualification,False
+2022-08-06,Japan,Spain,0,1,FIFA World Cup qualification,False
+2022-08-08,Argentina,Spain,1,2,FIFA World Cup qualification,False
+2022-08-10,USA,Spain,0,2,FIFA World Cup qualification,False
+2022-08-12,France,Spain,3,2,FIFA World Cup qualification,False
+2022-08-14,Belgium,Spain,0,0,FIFA World Cup qualification,False
+2022-08-16,Portugal,Netherlands,1,1,FIFA World Cup qualification,False
+2022-08-18,Germany,Netherlands,1,3,FIFA World Cup qualification,False
+2022-08-20,Nigeria,Netherlands,1,0,FIFA World Cup qualification,False
+2022-08-22,Japan,Netherlands,1,1,FIFA World Cup qualification,False
+2022-08-24,Argentina,Netherlands,4,0,FIFA World Cup qualification,False
+2022-08-26,USA,Netherlands,2,2,FIFA World Cup qualification,False
+2022-08-28,France,Netherlands,1,2,FIFA World Cup qualification,False
+2022-08-30,Belgium,Netherlands,2,2,FIFA World Cup qualification,False
+2022-09-01,Germany,Portugal,0,2,FIFA World Cup qualification,False
+2022-09-03,Nigeria,Portugal,0,1,FIFA World Cup qualification,False
+2022-09-05,Japan,Portugal,1,2,FIFA World Cup qualification,False
+2022-09-05,Croatia,Belgium,2,2,Friendly,False
+2022-09-07,Argentina,Portugal,1,1,FIFA World Cup qualification,False
+2022-09-08,France,England,2,3,Friendly,False
+2022-09-09,USA,Portugal,2,3,FIFA World Cup qualification,False
+2022-09-11,France,Portugal,2,0,FIFA World Cup qualification,False
+2022-09-11,Japan,Portugal,1,0,Friendly,False
+2022-09-13,Belgium,Portugal,0,3,FIFA World Cup qualification,False
+2022-09-14,Brazil,Uruguay,1,2,Friendly,False
+2022-09-15,Nigeria,Germany,2,2,FIFA World Cup qualification,False
+2022-09-17,Japan,Germany,2,2,FIFA World Cup qualification,False
+2022-09-17,Nigeria,Germany,2,2,Friendly,False
+2022-09-19,Argentina,Germany,4,1,FIFA World Cup qualification,False
+2022-09-20,USA,Spain,0,3,Friendly,False
+2022-09-21,USA,Germany,2,3,FIFA World Cup qualification,False
+2022-09-23,France,Germany,0,1,FIFA World Cup qualification,False
+2022-09-23,Netherlands,Argentina,0,1,Friendly,False
+2022-09-25,Belgium,Germany,0,0,FIFA World Cup qualification,False
+2022-09-26,Mexico,South Korea,2,0,Friendly,False
+2022-09-27,Japan,Nigeria,2,1,FIFA World Cup qualification,False
+2022-09-29,Argentina,Nigeria,1,0,FIFA World Cup qualification,False
+2022-10-01,USA,Nigeria,0,2,FIFA World Cup qualification,False
+2022-10-03,France,Nigeria,2,1,FIFA World Cup qualification,False
+2022-10-05,Belgium,Nigeria,4,0,FIFA World Cup qualification,False
+2022-10-07,Argentina,Japan,0,0,FIFA World Cup qualification,False
+2022-10-09,USA,Japan,2,0,FIFA World Cup qualification,False
+2022-10-11,France,Japan,3,3,FIFA World Cup qualification,False
+2022-10-13,Belgium,Japan,0,1,FIFA World Cup qualification,False
+2022-10-15,USA,Argentina,1,5,FIFA World Cup qualification,False
+2022-10-17,France,Argentina,1,2,FIFA World Cup qualification,False
+2022-10-19,Belgium,Argentina,0,1,FIFA World Cup qualification,False
+2022-10-21,France,USA,3,0,FIFA World Cup qualification,False
+2022-10-23,Belgium,USA,2,1,FIFA World Cup qualification,False
+2022-10-25,Belgium,France,5,2,FIFA World Cup qualification,False
+2023-03-01,Portugal,South Korea,2,1,FIFA World Cup qualification,False
+2023-03-03,Portugal,Netherlands,3,2,FIFA World Cup qualification,False
+2023-03-05,Portugal,Japan,3,2,FIFA World Cup qualification,False
+2023-03-07,Portugal,Nigeria,6,2,FIFA World Cup qualification,False
+2023-03-09,Portugal,Uruguay,3,1,FIFA World Cup qualification,False
+2023-03-11,Portugal,USA,2,0,FIFA World Cup qualification,False
+2023-03-13,Portugal,Croatia,2,0,FIFA World Cup qualification,False
+2023-03-15,Portugal,Argentina,1,1,FIFA World Cup qualification,False
+2023-03-17,Portugal,Brazil,1,1,FIFA World Cup qualification,False
+2023-03-19,Portugal,Mexico,2,2,FIFA World Cup qualification,False
+2023-03-21,Portugal,France,0,1,FIFA World Cup qualification,False
+2023-03-23,Portugal,Germany,3,0,FIFA World Cup qualification,False
+2023-03-25,Portugal,Belgium,1,2,FIFA World Cup qualification,False
+2023-03-27,Portugal,Spain,0,0,FIFA World Cup qualification,False
+2023-03-29,Portugal,England,1,2,FIFA World Cup qualification,False
+2023-03-31,South Korea,Netherlands,0,3,FIFA World Cup qualification,False
+2023-04-02,South Korea,Japan,0,1,FIFA World Cup qualification,False
+2023-04-04,South Korea,Nigeria,5,1,FIFA World Cup qualification,False
+2023-04-06,South Korea,Uruguay,2,4,FIFA World Cup qualification,False
+2023-04-08,South Korea,USA,0,1,FIFA World Cup qualification,False
+2023-04-10,South Korea,Croatia,2,2,FIFA World Cup qualification,False
+2023-04-12,South Korea,Argentina,1,2,FIFA World Cup qualification,False
+2023-04-14,South Korea,Brazil,0,0,FIFA World Cup qualification,False
+2023-04-16,South Korea,Mexico,3,1,FIFA World Cup qualification,False
+2023-04-18,South Korea,France,2,1,FIFA World Cup qualification,False
+2023-04-20,South Korea,Germany,2,2,FIFA World Cup qualification,False
+2023-04-22,South Korea,Belgium,2,3,FIFA World Cup qualification,False
+2023-04-24,South Korea,Spain,2,2,FIFA World Cup qualification,False
+2023-04-26,South Korea,England,1,4,FIFA World Cup qualification,False
+2023-04-28,Netherlands,Japan,1,1,FIFA World Cup qualification,False
+2023-04-30,Netherlands,Nigeria,3,2,FIFA World Cup qualification,False
+2023-05-02,Netherlands,Uruguay,2,1,FIFA World Cup qualification,False
+2023-05-04,Netherlands,USA,2,0,FIFA World Cup qualification,False
+2023-05-06,Netherlands,Croatia,2,2,FIFA World Cup qualification,False
+2023-05-08,Netherlands,Argentina,0,2,FIFA World Cup qualification,False
+2023-05-10,Netherlands,Brazil,1,0,FIFA World Cup qualification,False
+2023-05-12,Netherlands,Mexico,1,0,FIFA World Cup qualification,False
+2023-05-14,Netherlands,France,1,0,FIFA World Cup qualification,False
+2023-05-16,Netherlands,Germany,3,1,FIFA World Cup qualification,False
+2023-05-18,Netherlands,Belgium,1,0,FIFA World Cup qualification,False
+2023-05-20,Netherlands,Spain,3,0,FIFA World Cup qualification,False
+2023-05-22,Netherlands,England,2,0,FIFA World Cup qualification,False
+2023-05-24,Japan,Nigeria,1,1,FIFA World Cup qualification,False
+2023-05-26,Japan,Uruguay,0,1,FIFA World Cup qualification,False
+2023-05-28,Japan,USA,1,4,FIFA World Cup qualification,False
+2023-05-30,Japan,Croatia,0,2,FIFA World Cup qualification,False
+2023-06-01,Japan,Argentina,0,1,FIFA World Cup qualification,False
+2023-06-03,Japan,Brazil,2,1,FIFA World Cup qualification,False
+2023-06-05,Japan,Mexico,0,2,FIFA World Cup qualification,False
+2023-06-07,Japan,France,0,2,FIFA World Cup qualification,False
+2023-06-09,Japan,Germany,4,3,FIFA World Cup qualification,False
+2023-06-11,Japan,Belgium,1,5,FIFA World Cup qualification,False
+2023-06-13,Japan,Spain,2,3,FIFA World Cup qualification,False
+2023-06-15,Japan,England,0,1,FIFA World Cup qualification,False
+2023-06-17,Nigeria,Uruguay,0,2,FIFA World Cup qualification,False
+2023-06-19,Nigeria,USA,0,0,FIFA World Cup qualification,False
+2023-06-21,Nigeria,Croatia,1,1,FIFA World Cup qualification,False
+2023-06-23,Nigeria,Argentina,0,1,FIFA World Cup qualification,False
+2023-06-25,Nigeria,Brazil,0,3,FIFA World Cup qualification,False
+2023-06-27,Nigeria,Mexico,2,4,FIFA World Cup qualification,False
+2023-06-29,Nigeria,France,2,1,FIFA World Cup qualification,False
+2023-07-01,Nigeria,Germany,1,2,FIFA World Cup qualification,False
+2023-07-03,Nigeria,Belgium,0,3,FIFA World Cup qualification,False
+2023-07-05,Nigeria,Spain,0,1,FIFA World Cup qualification,False
+2023-07-07,Nigeria,England,1,6,FIFA World Cup qualification,False
+2023-07-09,Uruguay,USA,4,4,FIFA World Cup qualification,False
+2023-07-11,Uruguay,Croatia,1,1,FIFA World Cup qualification,False
+2023-07-13,Uruguay,Argentina,1,1,FIFA World Cup qualification,False
+2023-07-15,Uruguay,Brazil,3,0,FIFA World Cup qualification,False
+2023-07-17,Uruguay,Mexico,5,3,FIFA World Cup qualification,False
+2023-07-19,Uruguay,France,0,1,FIFA World Cup qualification,False
+2023-07-21,Uruguay,Germany,1,1,FIFA World Cup qualification,False
+2023-07-23,Uruguay,Belgium,1,1,FIFA World Cup qualification,False
+2023-07-25,Uruguay,Spain,1,4,FIFA World Cup qualification,False
+2023-07-27,Uruguay,England,1,0,FIFA World Cup qualification,False
+2023-07-29,USA,Croatia,2,0,FIFA World Cup qualification,False
+2023-07-31,USA,Argentina,1,2,FIFA World Cup qualification,False
+2023-08-02,USA,Brazil,1,4,FIFA World Cup qualification,False
+2023-08-04,USA,Mexico,5,2,FIFA World Cup qualification,False
+2023-08-06,USA,France,1,3,FIFA World Cup qualification,False
+2023-08-08,USA,Germany,0,1,FIFA World Cup qualification,False
+2023-08-10,USA,Belgium,2,1,FIFA World Cup qualification,False
+2023-08-12,USA,Spain,2,3,FIFA World Cup qualification,False
+2023-08-14,USA,England,1,1,FIFA World Cup qualification,False
+2023-08-16,Croatia,Argentina,2,1,FIFA World Cup qualification,False
+2023-08-18,Croatia,Brazil,1,2,FIFA World Cup qualification,False
+2023-08-20,Croatia,Mexico,1,1,FIFA World Cup qualification,False
+2023-08-22,Croatia,France,1,0,FIFA World Cup qualification,False
+2023-08-24,Croatia,Germany,3,1,FIFA World Cup qualification,False
+2023-08-26,Croatia,Belgium,2,1,FIFA World Cup qualification,False
+2023-08-28,Croatia,Spain,1,2,FIFA World Cup qualification,False
+2023-08-30,Croatia,England,2,2,FIFA World Cup qualification,False
+2023-09-01,Argentina,Brazil,2,2,FIFA World Cup qualification,False
+2023-09-03,Argentina,Mexico,4,0,FIFA World Cup qualification,False
+2023-09-05,Argentina,France,1,1,FIFA World Cup qualification,False
+2023-09-05,France,South Korea,3,0,Friendly,False
+2023-09-07,Argentina,Germany,1,0,FIFA World Cup qualification,False
+2023-09-08,Portugal,Croatia,3,1,Friendly,False
+2023-09-09,Argentina,Belgium,1,1,FIFA World Cup qualification,False
+2023-09-11,Argentina,Spain,0,1,FIFA World Cup qualification,False
+2023-09-11,USA,Germany,1,0,Friendly,False
+2023-09-13,Argentina,England,2,4,FIFA World Cup qualification,False
+2023-09-14,Uruguay,Argentina,0,2,Friendly,False
+2023-09-15,Brazil,Mexico,1,0,FIFA World Cup qualification,False
+2023-09-17,Brazil,France,1,0,FIFA World Cup qualification,False
+2023-09-17,Japan,Belgium,0,3,Friendly,False
+2023-09-19,Brazil,Germany,2,1,FIFA World Cup qualification,False
+2023-09-20,Nigeria,Netherlands,1,2,Friendly,False
+2023-09-21,Brazil,Belgium,3,1,FIFA World Cup qualification,False
+2023-09-23,Brazil,Spain,3,1,FIFA World Cup qualification,False
+2023-09-23,England,Mexico,2,0,Friendly,False
+2023-09-25,Brazil,England,2,2,FIFA World Cup qualification,False
+2023-09-26,Brazil,Spain,2,2,Friendly,False
+2023-09-27,Mexico,France,1,3,FIFA World Cup qualification,False
+2023-09-29,Mexico,Germany,3,1,FIFA World Cup qualification,False
+2023-10-01,Mexico,Belgium,0,0,FIFA World Cup qualification,False
+2023-10-03,Mexico,Spain,1,1,FIFA World Cup qualification,False
+2023-10-05,Mexico,England,1,3,FIFA World Cup qualification,False
+2023-10-07,France,Germany,3,0,FIFA World Cup qualification,False
+2023-10-09,France,Belgium,3,0,FIFA World Cup qualification,False
+2023-10-11,France,Spain,3,0,FIFA World Cup qualification,False
+2023-10-13,France,England,1,2,FIFA World Cup qualification,False
+2023-10-15,Germany,Belgium,1,2,FIFA World Cup qualification,False
+2023-10-17,Germany,Spain,3,0,FIFA World Cup qualification,False
+2023-10-19,Germany,England,4,0,FIFA World Cup qualification,False
+2023-10-21,Belgium,Spain,0,1,FIFA World Cup qualification,False
+2023-10-23,Belgium,England,1,3,FIFA World Cup qualification,False
+2023-10-25,Spain,England,1,2,FIFA World Cup qualification,False
+2024-03-01,Japan,Croatia,1,0,FIFA World Cup qualification,False
+2024-03-03,Belgium,Croatia,1,2,FIFA World Cup qualification,False
+2024-03-05,Argentina,Croatia,3,0,FIFA World Cup qualification,False
+2024-03-07,France,Croatia,1,1,FIFA World Cup qualification,False
+2024-03-09,Mexico,Croatia,2,2,FIFA World Cup qualification,False
+2024-03-11,Netherlands,Croatia,2,2,FIFA World Cup qualification,False
+2024-03-13,Portugal,Croatia,0,0,FIFA World Cup qualification,False
+2024-03-15,Spain,Croatia,0,3,FIFA World Cup qualification,False
+2024-03-17,USA,Croatia,3,1,FIFA World Cup qualification,False
+2024-03-19,Germany,Croatia,1,1,FIFA World Cup qualification,False
+2024-03-21,Uruguay,Croatia,2,1,FIFA World Cup qualification,False
+2024-03-23,South Korea,Croatia,0,2,FIFA World Cup qualification,False
+2024-03-25,England,Croatia,2,2,FIFA World Cup qualification,False
+2024-03-27,Brazil,Croatia,2,0,FIFA World Cup qualification,False
+2024-03-29,Nigeria,Croatia,1,3,FIFA World Cup qualification,False
+2024-03-31,Belgium,Japan,3,1,FIFA World Cup qualification,False
+2024-04-02,Argentina,Japan,5,0,FIFA World Cup qualification,False
+2024-04-04,France,Japan,4,2,FIFA World Cup qualification,False
+2024-04-06,Mexico,Japan,3,0,FIFA World Cup qualification,False
+2024-04-08,Netherlands,Japan,4,0,FIFA World Cup qualification,False
+2024-04-10,Portugal,Japan,4,1,FIFA World Cup qualification,False
+2024-04-12,Spain,Japan,2,0,FIFA World Cup qualification,False
+2024-04-14,USA,Japan,4,2,FIFA World Cup qualification,False
+2024-04-16,Germany,Japan,2,0,FIFA World Cup qualification,False
+2024-04-18,Uruguay,Japan,1,1,FIFA World Cup qualification,False
+2024-04-20,South Korea,Japan,0,2,FIFA World Cup qualification,False
+2024-04-22,England,Japan,2,0,FIFA World Cup qualification,False
+2024-04-24,Brazil,Japan,8,1,FIFA World Cup qualification,False
+2024-04-26,Nigeria,Japan,2,2,FIFA World Cup qualification,False
+2024-04-28,Argentina,Belgium,0,0,FIFA World Cup qualification,False
+2024-04-30,France,Belgium,2,0,FIFA World Cup qualification,False
+2024-05-02,Mexico,Belgium,1,0,FIFA World Cup qualification,False
+2024-05-04,Netherlands,Belgium,5,2,FIFA World Cup qualification,False
+2024-05-06,Portugal,Belgium,3,1,FIFA World Cup qualification,False
+2024-05-08,Spain,Belgium,2,0,FIFA World Cup qualification,False
+2024-05-10,USA,Belgium,1,2,FIFA World Cup qualification,False
+2024-05-12,Germany,Belgium,1,2,FIFA World Cup qualification,False
+2024-05-14,Uruguay,Belgium,3,2,FIFA World Cup qualification,False
+2024-05-16,South Korea,Belgium,1,3,FIFA World Cup qualification,False
+2024-05-18,England,Belgium,0,4,FIFA World Cup qualification,False
+2024-05-20,Brazil,Belgium,1,0,FIFA World Cup qualification,False
+2024-05-22,Nigeria,Belgium,2,0,FIFA World Cup qualification,False
+2024-05-24,France,Argentina,1,0,FIFA World Cup qualification,False
+2024-05-26,Mexico,Argentina,0,0,FIFA World Cup qualification,False
+2024-05-28,Netherlands,Argentina,2,2,FIFA World Cup qualification,False
+2024-05-30,Portugal,Argentina,3,3,FIFA World Cup qualification,False
+2024-06-01,Spain,Argentina,2,1,FIFA World Cup qualification,False
+2024-06-03,USA,Argentina,0,2,FIFA World Cup qualification,False
+2024-06-05,Germany,Argentina,2,3,FIFA World Cup qualification,False
+2024-06-07,Uruguay,Argentina,1,2,FIFA World Cup qualification,False
+2024-06-09,South Korea,Argentina,0,1,FIFA World Cup qualification,False
+2024-06-11,England,Argentina,1,1,FIFA World Cup qualification,False
+2024-06-13,Brazil,Argentina,2,1,FIFA World Cup qualification,False
+2024-06-15,Nigeria,Argentina,1,0,FIFA World Cup qualification,False
+2024-06-17,Mexico,France,2,3,FIFA World Cup qualification,False
+2024-06-19,Netherlands,France,1,0,FIFA World Cup qualification,False
+2024-06-21,Portugal,France,2,1,FIFA World Cup qualification,False
+2024-06-23,Spain,France,1,0,FIFA World Cup qualification,False
+2024-06-25,USA,France,0,2,FIFA World Cup qualification,False
+2024-06-27,Germany,France,0,2,FIFA World Cup qualification,False
+2024-06-29,Uruguay,France,0,3,FIFA World Cup qualification,False
+2024-07-01,South Korea,France,1,0,FIFA World Cup qualification,False
+2024-07-03,England,France,2,2,FIFA World Cup qualification,False
+2024-07-05,Brazil,France,0,1,FIFA World Cup qualification,False
+2024-07-07,Nigeria,France,1,2,FIFA World Cup qualification,False
+2024-07-09,Netherlands,Mexico,2,0,FIFA World Cup qualification,False
+2024-07-11,Portugal,Mexico,1,1,FIFA World Cup qualification,False
+2024-07-13,Spain,Mexico,2,2,FIFA World Cup qualification,False
+2024-07-15,USA,Mexico,1,0,FIFA World Cup qualification,False
+2024-07-17,Germany,Mexico,2,0,FIFA World Cup qualification,False
+2024-07-19,Uruguay,Mexico,3,2,FIFA World Cup qualification,False
+2024-07-21,South Korea,Mexico,2,2,FIFA World Cup qualification,False
+2024-07-23,England,Mexico,1,3,FIFA World Cup qualification,False
+2024-07-25,Brazil,Mexico,1,2,FIFA World Cup qualification,False
+2024-07-27,Nigeria,Mexico,0,2,FIFA World Cup qualification,False
+2024-07-29,Portugal,Netherlands,2,0,FIFA World Cup qualification,False
+2024-07-31,Spain,Netherlands,0,2,FIFA World Cup qualification,False
+2024-08-02,USA,Netherlands,1,0,FIFA World Cup qualification,False
+2024-08-04,Germany,Netherlands,1,0,FIFA World Cup qualification,False
+2024-08-06,Uruguay,Netherlands,1,1,FIFA World Cup qualification,False
+2024-08-08,South Korea,Netherlands,0,0,FIFA World Cup qualification,False
+2024-08-10,England,Netherlands,2,2,FIFA World Cup qualification,False
+2024-08-12,Brazil,Netherlands,0,0,FIFA World Cup qualification,False
+2024-08-14,Nigeria,Netherlands,0,1,FIFA World Cup qualification,False
+2024-08-16,Spain,Portugal,4,3,FIFA World Cup qualification,False
+2024-08-18,USA,Portugal,1,2,FIFA World Cup qualification,False
+2024-08-20,Germany,Portugal,2,1,FIFA World Cup qualification,False
+2024-08-22,Uruguay,Portugal,1,1,FIFA World Cup qualification,False
+2024-08-24,South Korea,Portugal,2,5,FIFA World Cup qualification,False
+2024-08-26,England,Portugal,2,0,FIFA World Cup qualification,False
+2024-08-28,Brazil,Portugal,1,1,FIFA World Cup qualification,False
+2024-08-30,Nigeria,Portugal,1,2,FIFA World Cup qualification,False
+2024-09-01,USA,Spain,3,0,FIFA World Cup qualification,False
+2024-09-03,Germany,Spain,0,4,FIFA World Cup qualification,False
+2024-09-05,Uruguay,Spain,3,1,FIFA World Cup qualification,False
+2024-09-05,Argentina,Portugal,0,0,Friendly,False
+2024-09-07,South Korea,Spain,1,2,FIFA World Cup qualification,False
+2024-09-08,Japan,Mexico,1,3,Friendly,False
+2024-09-09,England,Spain,1,3,FIFA World Cup qualification,False
+2024-09-11,Brazil,Spain,3,1,FIFA World Cup qualification,False
+2024-09-11,England,Spain,1,0,Friendly,False
+2024-09-13,Nigeria,Spain,1,1,FIFA World Cup qualification,False
+2024-09-14,France,USA,4,1,Friendly,False
+2024-09-15,Germany,USA,2,0,FIFA World Cup qualification,False
+2024-09-17,Uruguay,USA,8,4,FIFA World Cup qualification,False
+2024-09-17,Germany,Belgium,0,0,Friendly,False
+2024-09-19,South Korea,USA,3,3,FIFA World Cup qualification,False
+2024-09-20,Brazil,Croatia,0,3,Friendly,False
+2024-09-21,England,USA,1,1,FIFA World Cup qualification,False
+2024-09-23,Brazil,USA,2,2,FIFA World Cup qualification,False
+2024-09-23,Nigeria,South Korea,2,1,Friendly,False
+2024-09-25,Nigeria,USA,1,0,FIFA World Cup qualification,False
+2024-09-26,Uruguay,Netherlands,2,2,Friendly,False
+2024-09-27,Uruguay,Germany,0,3,FIFA World Cup qualification,False
+2024-09-29,South Korea,Germany,3,0,FIFA World Cup qualification,False
+2024-10-01,England,Germany,0,2,FIFA World Cup qualification,False
+2024-10-03,Brazil,Germany,2,0,FIFA World Cup qualification,False
+2024-10-05,Nigeria,Germany,0,3,FIFA World Cup qualification,False
+2024-10-07,South Korea,Uruguay,1,1,FIFA World Cup qualification,False
+2024-10-09,England,Uruguay,3,1,FIFA World Cup qualification,False
+2024-10-11,Brazil,Uruguay,3,1,FIFA World Cup qualification,False
+2024-10-13,Nigeria,Uruguay,2,1,FIFA World Cup qualification,False
+2024-10-15,England,South Korea,0,2,FIFA World Cup qualification,False
+2024-10-17,Brazil,South Korea,4,0,FIFA World Cup qualification,False
+2024-10-19,Nigeria,South Korea,1,1,FIFA World Cup qualification,False
+2024-10-21,Brazil,England,1,1,FIFA World Cup qualification,False
+2024-10-23,Nigeria,England,1,3,FIFA World Cup qualification,False
+2024-10-25,Nigeria,Brazil,0,2,FIFA World Cup qualification,False
