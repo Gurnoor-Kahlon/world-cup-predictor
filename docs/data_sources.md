@@ -21,9 +21,28 @@ The predictor only *requires* a CSV of historical matches with these columns:
 | `tournament` | optional | competition name (affects Elo weighting) |
 | `neutral`    | optional | `True`/`False` neutral venue             |
 
-To use your own file, either overwrite `data/sample_matches.csv` or set
-`MATCHES_PATH` in [`src/config.py`](../src/config.py) to your path. Drop large real
-datasets in `data/raw/` (they are git-ignored).
+### The easy way — built-in scripts
+
+```bash
+# 1. download real, public data into data/raw/ (martj42 international results)
+python scripts/download_data.py
+
+# 2. validate + convert it to data/processed/matches.csv
+python scripts/prepare_data.py
+```
+
+Once `data/processed/matches.csv` exists, the loader uses it **automatically**
+(see `resolve_matches_path` in [`src/data_loader.py`](../src/data_loader.py)) — no
+config change needed. Delete that file to go back to the bundled sample data.
+
+`download_data.py` fetches **real** data (it does not fabricate anything); if you
+have no internet it prints manual download instructions instead. You can point it
+at any CSV in the same schema with `--url`.
+
+### The manual way
+
+Alternatively, overwrite `data/sample_matches.csv`, or pass an explicit path to
+`load_matches(path=...)`. Drop large real datasets in `data/raw/` (git-ignored).
 
 ### Recommended free / legal sources for this CSV
 

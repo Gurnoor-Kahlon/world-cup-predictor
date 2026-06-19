@@ -20,8 +20,39 @@ class DataValidationError(Exception):
     """Raised when an input dataset is missing required columns or is empty."""
 
 
+def resolve_matches_path() -> Path:
+    """Pick the best available match dataset.
+
+    Prefers a prepared real dataset at ``config.PROCESSED_MATCHES_PATH`` (written
+    by ``scripts/prepare_data.py``); otherwise falls back to the bundled sample
+    data so the project always runs.
+    """
+    if config.PROCESSED_MATCHES_PATH.exists():
+        return config.PROCESSED_MATCHES_PATH
+    return config.SAMPLE_MATCHES_PATH
+
+
+def validate_matches(df: pd.DataFrame, source: str = "dataset") -> None:
+    """Raise :class:`DataValidationError` if ``df`` cannot be used.
+
+    Checks for the required columns and at least one row. Kept separate so both
+    the loader and ``scripts/prepare_data.py`` can reuse it.
+    """
+    missing = [c for c in config.REQUIRED_COLUMNS if c not in df.columns]
+    if missing:
+        raise DataValidationError(
+            f"'{source}' is missing required columns: {missing}. "
+            f"Required columns are {config.REQUIRED_COLUMNS}."
+        )
+    if df.empty:
+        raise DataValidationError(f"'{source}' contains no rows.")
+
+
 def load_matches(path: Optional[Path | str] = None) -> pd.DataFrame:
     """Load a match-history CSV into a validated, sorted DataFrame.
+
+    With no ``path`` it auto-selects a prepared real dataset if present, else the
+    bundled sample data (see :func:`resolve_matches_path`).
 
     Adds convenience columns used everywhere downstream:
         * ``date``    – parsed to datetime (if a date column exists)
@@ -35,23 +66,16 @@ def load_matches(path: Optional[Path | str] = None) -> pd.DataFrame:
     DataValidationError
         If required columns are missing or the file has no rows.
     """
-    path = Path(path) if path is not None else config.MATCHES_PATH
+    path = Path(path) if path is not None else resolve_matches_path()
     if not path.exists():
         raise FileNotFoundError(
             f"Match data not found at '{path}'. Generate the sample data with "
-            f"`python data/generate_sample_data.py` or set config.MATCHES_PATH."
+            f"`python data/generate_sample_data.py`, download real data with "
+            f"`python scripts/download_data.py`, or pass an explicit path."
         )
 
     df = pd.read_csv(path)
-
-    missing = [c for c in config.REQUIRED_COLUMNS if c not in df.columns]
-    if missing:
-        raise DataValidationError(
-            f"Dataset '{path.name}' is missing required columns: {missing}. "
-            f"Required: {config.REQUIRED_COLUMNS}"
-        )
-    if df.empty:
-        raise DataValidationError(f"Dataset '{path.name}' contains no rows.")
+    validate_matches(df, source=path.name)
 
     # Parse dates if present, otherwise keep insertion order.
     if "date" in df.columns:
@@ -117,3 +141,33 @@ def load_team_metadata(path: Optional[Path | str] = None) -> Optional[pd.DataFra
     if "team" in meta.columns:
         meta["team"] = meta["team"].astype(str).str.strip()
     return meta
+
+
+def load_fifa_ranking(path: Optional[Path | str] = None) -> Optional[pd.DataFrame]:
+    """Load an optional FIFA-ranking table (``team``, ``rank`` [, ``points``]).
+
+    Returns ``None`` if the file is absent. Populate it with
+    ``scripts/prepare_data.py`` or your own export.
+    """
+    path = Path(path) if path is not None else config.FIFA_RANKING_PATH
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    if "team" in df.columns:
+        df["team"] = df["team"].astype(str).str.strip()
+    return df
+
+
+def load_elo_ratings(path: Optional[Path | str] = None) -> Optional[pd.DataFrame]:
+    """Load an optional external Elo table (``team``, ``elo``).
+
+    Returns ``None`` if the file is absent. The project computes its own Elo, but
+    an external table can be used to seed or compare ratings.
+    """
+    path = Path(path) if path is not None else config.ELO_RATINGS_PATH
+    if not path.exists():
+        return None
+    df = pd.read_csv(path)
+    if "team" in df.columns:
+        df["team"] = df["team"].astype(str).str.strip()
+    return df
