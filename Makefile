@@ -3,7 +3,7 @@
 
 PYTHON ?= python
 
-.PHONY: help install install-dev test lint format typecheck app api backtest data sample model docker clean
+.PHONY: help install install-dev test lint format typecheck app cli api backtest data sample model docker clean
 
 help:  ## Show this help
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) \
@@ -29,6 +29,9 @@ typecheck:  ## Type-check src/ with mypy
 
 app:  ## Launch the Streamlit dashboard
 	$(PYTHON) -m streamlit run app/streamlit_app.py
+
+cli:  ## Run an example CLI prediction (Brazil vs Germany, final)
+	$(PYTHON) src/main.py --home Brazil --away Germany --stage Final --neutral
 
 api:  ## Launch the FastAPI server (needs the api extra)
 	$(PYTHON) -m uvicorn api.main:app --reload --port 8000

@@ -17,6 +17,20 @@ from odds_converter import odds_table
 from predictor import MatchPredictor
 
 
+def resolve_stage(stage: str) -> str:
+    """Map a case-insensitive stage string to its canonical form.
+
+    e.g. ``"final"`` -> ``"Final"``. Raises ValueError for unknown stages.
+    """
+    lookup = {s.lower(): s for s in config.TOURNAMENT_STAGES}
+    key = str(stage).strip().lower()
+    if key not in lookup:
+        raise ValueError(
+            f"invalid stage '{stage}'. Choose from: {', '.join(config.TOURNAMENT_STAGES)}"
+        )
+    return lookup[key]
+
+
 def _print_prediction(result: dict) -> None:
     p = result["probabilities"]
     home, away = result["home"], result["away"]
@@ -64,7 +78,8 @@ def main() -> None:
     parser.add_argument("--home", default="Brazil", help="home / team A")
     parser.add_argument("--away", default="Germany", help="away / team B")
     parser.add_argument("--stage", default=config.GROUP_STAGE,
-                        choices=config.TOURNAMENT_STAGES, help="tournament stage")
+                        help="tournament stage (case-insensitive), e.g. 'group', "
+                             "'final', 'quarter-final'")
     parser.add_argument("--neutral", action="store_true", help="neutral venue")
     parser.add_argument("--list-teams", action="store_true", help="print available teams and exit")
     parser.add_argument("--simulate", nargs="+", metavar="TEAM",
@@ -72,6 +87,12 @@ def main() -> None:
     parser.add_argument("--save-model", action="store_true",
                         help="train then save the model artifact to models/")
     args = parser.parse_args()
+
+    # Accept the stage case-insensitively (e.g. "final" -> "Final").
+    try:
+        args.stage = resolve_stage(args.stage)
+    except ValueError as exc:
+        parser.error(str(exc))
 
     print("Loading data and training models...")
     predictor = MatchPredictor().fit()
