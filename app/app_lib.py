@@ -62,25 +62,49 @@ def team_selectors(predictor: MatchPredictor, key: str, with_context: bool = Fal
     di_home = teams.index("Brazil") if "Brazil" in teams else 0
     di_away = teams.index("Germany") if "Germany" in teams else min(1, len(teams) - 1)
 
-    home = st.sidebar.selectbox("Team A (home)", teams, index=di_home, key=f"{key}_home")
-    away = st.sidebar.selectbox("Team B (away)", teams, index=di_away, key=f"{key}_away")
-    stage = st.sidebar.selectbox("Stage", config.TOURNAMENT_STAGES, key=f"{key}_stage")
+    home = st.sidebar.selectbox("Team A (home)", teams, index=di_home, key=f"{key}_home",
+                                help="The home side (Team A).")
+    away = st.sidebar.selectbox("Team B (away)", teams, index=di_away, key=f"{key}_away",
+                                help="The away side (Team B).")
+    stage = st.sidebar.selectbox("Stage", config.TOURNAMENT_STAGES, key=f"{key}_stage",
+                                 help="Knockout stages also estimate who advances on a draw.")
     neutral = st.sidebar.checkbox("Neutral venue", value=stage != config.GROUP_STAGE,
-                                  key=f"{key}_neutral")
+                                  key=f"{key}_neutral",
+                                  help="Tick for a neutral ground (no home advantage).")
 
     context = {}
     if with_context:
         st.sidebar.divider()
-        st.sidebar.caption("Optional real-world context")
+        st.sidebar.caption("Optional real-world context — fold in information the "
+                           "historical data doesn't contain.")
         context = {
-            "home_injuries": st.sidebar.number_input(f"{home} key players out", 0, 11, 0,
-                                                     key=f"{key}_hinj"),
-            "away_injuries": st.sidebar.number_input(f"{away} key players out", 0, 11, 0,
-                                                     key=f"{key}_ainj"),
-            "rest_days_home": st.sidebar.slider(f"{home} rest days", 1, 14, 7, key=f"{key}_hrest"),
-            "rest_days_away": st.sidebar.slider(f"{away} rest days", 1, 14, 7, key=f"{key}_arest"),
+            "home_injuries": st.sidebar.number_input(
+                f"{home} key players out", 0, 11, 0, key=f"{key}_hinj",
+                help="Each absentee trims a little off this team's expected goals."),
+            "away_injuries": st.sidebar.number_input(
+                f"{away} key players out", 0, 11, 0, key=f"{key}_ainj",
+                help="Each absentee trims a little off this team's expected goals."),
+            "rest_days_home": st.sidebar.slider(f"{home} rest days", 1, 14, 7,
+                                                key=f"{key}_hrest"),
+            "rest_days_away": st.sidebar.slider(f"{away} rest days", 1, 14, 7,
+                                                key=f"{key}_arest"),
         }
     return home, away, stage, neutral, context
+
+
+def data_source_caption(predictor: MatchPredictor) -> None:
+    """Show a small badge telling the user which dataset is loaded."""
+    from data_loader import resolve_matches_path
+
+    path = resolve_matches_path()
+    is_sample = path == config.SAMPLE_MATCHES_PATH
+    n = len(predictor.matches)
+    if is_sample:
+        st.caption(f"📦 Using **synthetic sample data** ({n:,} matches). "
+                   "Numbers are illustrative — connect real data for meaningful results "
+                   "(see the About page).")
+    else:
+        st.caption(f"✅ Using **real data** from `{path.name}` ({n:,} matches).")
 
 
 # --------------------------------------------------------------------------- #
